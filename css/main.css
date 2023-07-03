@@ -1,0 +1,122 @@
+/* 
+Main:
+F4C2C2
+c2c2f4
+c2f4c2
+
+Other:
+749274
+ee7070
+*/
+
+.questionElements{
+    /* width:25%; */
+    margin:5%;
+}
+
+button.questionElements{
+    background-color: #c2c2f4;
+    zoom:150%;
+    border:#595958 solid ;
+}
+
+button.questionElements:hover{
+    background-color: #d1d1f7 ;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #F4C2C2;
+    color: #555;
+}
+
+li, a {
+    position: sticky;
+    display: inline;
+    color:#749274 
+}
+
+.centreText {
+    text-align: center;
+}
+
+.centrePosition {
+    margin-left: auto;
+    margin-right: auto;
+    display: table; 
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.bodyTitle {
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+}
+
+.flagText {
+    font-family: 'NotoColorEmojiLimited', -apple-system, BlinkMacSystemFont,
+        'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+        'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-size: 100px;
+}
+
+table.languageSelection {
+    border: 1px solid black;
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 90%;
+}
+
+td.languageSelection {
+    background-color: #c2f4c2;
+    height: 33%;
+    border-left: 1px solid black;
+
+}
+
+@font-face {
+    font-family: NotoColorEmojiLimited;
+    unicode-range: U+1F1E6-1F1FF;
+    src: url(https://raw.githack.com/googlefonts/noto-emoji/main/fonts/NotoColorEmoji.ttf);
+}
+
+.lessonIcon{
+    width:10%;
+    height:auto;
+}
+
+.lessonIcon.lessonCentre{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lessonIcon:hover {
+    rotate: 360deg;
+    transition: rotate 1s;
+    border-radius: 50%;
+    background-color: #c2f4c2;
+    border: 3.5px solid #c2c2f4;
+}
+
+#lessonBar {
+    position: sticky;
+    top: 0;
+    background-color: #c2c2f4;
+}
+
+#tipsBar {
+    position: sticky;
+    top: 1.2em;
+    background-color: #c2f4c2;
+}
+
+#confirmButton{
+    background-color: #c2f4c2;
+}
+
+#confirmButton:hover{
+    background-color: #d6f3d6;
+}
