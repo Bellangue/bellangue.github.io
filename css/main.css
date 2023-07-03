@@ -9,19 +9,19 @@ Other:
 ee7070
 */
 
-.questionElements{
+.questionElements {
     /* width:25%; */
-    margin:5%;
+    margin: 5%;
 }
 
-button.questionElements{
+button.questionElements {
     background-color: #c2c2f4;
-    zoom:150%;
-    border:#595958 solid ;
+    zoom: 150%;
+    border: #595958 solid;
 }
 
-button.questionElements:hover{
-    background-color: #d1d1f7 ;
+button.questionElements:hover {
+    background-color: #d1d1f7;
 }
 
 body {
@@ -30,10 +30,11 @@ body {
     color: #555;
 }
 
-li, a {
+li,
+a {
     position: sticky;
     display: inline;
-    color:#749274 
+    color: #749274
 }
 
 .centreText {
@@ -43,10 +44,17 @@ li, a {
 .centrePosition {
     margin-left: auto;
     margin-right: auto;
-    display: table; 
+    display: table;
     justify-content: center;
     align-items: center;
     width: 100%;
+}
+.centrePositionW {
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    justify-content: center;
+    align-items: center;
 }
 
 .bodyTitle {
@@ -82,12 +90,12 @@ td.languageSelection {
     src: url(https://raw.githack.com/googlefonts/noto-emoji/main/fonts/NotoColorEmoji.ttf);
 }
 
-.lessonIcon{
-    width:10%;
-    height:auto;
+.lessonIcon {
+    width: 10%;
+    height: auto;
 }
 
-.lessonIcon.lessonCentre{
+.lessonIcon.lessonCentre {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -113,10 +121,20 @@ td.languageSelection {
     background-color: #c2f4c2;
 }
 
-#confirmButton{
+#confirmButton {
     background-color: #c2f4c2;
 }
 
-#confirmButton:hover{
+#confirmButton:hover {
     background-color: #d6f3d6;
+}
+
+#nameInput{
+    background-color: #c2c2f4;
+}
+
+#dosTable, #dosTable th, #dosTable td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
 }
