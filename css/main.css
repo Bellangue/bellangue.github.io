@@ -20,6 +20,15 @@ button.questionElements {
     border: #595958 solid;
 }
 
+button.dosReset {
+    background-color: #c2c2f4;
+    border: #595958 solid;
+}
+
+button.dosReset:hover {
+    background-color: #d1d1f7;
+}
+
 button.questionElements:hover {
     background-color: #d1d1f7;
 }

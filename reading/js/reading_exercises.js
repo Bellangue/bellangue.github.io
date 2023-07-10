@@ -21,6 +21,7 @@ setQuestion();
 
 function setQuestion() {
     currentQuestionNo = Math.round(Math.random() * (currentLessonJson.length - 1));
+    selectedAnswer = undefined;
     endText.textContent = "";
     hintButton.textContent = `Give Answer`;
     confirmButton.textContent = "Confirm Answer";
@@ -72,8 +73,13 @@ confirmButton.addEventListener("click", function () {
                 questionElements[i].style.display = 'none';
             }
             questionElements[0].textContent = `You got ${doneQuestions}/${totalQuestions} correct!`
-            questionElements[1].textContent = "Lesson Completed!"
+            let dosEarnt = 20-(5*(totalQuestions - necessaryQuestions));
+            if(dosEarnt < 5) dosEarnt = 5;
+            questionElements[1].textContent = `Lesson Completed! You earnt ${dosEarnt} Drops of Sunlight!`
+            const currentDos = +localStorage.getItem("frdos");
+            localStorage.setItem("frdos", currentDos +  dosEarnt);
             snailPicture.style.display = '';
+
         }else
         {
             setQuestion();
@@ -86,7 +92,7 @@ snailPicture.addEventListener("click", function (){
 });
 
 function checkIfCorrect() {
-    if (currentLessonJson[currentQuestionNo].Answers.includes(selectedAnswer.toLowerCase())) {
+    if (currentLessonJson[currentQuestionNo].Answers.includes(selectedAnswer)) {
         return true;
     }
     return false;

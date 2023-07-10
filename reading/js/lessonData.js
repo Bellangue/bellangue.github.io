@@ -34,13 +34,13 @@ What is the error in this sentence?
         "Translation": " > "
     },
 */
-const lessonNameData = ["Welcome to the Course!", "Greetings 1", "People 1", "People 2"];
+const lessonNameData = ["Welcome to the Course!", "Greetings 1", "People 1", "People 2", "Greetings 2"];
 
 const lesson1Json = [
     {
         "Content": "Bonjour! Je m'appelle Pierre.",
         "Question": "Who is speaking?",
-        "Answers": ["pierre"],
+        "Answers": ["Pierre"],
         "Options": ["Pierre",
             "Charles",
             "Fleur",
@@ -60,7 +60,7 @@ const lesson1Json = [
     {
         "Content": "Bonjour. Comment tu t'appelle?",
         "Question": "Select your reply.",
-        "Answers": ["je m'appelle fleur."],
+        "Answers": ["Je m'appelle Fleur."],
         "Options": ["Je m'appelle Fleur.",
             "Je ne parle pas français.",
             "J'aime les escargots.",
@@ -70,7 +70,7 @@ const lesson1Json = [
     {
         "Content": "Bonne journée.",
         "Question": "Translate into English.",
-        "Answers": "have a nice day.",
+        "Answers": "Have a nice day.",
         "Options": ["Have a nice day.",
             "Have a yummy sweet.",
             "Have a good journey.",
@@ -80,7 +80,7 @@ const lesson1Json = [
     {
         "Content": "Ça va?",
         "Question": "Select your reply.",
-        "Answers": "oui, ça va.",
+        "Answers": "Oui, ça va.",
         "Options": ["Oui, ça va.",
             "Je suis une tomate.",
             "Je veux un verre de vin.",
@@ -90,7 +90,7 @@ const lesson1Json = [
     {
         "Content": "Parlez-vous anglais?",
         "Question": "Select your reply.",
-        "Answers": ["non, je ne parle pas anglais."],
+        "Answers": ["Non, je ne parle pas anglais."],
         "Options": ["Non, je ne parle pas anglais.",
             "Salut! Comment ça va?",
             "Je t'aime.",
@@ -100,7 +100,7 @@ const lesson1Json = [
     {
         "Content": "Bienvenue au cours!",
         "Question": "Translate into English.",
-        "Answers": ["welcome to the course!"],
+        "Answers": ["Welcome to the course!"],
         "Options": ["Welcome to the course!",
             "Run away whilst you still can!",
             "I like onions!",
@@ -113,7 +113,7 @@ const lesson2Json = [
     {
         "Content": "Bonjour. Ça va?",
         "Question": "Translate into English.",
-        "Answers": ["hello. how is it going?"],
+        "Answers": ["Hello. How is it going?"],
         "Options": ["Hello. How is it going?",
             "Hello. Have a nice day.",
             "Goodbye. I like you.",
@@ -123,7 +123,7 @@ const lesson2Json = [
     {
         "Content": "Salut. À bientôt.",
         "Question": "What is happening?",
-        "Answers": ["the person you are talking to is leaving."],
+        "Answers": ["The person you are talking to is leaving."],
         "Options": ["The person you are talking to is leaving.",
             "You are meeting up with someone.",
             "You are confessing your love to a friend.",
@@ -133,7 +133,7 @@ const lesson2Json = [
     {
         "Content": "Ça va bien, merci. Et toi?",
         "Question": "Select your reply.",
-        "Answers": ["ça va mal."],
+        "Answers": ["Ça va mal."],
         "Options": ["Ça va mal.",
             "Il est fromage.",
             "Je regarde un film.",
@@ -143,7 +143,7 @@ const lesson2Json = [
     {
         "Content": "Comment allez-vous?",
         "Question": "Translate into English.",
-        "Answers": ["how are you?"],
+        "Answers": ["How are you?"],
         "Options": ["How are you?",
             "Where are you going?",
             "Why do you exist?",
@@ -153,7 +153,7 @@ const lesson2Json = [
     {
         "Content": "Bonne nuit.",
         "Question": "Translate into English.",
-        "Answers": ["good night."],
+        "Answers": ["Hood night."],
         "Options": ["Good night.",
             "Good evening.",
             "Good day.",
@@ -163,7 +163,7 @@ const lesson2Json = [
     {
         "Content": "Au revwar. À bientôt.",
         "Question": "What is the error in this sentence?",
-        "Answers": ["the spelling is wrong."],
+        "Answers": ["The spelling is wrong."],
         "Options": ["The gender is wrong.",
             "The spelling is wrong.",
             "It is conjugated incorrectly.",
@@ -173,7 +173,7 @@ const lesson2Json = [
     {
         "Content": "Coucou! Je vais comme ci, comme ça.",
         "Question": "In which situation would you say this?",
-        "Answers": ["you are speaking to a close friend."],
+        "Answers": ["You are speaking to a close friend."],
         "Options": ["You are speaking to a close friend.",
             "You are talking to a teacher.",
             "You are talking to an older person.",
@@ -226,7 +226,7 @@ const lesson3Json = [
     {
         "Content": "Je suis un garçon.",
         "Question": "Translate into English.",
-        "Answers": ["i am a boy."],
+        "Answers": ["I am a boy."],
         "Options": ["I am a boy.",
             "I am a woman.",
             "I am a girl.",
@@ -236,7 +236,7 @@ const lesson3Json = [
     {
         "Content": "Je suis un homme.",
         "Question": "Translate into English.",
-        "Answers": ["i am a man."],
+        "Answers": ["I am a man."],
         "Options": ["I am a man.",
             "I am a woman.",
             "I am a girl.",
@@ -246,7 +246,7 @@ const lesson3Json = [
     {
         "Content": "Je suis une fille.",
         "Question": "Translate into English.",
-        "Answers": ["i am a girl."],
+        "Answers": ["I am a girl."],
         "Options": ["I am a girl.",
             "I am a woman.",
             "I am a man.",
@@ -256,7 +256,7 @@ const lesson3Json = [
     {
         "Content": "Je suis une femme.",
         "Question": "Translate into English.",
-        "Answers": ["i am a woman."],
+        "Answers": ["I am a woman."],
         "Options": ["I am a woman.",
             "I am a man.",
             "I am a girl.",
@@ -350,4 +350,38 @@ const lesson4Json = [
     },
 ]
 
-const lessonJSONData = [lesson1Json, lesson2Json, lesson3Json, lesson4Json]; 
+const lesson5Json = [
+    {
+        "Content": "Bon journée.",
+        "Question": "What is the error in this sentence?",
+        "Answers": ["The gender is wrong."],
+        "Options": ["The gender is wrong.",
+            "The spelling is wrong.",
+            "It is conjugated incorrectly.",
+            "There is no mistake."],
+        "Translation": "Bon journée. > Bonne journée."
+    },
+    {
+        "Content": "Aujourd'hui, je travaille.",
+        "Question": "When do I work?",
+        "Answers": ["Today"],
+        "Options": ["Today",
+            "Tomorrow",
+            "Yesterday",
+            "Never"],
+        "Translation": "Today, I work."
+    },
+    {
+        "Content": "Tu lis tous les jours.",
+        "Question": "Translate into English.",
+        "Answers": ["You read everyday."],
+        "Options": ["You read everyday.",
+            "",
+            "",
+            ""],
+        "Translation": ""
+    },
+]
+
+
+const lessonJSONData = [lesson1Json, lesson2Json, lesson3Json, lesson4Json, lesson5Json]; 
