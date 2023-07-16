@@ -34,7 +34,7 @@ What is the error in this sentence?
         "Translation": " > "
     },
 */
-const lessonNameData = ["Welcome to the Course!", "Greetings 1", "People 1", "People 2", "Greetings 2"];
+const lessonNameData = ["Welcome to the Course!", "Greetings 1", "People 1", "People 2", "Time 1", "Introductions 1"];
 
 const lesson1Json = [
     {
@@ -271,7 +271,7 @@ const lesson4Json = [
     {
         "Content": "Tu es un garçon?",
         "Question": "Translate into English.",
-        "Answers": ["are you a boy?"],
+        "Answers": ["Are you a boy?"],
         "Options": ["Are you a boy?",
             "Are you a woman?",
             "Are you a girl?",
@@ -281,7 +281,7 @@ const lesson4Json = [
     {
         "Content": "Tu es un homme?",
         "Question": "Translate into English.",
-        "Answers": ["are you a man?"],
+        "Answers": ["Are you a man?"],
         "Options": ["Are you a man?",
             "Are you a woman?",
             "Are you a girl?",
@@ -291,7 +291,7 @@ const lesson4Json = [
     {
         "Content": "Tu es une fille?",
         "Question": "Translate into English.",
-        "Answers": ["are you a girl?"],
+        "Answers": ["Are you a girl?"],
         "Options": ["Are you a girl?",
             "Are you a woman?",
             "Are you a man?",
@@ -301,7 +301,7 @@ const lesson4Json = [
     {
         "Content": "Tu es une femme?",
         "Question": "Translate into English.",
-        "Answers": ["are you a woman?"],
+        "Answers": ["Are you a woman?"],
         "Options": ["Are you a woman?",
             "Are you a girl?",
             "Are you a man?",
@@ -311,7 +311,7 @@ const lesson4Json = [
     {
         "Content": "Tu es un garçon?",
         "Question": "Select your reply.",
-        "Answers": ["oui, je suis un garçon."],
+        "Answers": ["Oui, je suis un garçon."],
         "Options": ["Oui, je suis un garçon.",
             "Oui, je es un garçon.",
             "Oui, je est un garçon.",
@@ -321,7 +321,7 @@ const lesson4Json = [
     {
         "Content": "Tu es un homme?",
         "Question": "Select your reply.",
-        "Answers": ["oui, je suis un homme."],
+        "Answers": ["Oui, je suis un homme."],
         "Options": ["Oui, je suis un homme.",
             "Oui, j'es un homme.",
             "Oui, j'est un homme.",
@@ -331,7 +331,7 @@ const lesson4Json = [
     {
         "Content": "Tu es une fille?",
         "Question": "Select your reply.",
-        "Answers": ["oui, je suis une fille."],
+        "Answers": ["Oui, je suis une fille."],
         "Options": ["Oui, je suis une fille.",
             "Oui, je êtes une fille.",
             "Oui, je es une fille.",
@@ -341,7 +341,7 @@ const lesson4Json = [
     {
         "Content": "Tu es une femme?",
         "Question": "Select your reply.",
-        "Answers": ["oui, je suis une femme."],
+        "Answers": ["Oui, je suis une femme."],
         "Options": ["Oui, je suis une femme.",
             "Oui, je sommes une femme.",
             "Oui, j'es une femme.",
@@ -376,12 +376,114 @@ const lesson5Json = [
         "Question": "Translate into English.",
         "Answers": ["You read everyday."],
         "Options": ["You read everyday.",
-            "",
-            "",
-            ""],
+            "You lie often.",
+            "You and me",
+            "You are always lying down."],
+        "Translation": "You read everyday."
+    },
+    {
+        "Content": "hier",
+        "Question": "Translate into English.",
+        "Answers": ["yesterday"],
+        "Options": ["yesterday",
+            "here",
+            "tomorrow",
+            "her"],
+        "Translation": "yesterday"
+    },
+    {
+        "Content": "Demain et hier",
+        "Question": "Translate into English.",
+        "Answers": ["Tomorrow and yesterday"],
+        "Options": ["Tomorrow and yesterday",
+            "Today and tomorrow",
+            "Today and yesterday",
+            "It will never happen."],
+        "Translation": "Tomorrow and yesterday"
+    },
+    {
+        "Content": "Il ne mange pas.",
+        "Question": "What is he doing?",
+        "Answers": ["He is not eating."],
+        "Options": ["He is not eating.",
+            "He is eating.",
+            "He is not drinking.",
+            "He is drinking."],
         "Translation": ""
+    },
+    {
+        "Content": "Il ne mange pas.",
+        "Question": "What is he doing?",
+        "Answers": ["He is not eating."],
+        "Options": ["He is not eating.",
+            "He is eating.",
+            "He is not drinking.",
+            "He is drinking."],
+        "Translation": "He is not eating."
+    },
+    {
+        "Content": "ne pas",
+        "Question": "Translate into English.",
+        "Answers": ["do not"],
+        "Options": ["do not",
+            "Christmas",
+            "nuts, peas",
+            "Neat! You pass!"],
+        "Translation": "do not ..."
     },
 ]
 
+const lesson6Json = [
+    {
+        "Content": "Bonjour! Je m'appelle Pierre.",
+        "Question": "Who is speaking?",
+        "Answers": ["Pierre"],
+        "Options": ["Pierre",
+            "Charles",
+            "Fleur",
+            "Camille"],
+        "Translation": "Hello! I am called Pierre."
+    },
+    {
+        "Content": "Je m'appelle Jacques.",
+        "Question": "Translate into English",
+        "Answers": ["I am called Jacques."],
+        "Options": ["I am called Jacques.",
+            "My friend is called Jacques.",
+            "I hate people called Jacques.",
+            "Jacques is a bad name."],
+        "Translation": "I am called Jacques."
+    },
+    {
+        "Content": "Tu appelles Louis.",
+        "Question": "What is the error in this sentence?",
+        "Answers": ["It is conjugated incorrectly."],
+        "Options": ["The gender is wrong.",
+            "The spelling is wrong.",
+            "It is conjugated incorrectly.",
+            "There is no mistake."],
+        "Translation": "appelles > t'appelles"
+    },
+    {
+        "Content": "Il m'appelle Charles.",
+        "Question": "What is the error in this sentence?",
+        "Answers": ["It is conjugated incorrectly."],
+        "Options": ["The gender is wrong.",
+            "The spelling is wrong.",
+            "It is conjugated incorrectly.",
+            "There is no mistake."],
+        "Translation": "m'appelle > s'appelle"
+    },
+    {
+        "Content": "Comment tu t'appelles?",
+        "Question": "Select your reply.",
+        "Answers": ["Je m'appelle Charlotte. Et toi?"],
+        "Options": ["Je m'appelle Charlotte. Et toi?",
+            "Tu t'appelles Chloé.",
+            "Il s'appelle Josephine.",
+            "Nous nous appelons Gabriel."],
+        "Translation": "What are you called? I am called Charlotte. And you?"
+    },
+]
 
-const lessonJSONData = [lesson1Json, lesson2Json, lesson3Json, lesson4Json, lesson5Json]; 
+const lessonJSONData = [lesson1Json, lesson2Json, lesson3Json, lesson4Json, lesson5Json, lesson6Json];
