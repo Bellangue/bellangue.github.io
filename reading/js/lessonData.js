@@ -3,7 +3,8 @@
         "Content": "",
         "Question": "",
         "Answers": [""],
-        "Options": ["",
+        "Options": [
+            "",
             "",
             "",
             ""],
@@ -34,7 +35,7 @@ What is the error in this sentence?
         "Translation": " > "
     },
 */
-const lessonNameData = ["Welcome to the Course!", "Greetings 1", "People 1", "People 2", "Time 1", "Introductions 1", "People 3", "Numbers 1", "Numbers 1"];
+const lessonNameData = ["Welcome to the Course!", "Greetings 1", "People 1", "People 2", "Time 1", "Introductions 1", "People 3", "Numbers 1", "Numbers 1", "Numbers 2"];
 
 const lesson1Json = [
     {
@@ -560,129 +561,234 @@ const lesson7Json = [
 
 const lesson8Json = [
     {
-        "Content": "Quatre personnes sont assises à la table.",
-        "Question": "Translate into English:",
-        "Answers": ["Four people are sitting at the table."],
+        "Content": "un/une",
+        "Question": "Translate into English",
+        "Answers": ["one"],
         "Options": [
-            "Four people are sitting at the table.",
-            "Two chairs are near the window.",
-            "The cat is playing in the garden.",
-            "I have three apples."
-        ],
-        "Translation": "Four people are sitting at the table."
+            "one",
+            "two",
+            "three",
+            "four"],
+        "Translation": "one"
     },
     {
-        "Content": "Mon frère a deux chiens très mignons.",
-        "Question": "Translate into English:",
-        "Answers": ["My brother has two very cute dogs."],
+        "Content": "deux",
+        "Question": "Translate into English",
+        "Answers": ["two"],
         "Options": [
-            "My brother has two very cute dogs.",
-            "The birds are flying in the sky.",
-            "I like to swim in the river.",
-            "There are five books on the shelf."
-        ],
-        "Translation": "My brother has two very cute dogs."
+            "two",
+            "eight",
+            "nine",
+            "four"],
+        "Translation": "two"
     },
     {
-        "Content": "Elle danse avec une amie.",
-        "Question": "Translate into English:",
-        "Answers": ["She is dancing with one friend."],
+        "Content": "trois",
+        "Question": "Translate into English",
+        "Answers": ["three"],
         "Options": [
-            "She is dancing with one friend.",
-            "He likes to read books.",
-            "We have four bicycles.",
-            "The sun is shining brightly."
-        ],
-        "Translation": "She is dancing with one friend."
+            "three",
+            "seven",
+            "one",
+            "nine"],
+        "Translation": "three"
     },
     {
-        "Content": "Nous avons une réunion à huit heures du matin.",
-        "Question": "Translate into English:",
-        "Answers": ["We have a meeting at eight in the morning."],
+        "Content": "quatre",
+        "Question": "Translate into English",
+        "Answers": ["four"],
         "Options": [
-            "We have a meeting at eight in the morning.",
-            "I am playing football with my brother.",
-            "There are six chairs in the living room.",
-            "The train arrives at seven."
-        ],
-        "Translation": "We have a meeting at eight in the morning."
+            "four",
+            "one",
+            "five",
+            "two"],
+        "Translation": "four"
     },
     {
-        "Content": "Il reste neuf biscuits dans la boîte.",
-        "Question": "Translate into English:",
-        "Answers": ["There are nine biscuits left in the box."],
+        "Content": "cinq",
+        "Question": "Translate into English",
+        "Answers": ["five"],
         "Options": [
-            "There are nine biscuits left in the box.",
-            "She sings beautifully on the stage.",
-            "I have two brothers and one sister.",
-            "They are watching a movie."
-        ],
-        "Translation": "There are nine biscuits left in the box."
+            "five",
+            "six",
+            "three",
+            "eight"],
+        "Translation": "five"
     },
     {
-        "Content": "Le bus arrive dans dix minutes.",
-        "Question": "Translate into English:",
-        "Answers": ["The bus arrives in ten minutes."],
+        "Content": "six",
+        "Question": "Translate into English",
+        "Answers": ["six"],
         "Options": [
-            "The bus arrives in ten minutes.",
-            "I like to play the guitar.",
-            "She has three red dresses.",
-            "We are going to the park."
-        ],
-        "Translation": "The bus arrives in ten minutes."
+            "six",
+            "nine",
+            "ten",
+            "four"],
+        "Translation": "six"
     },
     {
-        "Content": "Elle a cinq ans aujourd'hui.",
-        "Question": "Translate into English:",
-        "Answers": ["She is five years old today."],
+        "Content": "sept",
+        "Question": "Translate into English",
+        "Answers": ["seven"],
         "Options": [
-            "She is five years old today.",
-            "The teacher is writing on the board.",
-            "We have six white shirts.",
-            "The flowers bloom in the spring."
-        ],
-        "Translation": "She is five years old today."
+            "seven",
+            "three",
+            "ten",
+            "two"],
+        "Translation": "seven"
     },
     {
-        "Content": "Je vais à la plage avec trois amis.",
-        "Question": "Translate into English:",
-        "Answers": ["I am going to the beach with three friends."],
+        "Content": "huit",
+        "Question": "Translate into English",
+        "Answers": ["eight"],
         "Options": [
-            "I am going to the beach with three friends.",
-            "They play soccer in the park.",
-            "The clock strikes nine.",
-            "We have three cats at home."
-        ],
-        "Translation": "I am going to the beach with three friends."
+            "eight",
+            "five",
+            "one",
+            "two"],
+        "Translation": "eight"
     },
     {
-        "Content": "Il y a six oiseaux dans l'arbre.",
-        "Question": "Translate into English:",
-        "Answers": ["There are six birds in the tree."],
+        "Content": "neuf",
+        "Question": "Translate into English",
+        "Answers": ["nine"],
         "Options": [
-            "There are six birds in the tree.",
-            "The sun is shining brightly.",
-            "She has three blue shirts.",
-            "We are going to the beach."
-        ],
-        "Translation": "There are six birds in the tree."
+            "nine",
+            "five",
+            "three",
+            "seven"],
+        "Translation": "nine"
     },
     {
-        "Content": "Nous avons sept jours dans la semaine.",
-        "Question": "Translate into English:",
-        "Answers": ["We have seven days in the week."],
+        "Content": "dix",
+        "Question": "Translate into English",
+        "Answers": ["ten"],
         "Options": [
-            "We have seven days in the week.",
-            "He likes to read books.",
-            "I am buying seven books at the bookstore.",
-            "They are watching a movie."
-        ],
-        "Translation": "We have seven days in the week."
+            "ten",
+            "nine",
+            "seven",
+            "two"],
+        "Translation": "nine"
     },
+
 ]
 
 const lesson9Json = [
     {
+        "Content": "un/une",
+        "Question": "Translate into English",
+        "Answers": ["one"],
+        "Options": [
+            "one",
+            "two",
+            "three",
+            "four"],
+        "Translation": "one"
+    },
+    {
+        "Content": "deux",
+        "Question": "Translate into English",
+        "Answers": ["two"],
+        "Options": [
+            "two",
+            "eight",
+            "nine",
+            "four"],
+        "Translation": "two"
+    },
+    {
+        "Content": "trois",
+        "Question": "Translate into English",
+        "Answers": ["three"],
+        "Options": [
+            "three",
+            "seven",
+            "one",
+            "nine"],
+        "Translation": "three"
+    },
+    {
+        "Content": "quatre",
+        "Question": "Translate into English",
+        "Answers": ["four"],
+        "Options": [
+            "four",
+            "one",
+            "five",
+            "two"],
+        "Translation": "four"
+    },
+    {
+        "Content": "cinq",
+        "Question": "Translate into English",
+        "Answers": ["five"],
+        "Options": [
+            "five",
+            "six",
+            "three",
+            "eight"],
+        "Translation": "five"
+    },
+    {
+        "Content": "six",
+        "Question": "Translate into English",
+        "Answers": ["six"],
+        "Options": [
+            "six",
+            "nine",
+            "ten",
+            "four"],
+        "Translation": "six"
+    },
+    {
+        "Content": "sept",
+        "Question": "Translate into English",
+        "Answers": ["seven"],
+        "Options": [
+            "seven",
+            "three",
+            "ten",
+            "two"],
+        "Translation": "seven"
+    },
+    {
+        "Content": "huit",
+        "Question": "Translate into English",
+        "Answers": ["eight"],
+        "Options": [
+            "eight",
+            "five",
+            "one",
+            "two"],
+        "Translation": "eight"
+    },
+    {
+        "Content": "neuf",
+        "Question": "Translate into English",
+        "Answers": ["nine"],
+        "Options": [
+            "nine",
+            "five",
+            "three",
+            "seven"],
+        "Translation": "nine"
+    },
+    {
+        "Content": "dix",
+        "Question": "Translate into English",
+        "Answers": ["ten"],
+        "Options": [
+            "ten",
+            "nine",
+            "seven",
+            "two"],
+        "Translation": "nine"
+    },
+
+]
+
+const lesson10Json = [
+    {
         "Content": "Quatre personnes sont assises à la table.",
         "Question": "Translate into English:",
         "Answers": ["Four people are sitting at the table."],
@@ -804,4 +910,5 @@ const lesson9Json = [
     },
 ]
 
-const lessonJSONData = [lesson1Json, lesson2Json, lesson3Json, lesson4Json, lesson5Json, lesson6Json, lesson7Json, lesson8Json, lesson9Json];
+
+const lessonJSONData = [lesson1Json, lesson2Json, lesson3Json, lesson4Json, lesson5Json, lesson6Json, lesson7Json, lesson8Json, lesson9Json, lesson10Json];
