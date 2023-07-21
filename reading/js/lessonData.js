@@ -484,6 +484,26 @@ const lesson6Json = [
             "Nous nous appelons Gabriel."],
         "Translation": "What are you called? I am called Charlotte. And you?"
     },
+    {
+        "Content": "Elle s'appelle Fleur et il s'appelle George.",
+        "Question": "Translate into English",
+        "Answers": ["She is called Fleur and he is called George."],
+        "Options": ["She is called Fleur and he is called George.",
+            "He is called Fleur and she is called George.",
+            "Fleur and George are apples.",
+            "Fleur and George are not apples."],
+        "Translation": "She is called Fleur and he is called George."
+    },
+    {
+        "Content": "Tu t'appelle Nathaniel.",
+        "Question": "What is the error in this sentence?",
+        "Answers": ["It is conjugated incorrectly."],
+        "Options": ["The gender is wrong.",
+            "The spelling is wrong.",
+            "It is conjugated incorrectly.",
+            "There is no mistake."],
+        "Translation": "appelle > appelles"
+    },
 ]
 
 const lessonJSONData = [lesson1Json, lesson2Json, lesson3Json, lesson4Json, lesson5Json, lesson6Json];
