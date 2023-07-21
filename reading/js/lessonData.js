@@ -34,7 +34,7 @@ What is the error in this sentence?
         "Translation": " > "
     },
 */
-const lessonNameData = ["Welcome to the Course!", "Greetings 1", "People 1", "People 2", "Time 1", "Introductions 1", "People 3"];
+const lessonNameData = ["Welcome to the Course!", "Greetings 1", "People 1", "People 2", "Time 1", "Introductions 1", "People 3", "Numbers 1", "Numbers 1"];
 
 const lesson1Json = [
     {
@@ -558,4 +558,250 @@ const lesson7Json = [
     },
 ]
 
-const lessonJSONData = [lesson1Json, lesson2Json, lesson3Json, lesson4Json, lesson5Json, lesson6Json, lesson7Json];
+const lesson8Json = [
+    {
+        "Content": "Quatre personnes sont assises à la table.",
+        "Question": "Translate into English:",
+        "Answers": ["Four people are sitting at the table."],
+        "Options": [
+            "Four people are sitting at the table.",
+            "Two chairs are near the window.",
+            "The cat is playing in the garden.",
+            "I have three apples."
+        ],
+        "Translation": "Four people are sitting at the table."
+    },
+    {
+        "Content": "Mon frère a deux chiens très mignons.",
+        "Question": "Translate into English:",
+        "Answers": ["My brother has two very cute dogs."],
+        "Options": [
+            "My brother has two very cute dogs.",
+            "The birds are flying in the sky.",
+            "I like to swim in the river.",
+            "There are five books on the shelf."
+        ],
+        "Translation": "My brother has two very cute dogs."
+    },
+    {
+        "Content": "Elle danse avec une amie.",
+        "Question": "Translate into English:",
+        "Answers": ["She is dancing with one friend."],
+        "Options": [
+            "She is dancing with one friend.",
+            "He likes to read books.",
+            "We have four bicycles.",
+            "The sun is shining brightly."
+        ],
+        "Translation": "She is dancing with one friend."
+    },
+    {
+        "Content": "Nous avons une réunion à huit heures du matin.",
+        "Question": "Translate into English:",
+        "Answers": ["We have a meeting at eight in the morning."],
+        "Options": [
+            "We have a meeting at eight in the morning.",
+            "I am playing football with my brother.",
+            "There are six chairs in the living room.",
+            "The train arrives at seven."
+        ],
+        "Translation": "We have a meeting at eight in the morning."
+    },
+    {
+        "Content": "Il reste neuf biscuits dans la boîte.",
+        "Question": "Translate into English:",
+        "Answers": ["There are nine biscuits left in the box."],
+        "Options": [
+            "There are nine biscuits left in the box.",
+            "She sings beautifully on the stage.",
+            "I have two brothers and one sister.",
+            "They are watching a movie."
+        ],
+        "Translation": "There are nine biscuits left in the box."
+    },
+    {
+        "Content": "Le bus arrive dans dix minutes.",
+        "Question": "Translate into English:",
+        "Answers": ["The bus arrives in ten minutes."],
+        "Options": [
+            "The bus arrives in ten minutes.",
+            "I like to play the guitar.",
+            "She has three red dresses.",
+            "We are going to the park."
+        ],
+        "Translation": "The bus arrives in ten minutes."
+    },
+    {
+        "Content": "Elle a cinq ans aujourd'hui.",
+        "Question": "Translate into English:",
+        "Answers": ["She is five years old today."],
+        "Options": [
+            "She is five years old today.",
+            "The teacher is writing on the board.",
+            "We have six white shirts.",
+            "The flowers bloom in the spring."
+        ],
+        "Translation": "She is five years old today."
+    },
+    {
+        "Content": "Je vais à la plage avec trois amis.",
+        "Question": "Translate into English:",
+        "Answers": ["I am going to the beach with three friends."],
+        "Options": [
+            "I am going to the beach with three friends.",
+            "They play soccer in the park.",
+            "The clock strikes nine.",
+            "We have three cats at home."
+        ],
+        "Translation": "I am going to the beach with three friends."
+    },
+    {
+        "Content": "Il y a six oiseaux dans l'arbre.",
+        "Question": "Translate into English:",
+        "Answers": ["There are six birds in the tree."],
+        "Options": [
+            "There are six birds in the tree.",
+            "The sun is shining brightly.",
+            "She has three blue shirts.",
+            "We are going to the beach."
+        ],
+        "Translation": "There are six birds in the tree."
+    },
+    {
+        "Content": "Nous avons sept jours dans la semaine.",
+        "Question": "Translate into English:",
+        "Answers": ["We have seven days in the week."],
+        "Options": [
+            "We have seven days in the week.",
+            "He likes to read books.",
+            "I am buying seven books at the bookstore.",
+            "They are watching a movie."
+        ],
+        "Translation": "We have seven days in the week."
+    },
+]
+
+const lesson9Json = [
+    {
+        "Content": "Quatre personnes sont assises à la table.",
+        "Question": "Translate into English:",
+        "Answers": ["Four people are sitting at the table."],
+        "Options": [
+            "Four people are sitting at the table.",
+            "Two chairs are near the window.",
+            "The cat is playing in the garden.",
+            "I have three apples."
+        ],
+        "Translation": "Four people are sitting at the table."
+    },
+    {
+        "Content": "Mon frère a deux chiens très mignons.",
+        "Question": "Translate into English:",
+        "Answers": ["My brother has two very cute dogs."],
+        "Options": [
+            "My brother has two very cute dogs.",
+            "The birds are flying in the sky.",
+            "I like to swim in the river.",
+            "There are five books on the shelf."
+        ],
+        "Translation": "My brother has two very cute dogs."
+    },
+    {
+        "Content": "Elle danse avec une amie.",
+        "Question": "Translate into English:",
+        "Answers": ["She is dancing with one friend."],
+        "Options": [
+            "She is dancing with one friend.",
+            "He likes to read books.",
+            "We have four bicycles.",
+            "The sun is shining brightly."
+        ],
+        "Translation": "She is dancing with one friend."
+    },
+    {
+        "Content": "Nous avons une réunion à huit heures du matin.",
+        "Question": "Translate into English:",
+        "Answers": ["We have a meeting at eight in the morning."],
+        "Options": [
+            "We have a meeting at eight in the morning.",
+            "I am playing football with my brother.",
+            "There are six chairs in the living room.",
+            "The train arrives at seven."
+        ],
+        "Translation": "We have a meeting at eight in the morning."
+    },
+    {
+        "Content": "Il reste neuf biscuits dans la boîte.",
+        "Question": "Translate into English:",
+        "Answers": ["There are nine biscuits left in the box."],
+        "Options": [
+            "There are nine biscuits left in the box.",
+            "She sings beautifully on the stage.",
+            "I have two brothers and one sister.",
+            "They are watching a movie."
+        ],
+        "Translation": "There are nine biscuits left in the box."
+    },
+    {
+        "Content": "Le bus arrive dans dix minutes.",
+        "Question": "Translate into English:",
+        "Answers": ["The bus arrives in ten minutes."],
+        "Options": [
+            "The bus arrives in ten minutes.",
+            "I like to play the guitar.",
+            "She has three red dresses.",
+            "We are going to the park."
+        ],
+        "Translation": "The bus arrives in ten minutes."
+    },
+    {
+        "Content": "Elle a cinq ans aujourd'hui.",
+        "Question": "Translate into English:",
+        "Answers": ["She is five years old today."],
+        "Options": [
+            "She is five years old today.",
+            "The teacher is writing on the board.",
+            "We have six white shirts.",
+            "The flowers bloom in the spring."
+        ],
+        "Translation": "She is five years old today."
+    },
+    {
+        "Content": "Je vais à la plage avec trois amis.",
+        "Question": "Translate into English:",
+        "Answers": ["I am going to the beach with three friends."],
+        "Options": [
+            "I am going to the beach with three friends.",
+            "They play soccer in the park.",
+            "The clock strikes nine.",
+            "We have three cats at home."
+        ],
+        "Translation": "I am going to the beach with three friends."
+    },
+    {
+        "Content": "Il y a six oiseaux dans l'arbre.",
+        "Question": "Translate into English:",
+        "Answers": ["There are six birds in the tree."],
+        "Options": [
+            "There are six birds in the tree.",
+            "The sun is shining brightly.",
+            "She has three blue shirts.",
+            "We are going to the beach."
+        ],
+        "Translation": "There are six birds in the tree."
+    },
+    {
+        "Content": "Nous avons sept jours dans la semaine.",
+        "Question": "Translate into English:",
+        "Answers": ["We have seven days in the week."],
+        "Options": [
+            "We have seven days in the week.",
+            "He likes to read books.",
+            "I am buying seven books at the bookstore.",
+            "They are watching a movie."
+        ],
+        "Translation": "We have seven days in the week."
+    },
+]
+
+const lessonJSONData = [lesson1Json, lesson2Json, lesson3Json, lesson4Json, lesson5Json, lesson6Json, lesson7Json, lesson8Json, lesson9Json];
