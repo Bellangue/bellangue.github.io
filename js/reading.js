@@ -7,7 +7,7 @@ const lessonElements = document.getElementsByClassName("lessonIcon");
 
 for (let i = 0; i < lessonElements.length; ++i) {
     lessonElements[i].addEventListener("click", function () {
-        lessonBar.textContent = `${lessonNameData[i]} 3/3`;
+        lessonBar.textContent = `${i+1}) ${lessonNameData[i]} 3/3`;
         selected = i; 
     });
 }
