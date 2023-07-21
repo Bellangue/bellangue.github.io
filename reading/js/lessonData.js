@@ -34,7 +34,7 @@ What is the error in this sentence?
         "Translation": " > "
     },
 */
-const lessonNameData = ["Welcome to the Course!", "Greetings 1", "People 1", "People 2", "Time 1", "Introductions 1"];
+const lessonNameData = ["Welcome to the Course!", "Greetings 1", "People 1", "People 2", "Time 1", "Introductions 1", "People 3"];
 
 const lesson1Json = [
     {
@@ -506,4 +506,56 @@ const lesson6Json = [
     },
 ]
 
-const lessonJSONData = [lesson1Json, lesson2Json, lesson3Json, lesson4Json, lesson5Json, lesson6Json];
+const lesson7Json = [
+    {
+        "Content": "Elle étudie l'histoire. _____ aime lire.",
+        "Question": "Choose the correct pronoun:",
+        "Answers": ["Elle"],
+        "Options": ["Elle", "Il", "Ils", "Elles"],
+        "Translation": "She studies history. She likes to read."
+    },
+    {
+        "Content": "Nous allons au cinéma. _____ allons regarder un film.",
+        "Question": "Choose the correct pronoun:",
+        "Answers": ["Nous"],
+        "Options": ["Nous", "Tu", "Vous", "Ils"],
+        "Translation": "We are going to the cinema. We are going to watch a film."
+    },
+    {
+        "Content": "Marc est mon ami. _____ est très sympa.",
+        "Question": "Choose the correct pronoun:",
+        "Answers": ["Il"],
+        "Options": ["Elle", "Il", "Ils", "Elles"],
+        "Translation": "Marc is my friend. He is very nice."
+    },
+    {
+        "Content": "Paul parle au téléphone. _____ parle avec sa mère.",
+        "Question": "Choose the correct pronoun:",
+        "Answers": ["Il"],
+        "Options": ["Il", "Elle", "Ils", "Elles"],
+        "Translation": "Paul is talking on the phone. He is talking with his mother."
+    },
+    {
+        "Content": "Cheryl et moi aimons lire. _____ aimons les romans.",
+        "Question": "Choose the correct pronoun:",
+        "Answers": ["Nous"],
+        "Options": ["Nous", "Tu", "Vous", "Ils"],
+        "Translation": "We love to read. We love novels."
+    },
+    {
+        "Content": "Le chat dort. _____ dort paisiblement.",
+        "Question": "Choose the correct pronoun:",
+        "Answers": ["Il"],
+        "Options": ["Il", "Elle", "Ils", "Elles"],
+        "Translation": "The cat is sleeping. He is sleeping peacefully."
+    },
+    {
+        "Content": "______ parle couramment le français.",
+        "Question": "Choose the correct pronoun:",
+        "Answers": ["Je"],
+        "Options": ["Je", "Nous", "Vous", "Elles"],
+        "Translation": "I speak French fluently."
+    },
+]
+
+const lessonJSONData = [lesson1Json, lesson2Json, lesson3Json, lesson4Json, lesson5Json, lesson6Json, lesson7Json];
