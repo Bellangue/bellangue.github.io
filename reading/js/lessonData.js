@@ -912,7 +912,6 @@ const lesson10Json = [
 
 const lesson11Json = 
 [
-  "questions": [
     {
       "Content": "Onze",
       "Question": "Translate into English.",
@@ -983,7 +982,6 @@ const lesson11Json =
       "Options": ["twenty", "fifteen", "eight", "seven"],
       "Translation": "twenty"
     }
-  ]
 ];
 
 const lessonJSONData = [lesson1Json, lesson2Json, lesson3Json, lesson4Json, lesson5Json, lesson6Json, lesson7Json, lesson8Json, lesson9Json, lesson10Json, lesson11Json];
