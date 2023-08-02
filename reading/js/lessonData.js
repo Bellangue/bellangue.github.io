@@ -35,7 +35,7 @@ What is the error in this sentence?
         "Translation": " > "
     },
 */
-const lessonNameData = ["Welcome to the Course!", "Greetings 1", "People 1", "People 2", "Time 1", "Introductions 1", "People 3", "Numbers 1", "Numbers 1", "Numbers 2"];
+const lessonNameData = ["Welcome to the Course!", "Greetings 1", "People 1", "People 2", "Time 1", "Introductions 1", "People 3", "Numbers 1", "Numbers 1", "Numbers 2", "Numbers 3"];
 
 const lesson1Json = [
     {
@@ -910,5 +910,80 @@ const lesson10Json = [
     },
 ]
 
+const lesson11Json = 
+{
+  "questions": [
+    {
+      "Content": "Onze",
+      "Question": "Translate into English.",
+      "Answers": ["eleven"],
+      "Options": ["eleven", "four", "eighteen", "fifteen"],
+      "Translation": "eleven"
+    },
+    {
+      "Content": "Douze",
+      "Question": "Translate into English.",
+      "Answers": ["twelve"],
+      "Options": ["twelve", "seventeen", "nine", "five"],
+      "Translation": "twelve"
+    },
+    {
+      "Content": "Treize",
+      "Question": "Translate into English.",
+      "Answers": ["thirteen"],
+      "Options": ["thirteen", "ten", "sixteen", "three"],
+      "Translation": "thirteen"
+    },
+    {
+      "Content": "Quatorze",
+      "Question": "Translate into English.",
+      "Answers": ["fourteen"],
+      "Options": ["fourteen", "two", "nineteen", "seven"],
+      "Translation": "fourteen"
+    },
+    {
+      "Content": "Quinze",
+      "Question": "Translate into English.",
+      "Answers": ["fifteen"],
+      "Options": ["fifteen", "six", "eight", "one"],
+      "Translation": "fifteen"
+    },
+    {
+      "Content": "Seize",
+      "Question": "Translate into English.",
+      "Answers": ["sixteen"],
+      "Options": ["sixteen", "seventeen", "thirteen", "five"],
+      "Translation": "sixteen"
+    },
+    {
+      "Content": "Dix-Sept",
+      "Question": "Translate into English.",
+      "Answers": ["seventeen"],
+      "Options": ["seventeen", "three", "ten", "four"],
+      "Translation": "seventeen"
+    },
+    {
+      "Content": "Dix-Huit",
+      "Question": "Translate into English.",
+      "Answers": ["eighteen"],
+      "Options": ["eighteen", "eight", "thirteen", "nineteen"],
+      "Translation": "eighteen"
+    },
+    {
+      "Content": "Dix-Neuf",
+      "Question": "Translate into English.",
+      "Answers": ["nineteen"],
+      "Options": ["nineteen", "sixteen", "two", "twelve"],
+      "Translation": "nineteen"
+    },
+    {
+      "Content": "Vingt",
+      "Question": "Translate into English.",
+      "Answers": ["twenty"],
+      "Options": ["twenty", "fifteen", "eight", "seven"],
+      "Translation": "twenty"
+    }
+  ]
+};
 
-const lessonJSONData = [lesson1Json, lesson2Json, lesson3Json, lesson4Json, lesson5Json, lesson6Json, lesson7Json, lesson8Json, lesson9Json, lesson10Json];
+const lessonJSONData = [lesson1Json, lesson2Json, lesson3Json, lesson4Json, lesson5Json, lesson6Json, lesson7Json, lesson8Json, lesson9Json, lesson10Json, lesson11Json];
