@@ -910,78 +910,93 @@ const lesson10Json = [
     },
 ]
 
-const lesson11Json = 
-[
+const lesson11Json = [
     {
-      "Content": "Onze",
+      "Content": "onze",
       "Question": "Translate into English.",
       "Answers": ["eleven"],
       "Options": ["eleven", "four", "eighteen", "fifteen"],
       "Translation": "eleven"
     },
     {
-      "Content": "Douze",
+      "Content": "douze",
       "Question": "Translate into English.",
       "Answers": ["twelve"],
       "Options": ["twelve", "seventeen", "nine", "five"],
       "Translation": "twelve"
     },
     {
-      "Content": "Treize",
+      "Content": "treize",
       "Question": "Translate into English.",
       "Answers": ["thirteen"],
       "Options": ["thirteen", "ten", "sixteen", "three"],
       "Translation": "thirteen"
     },
     {
-      "Content": "Quatorze",
+      "Content": "quatorze",
       "Question": "Translate into English.",
       "Answers": ["fourteen"],
       "Options": ["fourteen", "two", "nineteen", "seven"],
       "Translation": "fourteen"
     },
     {
-      "Content": "Quinze",
+      "Content": "quinze",
       "Question": "Translate into English.",
       "Answers": ["fifteen"],
       "Options": ["fifteen", "six", "eight", "one"],
       "Translation": "fifteen"
     },
     {
-      "Content": "Seize",
+      "Content": "seize",
       "Question": "Translate into English.",
       "Answers": ["sixteen"],
       "Options": ["sixteen", "seventeen", "thirteen", "five"],
       "Translation": "sixteen"
     },
     {
-      "Content": "Dix-Sept",
+      "Content": "dix-sept",
       "Question": "Translate into English.",
       "Answers": ["seventeen"],
       "Options": ["seventeen", "three", "ten", "four"],
       "Translation": "seventeen"
     },
     {
-      "Content": "Dix-Huit",
+      "Content": "dix-huit",
       "Question": "Translate into English.",
       "Answers": ["eighteen"],
       "Options": ["eighteen", "eight", "thirteen", "nineteen"],
       "Translation": "eighteen"
     },
     {
-      "Content": "Dix-Neuf",
+      "Content": "dix-neuf",
       "Question": "Translate into English.",
       "Answers": ["nineteen"],
       "Options": ["nineteen", "sixteen", "two", "twelve"],
       "Translation": "nineteen"
     },
     {
-      "Content": "Vingt",
+      "Content": "vingt",
       "Question": "Translate into English.",
       "Answers": ["twenty"],
       "Options": ["twenty", "fifteen", "eight", "seven"],
       "Translation": "twenty"
     }
-];
+  ]
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 const lessonJSONData = [lesson1Json, lesson2Json, lesson3Json, lesson4Json, lesson5Json, lesson6Json, lesson7Json, lesson8Json, lesson9Json, lesson10Json, lesson11Json];
