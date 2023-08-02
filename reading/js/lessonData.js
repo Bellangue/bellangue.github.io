@@ -981,7 +981,7 @@ const lesson11Json = [
       "Options": ["twenty", "fifteen", "eight", "seven"],
       "Translation": "twenty"
     }
-  ],
+  ]
 
 const lesson12Json = [
     {
