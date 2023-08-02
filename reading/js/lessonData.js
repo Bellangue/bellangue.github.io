@@ -982,7 +982,6 @@ const lesson11Json = [
       "Translation": "twenty"
     }
   ]
-]
 
 
 
