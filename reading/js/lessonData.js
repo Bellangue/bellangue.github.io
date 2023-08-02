@@ -988,70 +988,70 @@ const lesson12Json = [
       "Content": "vingt et un",
       "Question": "Translate into English.",
       "Answers": ["twenty-one"],
-      "Options": ["twenty-one", "twenty-nine", "eighteen", "twenty-five"],
+      "Options": ["twenty-one", "twenty-nine", "twenty-four", "twenty-five"],
       "Translation": "twenty-one"
     },
     {
       "Content": "vingt-deux",
       "Question": "Translate into English.",
       "Answers": ["twenty-two"],
-      "Options": ["seventeen", "twenty-two", "nine", "thirty"],
+      "Options": ["nine", "twenty-two", "twenty", "thirty"],
       "Translation": "twenty-two"
     },
     {
       "Content": "vingt-trois",
       "Question": "Translate into English.",
       "Answers": ["twenty-three"],
-      "Options": ["twenty-three", "ten", "sixteen", "three"],
+      "Options": ["twenty-three", "three", "sixteen", "nineteen"],
       "Translation": "twenty-three"
     },
     {
       "Content": "vingt-quatre",
       "Question": "Translate into English.",
       "Answers": ["twenty-four"],
-      "Options": ["fourteen", "twenty-four", "nineteen", "seven"],
+      "Options": ["fourteen", "twenty-four", "fourty", "four"],
       "Translation": "twenty-four"
     },
     {
       "Content": "vingt-cinq",
       "Question": "Translate into English.",
       "Answers": ["twenty-five"],
-      "Options": ["six", "eight", "twenty-five", "one"],
+      "Options": ["fifteen", "eighteen", "twenty-five", "seven"],
       "Translation": "twenty-five"
     },
     {
       "Content": "vingt-six",
       "Question": "Translate into English.",
       "Answers": ["twenty-six"],
-      "Options": ["twenty-six", "seventeen", "thirteen", "five"],
+      "Options": ["twenty-six", "twenty-seven", "twenty-two", "twelve"],
       "Translation": "twenty-six"
     },
     {
       "Content": "vingt-sept",
       "Question": "Translate into English.",
       "Answers": ["twenty-seven"],
-      "Options": ["twenty-seven", "three", "ten", "four"],
+      "Options": ["twenty-seven", "eleven", "ten", "fourteen"],
       "Translation": "twenty-seven"
     },
     {
       "Content": "vingt-huit",
       "Question": "Translate into English.",
       "Answers": ["twenty-eight"],
-      "Options": ["eighteen", "twenty-eight", "thirteen", "nineteen"],
+      "Options": ["eighteen", "twenty-eight", "twenty-three", "nineteen"],
       "Translation": "twenty-eight"
     },
     {
       "Content": "vingt-neuf",
       "Question": "Translate into English.",
       "Answers": ["twenty-nine"],
-      "Options": ["twenty-nine", "sixteen", "two", "twelve"],
+      "Options": ["twenty-nine", "nineteen", "nine", "fourteen"],
       "Translation": "twenty-nine"
     },
     {
       "Content": "trente",
       "Question": "Translate into English.",
       "Answers": ["thirty"],
-      "Options": ["thirty", "fifteen", "eight", "seven"],
+      "Options": ["thirty", "twenty", "ten", "zero"],
       "Translation": "thirty"
     }
   ];
