@@ -1,3 +1,5 @@
+currentLanguage = localStorage.getItem("currentLanguage");
+
 const questionElements = document.getElementsByClassName("questionElements");
 const hintButton = document.getElementById("hintButton");
 const confirmButton = document.getElementById("confirmButton");
@@ -20,7 +22,7 @@ let totalQuestions = 0;
 setQuestion();
 
 const currentFlag = document.getElementById("currentFlag");
-currentFlag.innerHTML = `<img class="centrePositionW stickyTop" src="../images/Flags/${localStorage.getItem("currentLanguage")}.png"/>`;
+currentFlag.innerHTML = `<img class="centrePositionW stickyTop" src="../images/Flags/${currentLanguage}.png"/>`;
 
 function setQuestion() {
     currentQuestionNo = Math.round(Math.random() * (currentLessonJson.length - 1));
@@ -70,27 +72,25 @@ confirmButton.addEventListener("click", function () {
             }
         }
     } else if (confirmButton.textContent === "Next...") {
-        if(doneQuestions === necessaryQuestions)
-        {
-            for(let i = 2; i < 9; ++i){
+        if (doneQuestions === necessaryQuestions) {
+            for (let i = 2; i < 9; ++i) {
                 questionElements[i].style.display = 'none';
             }
             questionElements[0].textContent = `You got ${doneQuestions}/${totalQuestions} correct!`
-            let dosEarnt = 20-(5*(totalQuestions - necessaryQuestions));
-            if(dosEarnt < 5) dosEarnt = 5;
+            let dosEarnt = 20 - (5 * (totalQuestions - necessaryQuestions));
+            if (dosEarnt < 5) dosEarnt = 5;
             questionElements[1].textContent = `Lesson Completed! You earnt ${dosEarnt} Drops of Sunlight!`
-            const currentDos = +localStorage.getItem("frdos");
-            localStorage.setItem("frdos", currentDos +  dosEarnt);
+            const currentDos = +localStorage.getItem(`${currentLanguage}dos`);
+            localStorage.setItem(`${currentLanguage}dos`, currentDos + dosEarnt);
             snailPicture.style.display = '';
 
-        }else
-        {
+        } else {
             setQuestion();
         }
     }
 });
 
-snailPicture.addEventListener("click", function (){
+snailPicture.addEventListener("click", function () {
     window.location.href = "reading.html";
 });
 
