@@ -51,6 +51,18 @@ if (localStorage.getItem("currentLanguage") === "pt") {
                 "Ana"],
             "Translation": "Hello. I am called Pedro."
         },
+        {
+            "Content": "Oi. Tudo bem?",
+            "Question": "Select your reply.",
+            "Answers": ["Sim. Tudo bem."],
+            "Options": [
+                "Sim. Tudo bem.",
+                "Você é pequena.",
+                "Maria é um bebê",
+                "A gente é boa."],
+            "Translation": "Hello. Is everything alright? Yes. Everything is alright."
+        },
+        
     ]
 
     lessonJSONData = [lesson1Json];
