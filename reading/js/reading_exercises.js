@@ -107,8 +107,8 @@ hintButton.addEventListener("click", function () {
 });
 
 function showHint() {
-    hintButton.textContent = localStorage.getItem(`${localStorage.getItem("currentLanguage")}:${selected},${currentQuestionNo}`);
-    if(localStorage.getItem(`${localStorage.getItem("currentLanguage")}:${selected},${currentQuestionNo}`) === null || localStorage.getItem(`${localStorage.getItem("currentLanguage")}:${selected},${currentQuestionNo}`) === "")
+    hintButton.textContent = localStorage.getItem(`${localStorage.getItem("currentLanguage")}:Reading:${selected},${currentQuestionNo}`);
+    if(localStorage.getItem(`${localStorage.getItem("currentLanguage")}:Reading:${selected},${currentQuestionNo}`) === null || localStorage.getItem(`${localStorage.getItem("currentLanguage")}:Reading:${selected},${currentQuestionNo}`) === "")
     {
         hintButton.textContent = "You have not given yourself a hint.";
     }

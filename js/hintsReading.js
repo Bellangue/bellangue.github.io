@@ -20,7 +20,7 @@ for (let i = 0; i < lessonNameData.length; ++i) {
         inputLi.id = `${i},${j}`;
         inputLi.classList.add("inputHintLi");
         inputLi.classList.add("centrePositionW");
-        inputLi.value = localStorage.getItem(`${localStorage.getItem("currentLanguage")}:${i},${j}`)
+        inputLi.value = localStorage.getItem(`${localStorage.getItem("currentLanguage")}:Reading:${i},${j}`)
 
         questionUl.appendChild(inputLi);
     }
@@ -30,7 +30,7 @@ for (let i = 0; i < lessonNameData.length; ++i) {
     for (let j = 0; j < lessonJSONData[i].length; ++j) {
         const affectedInput = document.getElementById(`${i},${j}`);
         affectedInput.addEventListener("change", function () {
-            localStorage.setItem(`${localStorage.getItem("currentLanguage")}:${i},${j}`, affectedInput.value);
+            localStorage.setItem(`${localStorage.getItem("currentLanguage")}:Reading:${i},${j}`, affectedInput.value);
         });
     }
 }
