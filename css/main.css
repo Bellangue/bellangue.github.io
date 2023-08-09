@@ -152,3 +152,19 @@ td.languageSelection {
     border-collapse: collapse;
     text-align: center;
 }
+
+li.questionHintLi{
+    position: sticky;
+    display:block;
+    color: black
+}
+
+li.hintHintLi{
+    position: sticky;
+    display:block;
+    color: #749274
+}
+
+.inputHintLi{
+    background-color: #c2c2f4
+}

@@ -55,14 +55,19 @@ for (let i = 0; i < dosResetElements.length; ++i) {
     dosResetElements[i].addEventListener("click", function(){
         dosResetElements[i].textContent = "Reload the Page"
         dosValues[i] = 0;
-        console.log(dosNames[sortedIndices.sortIndices[i]] );
-        if(dosNames[sortedIndices.sortIndices[i]] === "Dutch"){
+        if(i === 0){
+            localStorage.clear();
+        }
+        if(dosNames[sortedIndices.sortIndices[i-1]] === "Dutch"){
             localStorage.setItem("nldos", 0);
         }
-        else if(dosNames[sortedIndices.sortIndices[i]] === "French"){
+        else if(dosNames[sortedIndices.sortIndices[i-1]] === "French"){
             localStorage.setItem("frdos", 0);
         }
-        else if(dosNames[sortedIndices.sortIndices[i]] === "Portuguese"){
+        else if(dosNames[sortedIndices.sortIndices[i-1]] === "Portuguese"){
+            localStorage.setItem("ptdos", 0);
+        }
+        else if(dosNames[sortedIndices.sortIndices[i-1]] === "ruz"){
             localStorage.setItem("ptdos", 0);
         }
     });

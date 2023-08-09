@@ -64,6 +64,6 @@ if (localStorage.getItem("currentLanguage") === "pt") {
         },
         
     ]
-
+    
     lessonJSONData = [lesson1Json];
 }

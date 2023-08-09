@@ -28,7 +28,7 @@ function setQuestion() {
     currentQuestionNo = Math.round(Math.random() * (currentLessonJson.length - 1));
     selectedAnswer = undefined;
     endText.textContent = "";
-    hintButton.textContent = `Give Answer`;
+    hintButton.textContent = `Give your Hint`;
     confirmButton.textContent = "Confirm Answer";
     confirmButton.style.backgroundColor = "#c2f4c2";
     questionElements[0].textContent = currentLessonJson[currentQuestionNo].Content;
@@ -102,12 +102,16 @@ function checkIfCorrect() {
 }
 
 hintButton.addEventListener("click", function () {
-    hintButton.textContent = `Wait for the Answer...`;
-    setTimeout(showHint, 5000);
+    hintButton.textContent = `Wait for your Hint...`;
+    setTimeout(showHint, 3000);
 });
 
 function showHint() {
-    hintButton.textContent = currentLessonJson[currentQuestionNo].Answers;
+    hintButton.textContent = localStorage.getItem(`${localStorage.getItem("currentLanguage")}:${selected},${currentQuestionNo}`);
+    if(localStorage.getItem(`${localStorage.getItem("currentLanguage")}:${selected},${currentQuestionNo}`) === null || localStorage.getItem(`${localStorage.getItem("currentLanguage")}:${selected},${currentQuestionNo}`) === "")
+    {
+        hintButton.textContent = "You have not given yourself a hint.";
+    }
 }
 
 function shuffle(a) {
