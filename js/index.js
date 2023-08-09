@@ -2,6 +2,10 @@ if (localStorage.getItem("username") === null) {
     localStorage.setItem("username", "Bellangue Gardener");
 }
 
+if (localStorage.getItem("currentLanguage") === null) {
+    localStorage.setItem("currentLanguage", "fr");
+}
+
 if (localStorage.getItem("streak") === null) {
     localStorage.setItem("streak", 0);
 }
@@ -27,9 +31,15 @@ if (localStorage.getItem("ptdos") === null) {
 }
 let ptdos = +localStorage.getItem("ptdos")
 
+if (localStorage.getItem("rzdos") === null) {
+    localStorage.setItem("rzdos", 0);
+}
+let rzdos = +localStorage.getItem("rzdos")
 
-const dosNames = ["Dutch", "French", "Portuguese"]
-const dosValues = [nldos, frdos, ptdos]
+currentFlag.innerHTML = `<img class="centrePositionW stickyTop" src="images/Flags/${localStorage.getItem("currentLanguage")}.png"/>`;
+
+const dosNames = ["Dutch", "French", "Portuguese", "ruz"]
+const dosValues = [nldos, frdos, ptdos, rzdos]
 const sortedIndices = sortWithIndeces(dosValues);
 const dosValueElements = document.getElementsByClassName("dosValue");
 const dosNameElements = document.getElementsByClassName("dosName");

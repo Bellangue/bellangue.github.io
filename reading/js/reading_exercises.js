@@ -19,6 +19,9 @@ let totalQuestions = 0;
 
 setQuestion();
 
+const currentFlag = document.getElementById("currentFlag");
+currentFlag.innerHTML = `<img class="centrePositionW stickyTop" src="../images/Flags/${localStorage.getItem("currentLanguage")}.png"/>`;
+
 function setQuestion() {
     currentQuestionNo = Math.round(Math.random() * (currentLessonJson.length - 1));
     selectedAnswer = undefined;
