@@ -35,7 +35,7 @@ What is the error in this sentence?
         "Translation": " > "
     },
 */
-const lessonNameData = ["Welcome to the Course!", "Greetings 1", "People 1", "People 2", "Time 1", "Introductions 1", "People 3", "Numbers 1", "Numbers 1", "Numbers 2"];
+const lessonNameData = ["Welcome to the Course!", "Greetings 1", "People 1", "People 2", "Time 1", "Introductions 1", "People 3", "Numbers 1", "Numbers 1", "Numbers 2", "Numbers 3", "Numbers 4"];
 
 const lesson1Json = [
     {
@@ -910,5 +910,150 @@ const lesson10Json = [
     },
 ]
 
+const lesson11Json = [
+    {
+      "Content": "onze",
+      "Question": "Translate into English.",
+      "Answers": ["eleven"],
+      "Options": ["eleven", "four", "eighteen", "fifteen"],
+      "Translation": "eleven"
+    },
+    {
+      "Content": "douze",
+      "Question": "Translate into English.",
+      "Answers": ["twelve"],
+      "Options": ["twelve", "seventeen", "nine", "five"],
+      "Translation": "twelve"
+    },
+    {
+      "Content": "treize",
+      "Question": "Translate into English.",
+      "Answers": ["thirteen"],
+      "Options": ["thirteen", "ten", "sixteen", "three"],
+      "Translation": "thirteen"
+    },
+    {
+      "Content": "quatorze",
+      "Question": "Translate into English.",
+      "Answers": ["fourteen"],
+      "Options": ["fourteen", "two", "nineteen", "seven"],
+      "Translation": "fourteen"
+    },
+    {
+      "Content": "quinze",
+      "Question": "Translate into English.",
+      "Answers": ["fifteen"],
+      "Options": ["fifteen", "six", "eight", "one"],
+      "Translation": "fifteen"
+    },
+    {
+      "Content": "seize",
+      "Question": "Translate into English.",
+      "Answers": ["sixteen"],
+      "Options": ["sixteen", "seventeen", "thirteen", "five"],
+      "Translation": "sixteen"
+    },
+    {
+      "Content": "dix-sept",
+      "Question": "Translate into English.",
+      "Answers": ["seventeen"],
+      "Options": ["seventeen", "three", "ten", "four"],
+      "Translation": "seventeen"
+    },
+    {
+      "Content": "dix-huit",
+      "Question": "Translate into English.",
+      "Answers": ["eighteen"],
+      "Options": ["eighteen", "eight", "thirteen", "nineteen"],
+      "Translation": "eighteen"
+    },
+    {
+      "Content": "dix-neuf",
+      "Question": "Translate into English.",
+      "Answers": ["nineteen"],
+      "Options": ["nineteen", "sixteen", "two", "twelve"],
+      "Translation": "nineteen"
+    },
+    {
+      "Content": "vingt",
+      "Question": "Translate into English.",
+      "Answers": ["twenty"],
+      "Options": ["twenty", "fifteen", "eight", "seven"],
+      "Translation": "twenty"
+    }
+  ];
 
-const lessonJSONData = [lesson1Json, lesson2Json, lesson3Json, lesson4Json, lesson5Json, lesson6Json, lesson7Json, lesson8Json, lesson9Json, lesson10Json];
+const lesson12Json = [
+    {
+      "Content": "vingt et un",
+      "Question": "Translate into English.",
+      "Answers": ["twenty-one"],
+      "Options": ["twenty-one", "twenty-nine", "twenty-four", "twenty-five"],
+      "Translation": "twenty-one"
+    },
+    {
+      "Content": "vingt-deux",
+      "Question": "Translate into English.",
+      "Answers": ["twenty-two"],
+      "Options": ["nine", "twenty-two", "twenty", "thirty"],
+      "Translation": "twenty-two"
+    },
+    {
+      "Content": "vingt-trois",
+      "Question": "Translate into English.",
+      "Answers": ["twenty-three"],
+      "Options": ["twenty-three", "three", "sixteen", "nineteen"],
+      "Translation": "twenty-three"
+    },
+    {
+      "Content": "vingt-quatre",
+      "Question": "Translate into English.",
+      "Answers": ["twenty-four"],
+      "Options": ["fourteen", "twenty-four", "fourty", "four"],
+      "Translation": "twenty-four"
+    },
+    {
+      "Content": "vingt-cinq",
+      "Question": "Translate into English.",
+      "Answers": ["twenty-five"],
+      "Options": ["fifteen", "eighteen", "twenty-five", "seven"],
+      "Translation": "twenty-five"
+    },
+    {
+      "Content": "vingt-six",
+      "Question": "Translate into English.",
+      "Answers": ["twenty-six"],
+      "Options": ["twenty-six", "twenty-seven", "twenty-two", "twelve"],
+      "Translation": "twenty-six"
+    },
+    {
+      "Content": "vingt-sept",
+      "Question": "Translate into English.",
+      "Answers": ["twenty-seven"],
+      "Options": ["twenty-seven", "eleven", "ten", "fourteen"],
+      "Translation": "twenty-seven"
+    },
+    {
+      "Content": "vingt-huit",
+      "Question": "Translate into English.",
+      "Answers": ["twenty-eight"],
+      "Options": ["eighteen", "twenty-eight", "twenty-three", "nineteen"],
+      "Translation": "twenty-eight"
+    },
+    {
+      "Content": "vingt-neuf",
+      "Question": "Translate into English.",
+      "Answers": ["twenty-nine"],
+      "Options": ["twenty-nine", "nineteen", "nine", "fourteen"],
+      "Translation": "twenty-nine"
+    },
+    {
+      "Content": "trente",
+      "Question": "Translate into English.",
+      "Answers": ["thirty"],
+      "Options": ["thirty", "twenty", "ten", "zero"],
+      "Translation": "thirty"
+    }
+  ];
+
+const lessonJSONData = [lesson1Json, lesson2Json, lesson3Json, lesson4Json, lesson5Json, lesson6Json, lesson7Json, lesson8Json, lesson9Json, lesson10Json, lesson11Json, lesson12Json];
