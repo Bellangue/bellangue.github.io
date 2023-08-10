@@ -28,7 +28,7 @@ What is the error in this sentence?
         "Content": "",
         "Question": "What is the error in this sentence?",
         "Answers": [""],
-        "Options": ["The gender is wrong.",
+        "Options": ["The class is wrong.",
             "The spelling is wrong.",
             "It is conjugated incorrectly.",
             "There is no mistake."],
@@ -80,8 +80,38 @@ if (localStorage.getItem("currentLanguage") === "rz") {
             "Options": ["wind",
                 "smoke",
                 "fire",
-                "breath"],
+                "mist"],
             "Translation": "I blow wind."
+        },        
+        {
+            "Content": "duk page vus pagirum.",
+            "Question": "What do I do?",
+            "Answers": ["I drink the water."],
+            "Options": ["I drink the water.",
+                "I catch the ball",
+                "I slay the dragon.",
+                "I find the sword."],
+            "Translation": "I drink the water."
+        },
+        {
+            "Content": "ʒlot vus zus duru.",
+            "Question": "What is the error in this sentence?",
+            "Answers": ["It is in the wrong order."],
+            "Options": ["The class is wrong.",
+                "The spelling or cojugation is wrong.",
+                "It is in the wrong order.",
+                "There is no mistake."],
+            "Translation": "vus zus > zus vus (He smells the smoke)"
+        },
+        {
+            "Content": "duk zus durum.",
+            "Question": "Which word means smoke?",
+            "Answers": ["zus"],
+            "Options": ["zus",
+                "duk",
+                "durum",
+                "none of them"],
+            "Translation": "I smell smoke."
         },
     ]
     
