@@ -822,6 +822,61 @@ if (localStorage.getItem("currentLanguage") === "fr") {
                 "Non, je suis Pierre."],
             "Translation": "Do you have three animals? Yes, I have two cats and one fish."
         },
+        {
+            "Content": "Il a quatre amis.",
+            "Question": "How many friends does he have?",
+            "Answers": ["four"],
+            "Options": [
+                "four",
+                "nine",
+                "eight",
+                "three"],
+            "Translation": "He has four friends."
+        },
+        {
+            "Content": "Elle a cinq jeux vidéo.",
+            "Question": "How many video games does she have?",
+            "Answers": ["five"],
+            "Options": [
+                "five",
+                "seven",
+                "two",
+                "eight"],
+            "Translation": "She has five video games."
+        },
+        {
+            "Content": "Ils ont six stylos.",
+            "Question": "How many pens do they have?",
+            "Answers": ["six"],
+            "Options": [
+                "six",
+                "seven",
+                "one",
+                "nine"],
+            "Translation": "They have six pens."
+        },
+        {
+            "Content": "Elles ont sept cahiers.",
+            "Question": "How many notebooks do they have?",
+            "Answers": ["seven"],
+            "Options": [
+                "seven",
+                "nine",
+                "one",
+                "two"],
+            "Translation": "They have seven notebooks."
+        },
+        {
+            "Content": "J'ai ___ carte.",
+            "Question": "Select the correct number:",
+            "Answers": ["une"],
+            "Options": [
+                "une",
+                "deux",
+                "trois",
+                "quatre"],
+            "Translation": "I have one card."
+        },
     ]
 
     lesson11Json = [
@@ -972,87 +1027,75 @@ if (localStorage.getItem("currentLanguage") === "fr") {
 
     lesson13Json = [
         {
-            "Content": "Le lundi, j'ai cours de français.",
+            "Content": "lundi",
             "Question": "Translate into English.",
-            "Answers": ["On Monday, I have French class."],
-            "Options": [
-                "On Monday, I have French class.",
-                "I like to go shopping on Mondays.",
-                "My favorite day is Sunday.",
-                "I eat pizza every Tuesday."
-            ],
-            "Translation": "On Monday, I have French class."
+            "Answers": ["Monday"],
+            "Options": ["Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday"],
+            "Translation": "Monday"
         },
         {
-            "Content": "Nous avons généralement des réunions le mardi.",
+            "Content": "mardi",
             "Question": "Translate into English.",
-            "Answers": ["We usually have meetings on Tuesdays."],
-            "Options": [
-                "We usually have meetings on Tuesdays.",
-                "Thursdays are good for hiking.",
-                "I play soccer every Wednesday.",
-                "She watches movies on Sundays."
-            ],
-            "Translation": "We usually have meetings on Tuesdays."
+            "Answers": ["Tuesday"],
+            "Options": ["Tuesday",
+                "Friday",
+                "Wednesday",
+                "Saturday"],
+            "Translation": "Tuesday"
         },
         {
-            "Content": "Mercredi est le milieu de la semaine.",
+            "Content": "mercredi",
             "Question": "Translate into English.",
-            "Answers": ["Wednesday is the middle of the week."],
-            "Options": [
-                "Wednesday is the middle of the week.",
-                "I like to read books on Saturdays.",
-                "Fridays are for going to the beach.",
-                "He goes jogging every Thursday."
-            ],
-            "Translation": "Wednesday is the middle of the week."
+            "Answers": ["Wednesday"],
+            "Options": ["Wednesday",
+                "Sunday",
+                "Monday",
+                "Saturday"],
+            "Translation": "Wednesday"
         },
         {
-            "Content": "J'aime cuisiner le dîner le jeudi.",
+            "Content": "jeudi",
             "Question": "Translate into English.",
-            "Answers": ["I enjoy cooking dinner on Thursdays."],
-            "Options": [
-                "I enjoy cooking dinner on Thursdays.",
-                "I go to the gym on Mondays.",
-                "She visits her parents on Sundays.",
-                "They have a party every Saturday."
-            ],
-            "Translation": "I enjoy cooking dinner on Thursdays."
+            "Answers": ["Thursday"],
+            "Options": ["Thursday",
+                "Friday",
+                "Monday",
+                "Sunday"],
+            "Translation": "Thursday"
         },
         {
-            "Content": "Nous sortons boire un verre le vendredi.",
+            "Content": "vendredi",
             "Question": "Translate into English.",
-            "Answers": ["We go out for drinks on Fridays."],
-            "Options": [
-                "We go out for drinks on Fridays.",
-                "I play the guitar on Wednesdays.",
-                "He studies on Saturdays.",
-                "She dances on Tuesdays."
-            ],
-            "Translation": "We go out for drinks on Fridays."
+            "Answers": ["Friday"],
+            "Options": ["Friday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday"],
+            "Translation": "Friday"
         },
         {
-            "Content": "Je me détends et regarde des films le samedi.",
+            "Content": "samedi",
             "Question": "Translate into English.",
-            "Answers": ["I relax and watch movies on Saturdays."],
-            "Options": [
-                "I relax and watch movies on Saturdays.",
-                "We go shopping on Sundays.",
-                "He works hard on Mondays.",
-                "She exercises on Wednesdays."
-            ],
-            "Translation": "I relax and watch movies on Saturdays."
+            "Answers": ["Saturday"],
+            "Options": ["Saturday",
+                "Monday",
+                "Wednesday",
+                "Friday"],
+            "Translation": "Saturday"
         },
         {
-            "Content": "La dimanche",
-            "Question": "What is the error in this sentence?",
-            "Answers": ["The gender is wrong."],
-            "Options": ["The gender is wrong.",
-                "The spelling is wrong.",
-                "It is conjugated incorrectly.",
-                "There is no mistake."],
-            "Translation": "La > Le"
-        }
+            "Content": "dimache",
+            "Question": "Translate into English.",
+            "Answers": ["Sunday"],
+            "Options": ["Sunday",
+                "Saturday",
+                "Thursday",
+                "Tuesday"],
+            "Translation": "Sunday"
+        },
     ];
 
     lessonJSONData = [lesson1Json, lesson2Json, lesson3Json, lesson4Json, lesson5Json, lesson6Json, lesson7Json, lesson8Json, lesson9Json, lesson10Json, lesson11Json, lesson12Json, lesson13Json];
