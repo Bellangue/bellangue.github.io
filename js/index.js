@@ -26,6 +26,11 @@ if (localStorage.getItem("frdos") === null) {
 }
 let frdos = +localStorage.getItem("frdos")
 
+if (localStorage.getItem("dedos") === null) {
+    localStorage.setItem("dedos", 0);
+}
+let dedos = +localStorage.getItem("dedos")
+
 if (localStorage.getItem("ptdos") === null) {
     localStorage.setItem("ptdos", 0);
 }
@@ -35,11 +40,6 @@ if (localStorage.getItem("rzdos") === null) {
     localStorage.setItem("rzdos", 0);
 }
 let rzdos = +localStorage.getItem("rzdos")
-
-if (localStorage.getItem("dedos") === null) {
-    localStorage.setItem("dedos", 0);
-}
-let dedos = +localStorage.getItem("dedos")
 
 //tree
 //nl
@@ -52,6 +52,11 @@ if (localStorage.getItem("frreading") === null) {
     localStorage.setItem("frreading", 0);
 }
 
+//de
+if (localStorage.getItem("dereading") === null) {
+    localStorage.setItem("dereading", 0);
+}
+
 //pt
 if (localStorage.getItem("ptreading") === null) {
     localStorage.setItem("ptreading", 0);
@@ -62,15 +67,11 @@ if (localStorage.getItem("rzreading") === null) {
     localStorage.setItem("rzreading", 0);
 }
 
-//de
-if (localStorage.getItem("dereading") === null) {
-    localStorage.setItem("dereading", 0);
-}
 
 currentFlag.innerHTML = `<img class="centrePositionW stickyTop" src="images/Flags/${localStorage.getItem("currentLanguage")}.png"/>`;
 
-const dosNames = ["Dutch", "French", "Portuguese", "ruz", "German"]
-const dosValues = [nldos, frdos, ptdos, rzdos, dedos]
+const dosNames = ["Dutch", "French", "German", "Portuguese", "ruz"]
+const dosValues = [nldos, frdos, dedos, ptdos, rzdos]
 const sortedIndices = sortWithIndeces(dosValues);
 const dosValueElements = document.getElementsByClassName("dosValue");
 const dosNameElements = document.getElementsByClassName("dosName");
