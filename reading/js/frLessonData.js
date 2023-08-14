@@ -157,7 +157,7 @@ if (localStorage.getItem("currentLanguage") === "fr") {
         {
             "Content": "Bonne nuit.",
             "Question": "Translate into English.",
-            "Answers": ["Hood night."],
+            "Answers": ["Good night."],
             "Options": ["Good night.",
                 "Good evening.",
                 "Good day.",

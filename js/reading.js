@@ -7,12 +7,38 @@ const repetitions = 3;
 const counter = localStorage.getItem(`${localStorage.getItem("currentLanguage")}reading`);
 const lessonElements = document.getElementsByClassName("lessonIcon");
 
-console.log(counter);
-
 for (let i = 0; i < lessonElements.length; ++i) {
+
+    let timesDone = -1;
+    timesDone = counter - (i * repetitions);
+    if (timesDone > 3) timesDone = 3;
+    if (timesDone < 0) timesDone = 0;
+    if (timesDone >= 1) {
+        lessonElements[i].style = `
+        border-radius: 50%;
+        background-color: #c2f4c2;
+        border: 3.5px solid #c2c2f4;`
+
+    }
+    if (timesDone === 3) {
+        lessonElements[i].style = `
+        rotate: 360deg;
+        transition: rotate 1s;
+        border-radius: 50%;
+        background-color: #c2c2f4;
+        border: 3.5px solid #c2f4c2;`
+    }
+
+
+
+
     lessonElements[i].addEventListener("click", function () {
-        lessonBar.textContent = `${i + 1}) ${lessonNameData[i]} 3/3`;
         selected = i;
+        let timesDone = -1;
+        timesDone = counter - (selected * repetitions);
+        if (timesDone > 3) timesDone = 3;
+        if (timesDone < 0) timesDone = 0;
+        lessonBar.textContent = `${i + 1}) ${lessonNameData[i]} ${timesDone}/3`;
     });
 }
 
@@ -20,7 +46,7 @@ lessonBar.addEventListener("click", function () {
     if (localStorage.getItem("username") === null) {
         alert("You have not got an account. Go to the Home screen to automatically get one.")
     } else if (lessonBar.textContent !== "Select a Lesson to Begin!") {
-        if (+counter >= selected*repetitions) {
+        if (+counter >= selected * repetitions) {
             sessionStorage.setItem("selected", selected)
             window.location.href = "reading_exercises.html";
         } else {
