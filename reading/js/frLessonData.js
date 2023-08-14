@@ -99,7 +99,7 @@ if (localStorage.getItem("currentLanguage") === "fr") {
                 "Salut! Comment ça va?",
                 "Je t'aime.",
                 "Tu es moche."],
-            "Translation": "Do you speak English?"
+            "Translation": "Do you speak English? No I don't speak English."
         },
         {
             "Content": "Bienvenue au cours!",

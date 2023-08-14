@@ -66,7 +66,7 @@ confirmButton.addEventListener("click", function () {
                 confirmButton.textContent = "Next...";
                 ++doneQuestions;
             } else {
-                endText.textContent = "Incorrect! " + currentLessonJson[currentQuestionNo].Translation;
+                endText.textContent = "Incorrect! " + currentLessonJson[currentQuestionNo].Answers + ": " + currentLessonJson[currentQuestionNo].Translation;
                 endText.style.color = "red";
                 confirmButton.textContent = "Next...";
                 confirmButton.style.backgroundColor = "#ee7070";

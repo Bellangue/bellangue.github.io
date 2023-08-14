@@ -62,7 +62,56 @@ if (localStorage.getItem("currentLanguage") === "pt") {
                 "A gente é boa."],
             "Translation": "Hello. Is everything alright? Yes. Everything is alright."
         },
-        
+        {
+            "Content": "o menino",
+            "Question": "Translate into English.",
+            "Answers": ["the boy"],
+            "Options": ["the boy",
+                "the woman",
+                "the girl",
+                "the man"],
+            "Translation": "the boy"
+        },
+        {
+            "Content": "Olá. Como você se chama?",
+            "Question": "Select your reply.",
+            "Answers": ["Eu me chamo Ana."],
+            "Options": ["Eu me chamo Ana.",
+                "Eu não falo português.",
+                "Eu gosto de crocodilos.",
+                "Eu sou pão."],
+            "Translation": "Hello. What are you called? I am called Ana."
+        },
+        {
+            "Content": "Bom dia.",
+            "Question": "Translate into English.",
+            "Answers": "Have a nice day.",
+            "Options": ["Have a nice day.",
+                "Have a good cry.",
+                "Have a good death.",
+                "Read a nice jorney.",],
+            "Translation": "Have a nice day."
+        },
+        {
+            "Content": "Você fala inglês?",
+            "Question": "Select your reply.",
+            "Answers": ["Eu não falo inglês."],
+            "Options": ["Eu não falo inglês.",
+                "Oi! Tudo bem?",
+                "Eu te amo.",
+                "Você é chato."],
+            "Translation": "Do you speak English? I don't speak English."
+        },
+        {
+            "Content": "Bem-vindo ao curso!",
+            "Question": "Translate into English.",
+            "Answers": ["Welcome to the course!"],
+            "Options": ["Welcome to the course!",
+                "Run away whilst you still can!",
+                "I like chips!",
+                "I am ready!"],
+            "Translation": "Welcome to the course!"
+        },
     ]
     
     lessonJSONData = [lesson1Json];
