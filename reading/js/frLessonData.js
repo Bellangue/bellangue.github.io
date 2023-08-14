@@ -512,18 +512,18 @@ if (localStorage.getItem("currentLanguage") === "fr") {
 
     lesson7Json = [
         {
-            "Content": "Elle étudie l'histoire. _____ aime lire.",
+            "Content": "Elle est étudiante. _____ aime l'école.",
             "Question": "Choose the correct pronoun:",
             "Answers": ["Elle"],
             "Options": ["Elle", "Il", "Ils", "Elles"],
-            "Translation": "She studies history. She likes to read."
+            "Translation": "She is a student. She likes school."
         },
         {
-            "Content": "Nous allons au cinéma. _____ allons regarder un film.",
+            "Content": "Nous allons chez Pierre. _____ sommes amis.",
             "Question": "Choose the correct pronoun:",
             "Answers": ["Nous"],
             "Options": ["Nous", "Tu", "Vous", "Ils"],
-            "Translation": "We are going to the cinema. We are going to watch a film."
+            "Translation": "We are going to Pierre's place. We are friends."
         },
         {
             "Content": "Marc est mon ami. _____ est très sympa.",
@@ -533,32 +533,32 @@ if (localStorage.getItem("currentLanguage") === "fr") {
             "Translation": "Marc is my friend. He is very nice."
         },
         {
-            "Content": "Paul parle au téléphone. _____ parle avec sa mère.",
+            "Content": "Paul parle anglais. _____ parle avec sa mère.",
             "Question": "Choose the correct pronoun:",
             "Answers": ["Il"],
             "Options": ["Il", "Elle", "Ils", "Elles"],
-            "Translation": "Paul is talking on the phone. He is talking with his mother."
+            "Translation": "Paul is talking English. He is talking with his mother."
         },
         {
-            "Content": "Cheryl et moi aimons lire. _____ aimons les romans.",
+            "Content": "Cheryl et moi sommes amies. _____ aimons jouer.",
             "Question": "Choose the correct pronoun:",
             "Answers": ["Nous"],
             "Options": ["Nous", "Tu", "Vous", "Ils"],
-            "Translation": "We love to read. We love novels."
+            "Translation": "Cheryl and I are friends. We love to play."
         },
         {
-            "Content": "Le chat dort. _____ dort paisiblement.",
+            "Content": "___ parlent.",
             "Question": "Choose the correct pronoun:",
-            "Answers": ["Il"],
-            "Options": ["Il", "Elle", "Ils", "Elles"],
-            "Translation": "The cat is sleeping. He is sleeping peacefully."
+            "Answers": ["Ils"],
+            "Options": ["Ils", "Elle", "Je", "Nous"],
+            "Translation": "They speak."
         },
         {
-            "Content": "______ parle couramment le français.",
+            "Content": "______ parle le français.",
             "Question": "Choose the correct pronoun:",
             "Answers": ["Je"],
             "Options": ["Je", "Nous", "Vous", "Elles"],
-            "Translation": "I speak French fluently."
+            "Translation": "I speak French."
         },
     ]
 
@@ -792,124 +792,35 @@ if (localStorage.getItem("currentLanguage") === "fr") {
 
     lesson10Json = [
         {
-            "Content": "Quatre personnes sont assises à la table.",
-            "Question": "Translate into English:",
-            "Answers": ["Four people are sitting at the table."],
-            "Options": [
-                "Four people are sitting at the table.",
-                "Two chairs are near the window.",
-                "The cat is playing in the garden.",
-                "I have three apples."
-            ],
-            "Translation": "Four people are sitting at the table."
+            "Content": "J'ai un chat.",
+            "Question": "What is the error in this sentence?",
+            "Answers": ["There is no mistake."],
+            "Options": ["The gender is wrong.",
+                "The spelling is wrong.",
+                "It is conjugated incorrectly.",
+                "There is no mistake."],
+            "Translation": "I have a cat."
         },
         {
-            "Content": "Mon frère a deux chiens très mignons.",
-            "Question": "Translate into English:",
-            "Answers": ["My brother has two very cute dogs."],
-            "Options": [
-                "My brother has two very cute dogs.",
-                "The birds are flying in the sky.",
-                "I like to swim in the river.",
-                "There are five books on the shelf."
-            ],
-            "Translation": "My brother has two very cute dogs."
+            "Content": "J'ai deux chien.",
+            "Question": "What is the error in this sentence?",
+            "Answers": ["There is no mistake."],
+            "Options": ["The gender is wrong.",
+                "The spelling is wrong.",
+                "It is conjugated incorrectly.",
+                "There is no mistake."],
+            "Translation": "chien > chiens (I have two dogs.)"
         },
         {
-            "Content": "Elle danse avec une amie.",
-            "Question": "Translate into English:",
-            "Answers": ["She is dancing with one friend."],
+            "Content": "Tu as trois animaux?",
+            "Question": "Select your reply.",
+            "Answers": ["Oui, j'ai deux chats et un poisson."],
             "Options": [
-                "She is dancing with one friend.",
-                "He likes to read books.",
-                "We have four bicycles.",
-                "The sun is shining brightly."
-            ],
-            "Translation": "She is dancing with one friend."
-        },
-        {
-            "Content": "Nous avons une réunion à huit heures du matin.",
-            "Question": "Translate into English:",
-            "Answers": ["We have a meeting at eight in the morning."],
-            "Options": [
-                "We have a meeting at eight in the morning.",
-                "I am playing football with my brother.",
-                "There are six chairs in the living room.",
-                "The train arrives at seven."
-            ],
-            "Translation": "We have a meeting at eight in the morning."
-        },
-        {
-            "Content": "Il reste neuf biscuits dans la boîte.",
-            "Question": "Translate into English:",
-            "Answers": ["There are nine biscuits left in the box."],
-            "Options": [
-                "There are nine biscuits left in the box.",
-                "She sings beautifully on the stage.",
-                "I have two brothers and one sister.",
-                "They are watching a movie."
-            ],
-            "Translation": "There are nine biscuits left in the box."
-        },
-        {
-            "Content": "Le bus arrive dans dix minutes.",
-            "Question": "Translate into English:",
-            "Answers": ["The bus arrives in ten minutes."],
-            "Options": [
-                "The bus arrives in ten minutes.",
-                "I like to play the guitar.",
-                "She has three red dresses.",
-                "We are going to the park."
-            ],
-            "Translation": "The bus arrives in ten minutes."
-        },
-        {
-            "Content": "Elle a cinq ans aujourd'hui.",
-            "Question": "Translate into English:",
-            "Answers": ["She is five years old today."],
-            "Options": [
-                "She is five years old today.",
-                "The teacher is writing on the board.",
-                "We have six white shirts.",
-                "The flowers bloom in the spring."
-            ],
-            "Translation": "She is five years old today."
-        },
-        {
-            "Content": "Je vais à la plage avec trois amis.",
-            "Question": "Translate into English:",
-            "Answers": ["I am going to the beach with three friends."],
-            "Options": [
-                "I am going to the beach with three friends.",
-                "They play soccer in the park.",
-                "The clock strikes nine.",
-                "We have three cats at home."
-            ],
-            "Translation": "I am going to the beach with three friends."
-        },
-        {
-            "Content": "Il y a six oiseaux dans l'arbre.",
-            "Question": "Translate into English:",
-            "Answers": ["There are six birds in the tree."],
-            "Options": [
-                "There are six birds in the tree.",
-                "The sun is shining brightly.",
-                "She has three blue shirts.",
-                "We are going to the beach."
-            ],
-            "Translation": "There are six birds in the tree."
-        },
-        {
-            "Content": "Nous avons sept jours dans la semaine.",
-            "Question": "Translate into English:",
-            "Answers": ["We have seven days in the week."],
-            "Options": [
-                "We have seven days in the week.",
-                "He likes to read books.",
-                "I am buying seven books at the bookstore.",
-                "They are watching a movie."
-            ],
-            "Translation": "We have seven days in the week."
+                "Oui, j'ai deux chats et un poisson.",
+                "Oui, j'ai une fille.",
+                "Non, j'ai une chien et un garçon.",
+                "Non, je suis Pierre."],
+            "Translation": "Do you have three animals? Yes, I have two cats and one fish."
         },
     ]
 
