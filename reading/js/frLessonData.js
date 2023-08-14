@@ -822,6 +822,61 @@ if (localStorage.getItem("currentLanguage") === "fr") {
                 "Non, je suis Pierre."],
             "Translation": "Do you have three animals? Yes, I have two cats and one fish."
         },
+        {
+            "Content": "Il a quatre amis.",
+            "Question": "How many friends does he have?",
+            "Answers": ["four"],
+            "Options": [
+                "four",
+                "nine",
+                "eight",
+                "three"],
+            "Translation": "He has four friends."
+        },
+        {
+            "Content": "Elle a cinq jeux vidéo.",
+            "Question": "How many video games does she have?",
+            "Answers": ["five"],
+            "Options": [
+                "five",
+                "seven",
+                "two",
+                "eight"],
+            "Translation": "She has five video games."
+        },
+        {
+            "Content": "Ils ont six stylos.",
+            "Question": "How many pens do they have?",
+            "Answers": ["six"],
+            "Options": [
+                "six",
+                "seven",
+                "one",
+                "nine"],
+            "Translation": "They have six pens."
+        },
+        {
+            "Content": "Elles ont sept cahiers.",
+            "Question": "How many notebooks do they have?",
+            "Answers": ["seven"],
+            "Options": [
+                "seven",
+                "nine",
+                "one",
+                "two"],
+            "Translation": "They have seven notebooks."
+        },
+        {
+            "Content": "J'ai ___ carte.",
+            "Question": "Select the correct number:",
+            "Answers": ["une"],
+            "Options": [
+                "une",
+                "deux",
+                "trois",
+                "quatre"],
+            "Translation": "I have one card."
+        },
     ]
 
     lesson11Json = [
