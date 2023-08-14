@@ -34,6 +34,28 @@ let ptdos = +localStorage.getItem("ptdos")
 if (localStorage.getItem("rzdos") === null) {
     localStorage.setItem("rzdos", 0);
 }
+
+//tree
+//nl
+if (localStorage.getItem("nlreading") === null) {
+    localStorage.setItem("nlreading", 0);
+}
+
+//fr
+if (localStorage.getItem("frreading") === null) {
+    localStorage.setItem("frreading", 0);
+}
+
+//pt
+if (localStorage.getItem("ptreading") === null) {
+    localStorage.setItem("ptreading", 0);
+}
+
+//rz
+if (localStorage.getItem("rzreading") === null) {
+    localStorage.setItem("rzreading", 0);
+}
+
 let rzdos = +localStorage.getItem("rzdos")
 
 currentFlag.innerHTML = `<img class="centrePositionW stickyTop" src="images/Flags/${localStorage.getItem("currentLanguage")}.png"/>`;

@@ -8,10 +8,11 @@ const snailPicture = document.getElementById("snailPicture");
 snailPicture.style.display = 'none';
 
 var selected = sessionStorage.getItem("selected");
+const counter = localStorage.getItem(`${localStorage.getItem("currentLanguage")}reading`);
 
 let currentLessonJson = lessonJSONData[selected];
 let currentQuestionNo;
-
+const repetitions = 3;
 
 var selectedAnswer;
 
@@ -84,6 +85,9 @@ confirmButton.addEventListener("click", function () {
             localStorage.setItem(`${currentLanguage}dos`, currentDos + dosEarnt);
             snailPicture.style.display = '';
 
+            if(+counter < (selected + 1)*repetitions){
+                localStorage.setItem(`${localStorage.getItem("currentLanguage")}reading`, +counter + 1)
+            }
         } else {
             setQuestion();
         }
