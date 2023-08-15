@@ -37,7 +37,7 @@ What is the error in this sentence?
 */
 
 if (localStorage.getItem("currentLanguage") === "pt") {
-    lessonNameData = ["Welcome to the Course!", "Greetings 1", "People 1"];
+    lessonNameData = ["Welcome to the Course!", "Greetings 1", "People 1", "People 2"];
 
     lesson1Json = [
         {
@@ -113,7 +113,7 @@ if (localStorage.getItem("currentLanguage") === "pt") {
             "Translation": "Welcome to the course!"
         },
     ]
-    
+
     lesson2Json = [
         {
             "Content": "Olá. Tudo bem?",
@@ -271,5 +271,89 @@ if (localStorage.getItem("currentLanguage") === "pt") {
 
     ]
 
-    lessonJSONData = [lesson1Json, lesson2Json, lesson3Json];
+    lesson4Json = [
+
+        {
+            "Content": "Você é um menino?",
+            "Question": "Translate into English.",
+            "Answers": ["Are you a boy?"],
+            "Options": ["Are you a boy?",
+                "Are you a woman?",
+                "Are you a girl?",
+                "Are you a man?"],
+            "Translation": "Are you a boy?"
+        },
+        {
+            "Content": "Você é um homem?",
+            "Question": "Translate into English.",
+            "Answers": ["Are you a man?"],
+            "Options": ["Are you a man?",
+                "Are you a woman?",
+                "Are you a girl?",
+                "Are you a boy?"],
+            "Translation": "Are you a man?"
+        },
+        {
+            "Content": "Você é uma menina?",
+            "Question": "Translate into English.",
+            "Answers": ["Are you a girl?"],
+            "Options": ["Are you a girl?",
+                "Are you a woman?",
+                "Are you a man?",
+                "Are you a boy?"],
+            "Translation": "Are you a girl?"
+        },
+        {
+            "Content": "Você é uma mulher?",
+            "Question": "Translate into English.",
+            "Answers": ["Are you a woman?"],
+            "Options": ["Are you a woman?",
+                "Are you a girl?",
+                "Are you a man?",
+                "Are you a boy?"],
+            "Translation": "Are you a woman?"
+        },
+        {
+            "Content": "Você é um menino?",
+            "Question": "Select your reply.",
+            "Answers": ["Sim, sou um menino."],
+            "Options": ["Sim, sou um menino.",
+                "Sim, és um menino.",
+                "Sim, eu é um menino.",
+                "Sim, eu são um menino.",],
+            "Translation": "Are you a boy? Yes, I am a boy."
+        },
+        {
+            "Content": "Você é um homem?",
+            "Question": "Select your reply.",
+            "Answers": ["Sim, eu sou um homem."],
+            "Options": ["Sim, eu sou um homem.",
+                "Sim, eu és um homem.",
+                "Sim, eu é um homem.",
+                "Sim, eu são um homem.",],
+            "Translation": "Are you a man? Yes, I am a man."
+        },
+        {
+            "Content": "Você é uma menina?",
+            "Question": "Select your reply.",
+            "Answers": ["Sim, sou uma menina."],
+            "Options": ["Sim, sou uma menina.",
+                "Sim, és uma menina.",
+                "Sim, eu é uma menina.",
+                "Sim, eu são uma menina.",],
+            "Translation": "Are you a girl? Yes, I am a girl."
+        },
+        {
+            "Content": "Você é uma mulher?",
+            "Question": "Select your reply.",
+            "Answers": ["Sim, eu sou uma mulher."],
+            "Options": ["Sim, eu sou uma mulher.",
+                "Sim, eu és uma mulher.",
+                "Sim, eu é uma mulher.",
+                "Sim, eu são uma mulher.",],
+            "Translation": "Are you a woman? Yes, I am a woman."
+        },
+   ]
+
+    lessonJSONData = [lesson1Json, lesson2Json, lesson3Json, lesson4Json];
 }
