@@ -70,7 +70,7 @@ if (localStorage.getItem("currentLanguage") === "rz") {
                 "ʒlot",
                 "zus",
                 "vus",
-                "suru"],
+                "duru"],
             "Translation": "He smells the smoke."
         },
         {
