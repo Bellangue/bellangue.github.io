@@ -37,7 +37,7 @@ What is the error in this sentence?
 */
 
 if (localStorage.getItem("currentLanguage") === "pt") {
-    lessonNameData = ["Welcome to the Course!", "Greetings 1"];
+    lessonNameData = ["Welcome to the Course!", "Greetings 1", "People 1"];
 
     lesson1Json = [
         {
@@ -187,5 +187,89 @@ if (localStorage.getItem("currentLanguage") === "pt") {
         },
     ]
 
-    lessonJSONData = [lesson1Json, lesson2Json];
+    lesson3Json = [
+        {
+            "Content": "o menino",
+            "Question": "Translate into English.",
+            "Answers": ["the boy"],
+            "Options": ["the boy",
+                "the woman",
+                "the girl",
+                "the man"],
+            "Translation": "the boy"
+        },
+        {
+            "Content": "o homem",
+            "Question": "Translate into English.",
+            "Answers": ["the man"],
+            "Options": ["the man",
+                "the woman",
+                "the girl",
+                "the boy"],
+            "Translation": "the man"
+        },
+        {
+            "Content": "a menina",
+            "Question": "Translate into English.",
+            "Answers": ["the girl"],
+            "Options": ["the girl",
+                "the woman",
+                "the boy",
+                "the man"],
+            "Translation": "the girl"
+        },
+        {
+            "Content": "a mulher",
+            "Question": "Translate into English.",
+            "Answers": ["the woman"],
+            "Options": ["the woman",
+                "the girl",
+                "the boy",
+                "the man"],
+            "Translation": "the woman"
+        },
+        {
+            "Content": "Sou um menino.",
+            "Question": "Translate into English.",
+            "Answers": ["I am a boy."],
+            "Options": ["I am a boy.",
+                "I am a woman.",
+                "I am a girl.",
+                "I am a man."],
+            "Translation": "I am a boy."
+        },
+        {
+            "Content": "Eu sou um homem.",
+            "Question": "Translate into English.",
+            "Answers": ["I am a man."],
+            "Options": ["I am a man.",
+                "I am a woman.",
+                "I am a girl.",
+                "I am a boy."],
+            "Translation": "I am a man."
+        },
+        {
+            "Content": "Sou uma menina.",
+            "Question": "Translate into English.",
+            "Answers": ["I am a girl."],
+            "Options": ["I am a girl.",
+                "I am a woman.",
+                "I am a man.",
+                "I am a boy."],
+            "Translation": "I am a girl."
+        },
+        {
+            "Content": "Eu sou uma mulher.",
+            "Question": "Translate into English.",
+            "Answers": ["I am a woman."],
+            "Options": ["I am a woman.",
+                "I am a man.",
+                "I am a girl.",
+                "I am a boy."],
+            "Translation": "I am a woman."
+        },
+
+    ]
+
+    lessonJSONData = [lesson1Json, lesson2Json, lesson3Json];
 }
