@@ -172,7 +172,7 @@ if (localStorage.getItem("currentLanguage") === "fr") {
                 "The spelling is wrong.",
                 "It is conjugated incorrectly.",
                 "There is no mistake."],
-            "Translation": "Au revwar > Au revoir (goodbye)"
+            "Translation": "Au revwar > Au revoir (Goodbye. See you soon.)"
         },
         {
             "Content": "Coucou! Je vais comme ci, comme ça.",

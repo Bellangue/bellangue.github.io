@@ -37,7 +37,7 @@ What is the error in this sentence?
 */
 
 if (localStorage.getItem("currentLanguage") === "pt") {
-    lessonNameData = ["Welcome to the Course!"];
+    lessonNameData = ["Welcome to the Course!", "Greetings 1"];
 
     lesson1Json = [
         {
@@ -99,7 +99,7 @@ if (localStorage.getItem("currentLanguage") === "pt") {
             "Options": ["Eu não falo inglês.",
                 "Oi! Tudo bem?",
                 "Eu te amo.",
-                "Você é chato."],
+                "Você é feio."],
             "Translation": "Do you speak English? I don't speak English."
         },
         {
@@ -114,5 +114,78 @@ if (localStorage.getItem("currentLanguage") === "pt") {
         },
     ]
     
-    lessonJSONData = [lesson1Json];
+    lesson2Json = [
+        {
+            "Content": "Olá. Tudo bem?",
+            "Question": "Translate into English.",
+            "Answers": ["Hello. How is it going?"],
+            "Options": ["Hello. How is it going?",
+                "Hello. Have a nice day.",
+                "Goodbye. I like you.",
+                "Goodbye. I don't want to see you."],
+            "Translation": "Hello. How is it going?"
+        },
+        {
+            "Content": "Tchau. Até mais.",
+            "Question": "What is happening?",
+            "Answers": ["The person you are talking to is leaving."],
+            "Options": ["The person you are talking to is leaving.",
+                "You are meeting up with someone.",
+                "You are confessing your love to a friend.",
+                "You are talking to someone in the army."],
+            "Translation": "Bye. See you soon."
+        },
+        {
+            "Content": "Tudo bem, obrigado. Você também?",
+            "Question": "Select your reply.",
+            "Answers": ["Não muito bem."],
+            "Options": ["Não muito bem.",
+                "Ele tem pizza.",
+                "Eu não gosto da gente.",
+                "Eles querem dançar."],
+            "Translation": "It is going well, thanks. And you? I am not doing well."
+        },
+        {
+            "Content": "Como vai?",
+            "Question": "Translate into English.",
+            "Answers": ["How are you?"],
+            "Options": ["How are you?",
+                "Where are you going?",
+                "Why do you exist?",
+                "How am I sad?"],
+            "Translation": "How are you?"
+        },
+        {
+            "Content": "Boa noite.",
+            "Question": "Translate into English.",
+            "Answers": ["Good night."],
+            "Options": ["Good night.",
+                "Good evening.",
+                "Good day.",
+                "Goodbye."],
+            "Translation": "Good night."
+        },
+        {
+            "Content": "Chau. Até mais.",
+            "Question": "What is the error in this sentence?",
+            "Answers": ["The spelling is wrong."],
+            "Options": ["The gender is wrong.",
+                "The spelling is wrong.",
+                "It is conjugated incorrectly.",
+                "There is no mistake."],
+            "Translation": "Chau > Tchau (Bye. See you soon.)"
+        },
+        {
+            "Content": "Oi! Tudo joia.",
+            "Question": "In which situation would you say this?",
+            "Answers": ["You are speaking to a close friend."],
+            "Options": ["You are speaking to a close friend.",
+                "You are talking to a teacher.",
+                "You are talking to an older person.",
+                "You are talking to Napoleon."],
+            "Translation": "Hi! I am doing great."
+        },
+    ]
+
+    lessonJSONData = [lesson1Json, lesson2Json];
 }
