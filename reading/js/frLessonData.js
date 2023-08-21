@@ -413,17 +413,7 @@ if (localStorage.getItem("currentLanguage") === "fr") {
                 "He is eating.",
                 "He is not drinking.",
                 "He is drinking."],
-            "Translation": ""
-        },
-        {
-            "Content": "Il ne mange pas.",
-            "Question": "What is he doing?",
-            "Answers": ["He is not eating."],
-            "Options": ["He is not eating.",
-                "He is eating.",
-                "He is not drinking.",
-                "He is drinking."],
-            "Translation": "He is not eating."
+            "Translation": "He does not eat."
         },
         {
             "Content": "ne pas",
@@ -499,7 +489,7 @@ if (localStorage.getItem("currentLanguage") === "fr") {
             "Translation": "She is called Fleur and he is called George."
         },
         {
-            "Content": "Tu t'appelle Nathaniel.",
+            "Content": "Tu t'appelle Nathaniel?",
             "Question": "What is the error in this sentence?",
             "Answers": ["It is conjugated incorrectly."],
             "Options": ["The gender is wrong.",
