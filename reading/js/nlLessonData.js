@@ -38,7 +38,7 @@ What is the error in this sentence?
 
 if (localStorage.getItem("currentLanguage") === "nl") {
 
-    lessonNameData = ["Welkom bij de kursus!", "Begroetingen 1", "People 1", "People 2", "Time 1", "Introductions 1", "People 3", "Numbers 1", "Numbers 1", "Numbers 2", "Numbers 3", "Numbers 4", "Days of the Week 1"];
+    lessonNameData = ["Welkom bij de cursus!", "Begroetingen 1", "Mensen 1", "Mensen 2", "Tijd 1", "Introductions 1", "People 3", "Numbers 1", "Numbers 1", "Numbers 2", "Numbers 3", "Numbers 4", "Days of the Week 1"];
 
     lesson1Json = [
         {
@@ -92,17 +92,17 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "Is everything alright? Yes, I'm fine."
         },
         {
-            "Content": "Parlez-vous anglais?",
+            "Content": "Spreek jij Engels?",
             "Question": "Select your reply.",
-            "Answers": ["Non, je ne parle pas anglais."],
-            "Options": ["Non, je ne parle pas anglais.",
-                "Salut! Comment ça va?",
-                "Je t'aime.",
-                "Tu es moche."],
+            "Answers": ["Nee, ik spreek geen Engels."],
+            "Options": ["Nee, ik spreek geen Engels.",
+                "Hallo! Hoe gaat het?",
+                "Ik hou van jou.",
+                "Jij bent lelijk."],
             "Translation": "Do you speak English? No I don't speak English."
         },
         {
-            "Content": "Bienvenue au cours!",
+            "Content": "Welkom bij de cursus!",
             "Question": "Translate into English.",
             "Answers": ["Welcome to the course!"],
             "Options": ["Welcome to the course!",
@@ -115,7 +115,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
 
     lesson2Json = [
         {
-            "Content": "Bonjour. Ça va?",
+            "Content": "Hallo. Alles goed?",
             "Question": "Translate into English.",
             "Answers": ["Hello. How is it going?"],
             "Options": ["Hello. How is it going?",
@@ -125,7 +125,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "Hello. How is it going?"
         },
         {
-            "Content": "Salut. À bientôt.",
+            "Content": "Dag. Tot snel.",
             "Question": "What is happening?",
             "Answers": ["The person you are talking to is leaving."],
             "Options": ["The person you are talking to is leaving.",
@@ -135,17 +135,17 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "Bye. See you soon."
         },
         {
-            "Content": "Ça va bien, merci. Et toi?",
+            "Content": "Het gaat goed, bedankt. En met jou?",
             "Question": "Select your reply.",
-            "Answers": ["Ça va mal."],
-            "Options": ["Ça va mal.",
-                "Il est fromage.",
-                "Je regarde un film.",
-                "Ils ont des stylos."],
+            "Answers": ["Het gaat slecht."],
+            "Options": ["Het gaat slecht",
+                "Het is kaas.",
+                "Ik kijk een film.",
+                "Zij hebben pennen."],
             "Translation": "It is going well, thanks. And you? I am not doing well."
         },
         {
-            "Content": "Comment allez-vous?",
+            "Content": "Hoe gaat het met je?",
             "Question": "Translate into English.",
             "Answers": ["How are you?"],
             "Options": ["How are you?",
@@ -155,7 +155,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "How are you?"
         },
         {
-            "Content": "Bonne nuit.",
+            "Content": "Goedenacht.",
             "Question": "Translate into English.",
             "Answers": ["Good night."],
             "Options": ["Good night.",
@@ -165,17 +165,17 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "Good night."
         },
         {
-            "Content": "Au revwar. À bientôt.",
+            "Content": "Tot zmel.",
             "Question": "What is the error in this sentence?",
             "Answers": ["The spelling is wrong."],
             "Options": ["The gender is wrong.",
                 "The spelling is wrong.",
                 "It is conjugated incorrectly.",
                 "There is no mistake."],
-            "Translation": "Au revwar > Au revoir (Goodbye. See you soon.)"
+            "Translation": "Tot zmel > Tot snel (Goodbye. See you soon.)"
         },
         {
-            "Content": "Coucou! Je vais comme ci, comme ça.",
+            "Content": "Hallo. Het gaat wel.",
             "Question": "In which situation would you say this?",
             "Answers": ["You are speaking to a close friend."],
             "Options": ["You are speaking to a close friend.",
@@ -188,7 +188,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
 
     lesson3Json = [
         {
-            "Content": "le garçon",
+            "Content": "de jongen",
             "Question": "Translate into English.",
             "Answers": ["the boy"],
             "Options": ["the boy",
@@ -198,7 +198,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "the boy"
         },
         {
-            "Content": "l'homme",
+            "Content": "de man",
             "Question": "Translate into English.",
             "Answers": ["the man"],
             "Options": ["the man",
@@ -208,7 +208,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "the man"
         },
         {
-            "Content": "la fille",
+            "Content": "het meisje",
             "Question": "Translate into English.",
             "Answers": ["the girl"],
             "Options": ["the girl",
@@ -218,7 +218,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "the girl"
         },
         {
-            "Content": "la femme",
+            "Content": "de vrouw",
             "Question": "Translate into English.",
             "Answers": ["the woman"],
             "Options": ["the woman",
@@ -228,7 +228,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "the woman"
         },
         {
-            "Content": "Je suis un garçon.",
+            "Content": "Ik ben een jongen.",
             "Question": "Translate into English.",
             "Answers": ["I am a boy."],
             "Options": ["I am a boy.",
@@ -238,7 +238,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "I am a boy."
         },
         {
-            "Content": "Je suis un homme.",
+            "Content": "Ik ben een man.",
             "Question": "Translate into English.",
             "Answers": ["I am a man."],
             "Options": ["I am a man.",
@@ -248,7 +248,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "I am a man."
         },
         {
-            "Content": "Je suis une fille.",
+            "Content": "Ik ben een meisje.",
             "Question": "Translate into English.",
             "Answers": ["I am a girl."],
             "Options": ["I am a girl.",
@@ -258,7 +258,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "I am a girl."
         },
         {
-            "Content": "Je suis une femme.",
+            "Content": "Ik ben een vrouw.",
             "Question": "Translate into English.",
             "Answers": ["I am a woman."],
             "Options": ["I am a woman.",
@@ -273,7 +273,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
     lesson4Json = [
 
         {
-            "Content": "Tu es un garçon?",
+            "Content": "Ben jij een jongen?",
             "Question": "Translate into English.",
             "Answers": ["Are you a boy?"],
             "Options": ["Are you a boy?",
@@ -283,7 +283,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "Are you a boy?"
         },
         {
-            "Content": "Tu es un homme?",
+            "Content": "Ben jij een man?",
             "Question": "Translate into English.",
             "Answers": ["Are you a man?"],
             "Options": ["Are you a man?",
@@ -293,7 +293,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "Are you a man?"
         },
         {
-            "Content": "Tu es une fille?",
+            "Content": "Ben jij een meisje?",
             "Question": "Translate into English.",
             "Answers": ["Are you a girl?"],
             "Options": ["Are you a girl?",
@@ -303,7 +303,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "Are you a girl?"
         },
         {
-            "Content": "Tu es une femme?",
+            "Content": "Ben jij een vrouw?",
             "Question": "Translate into English.",
             "Answers": ["Are you a woman?"],
             "Options": ["Are you a woman?",
@@ -313,60 +313,60 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "Are you a woman?"
         },
         {
-            "Content": "Tu es un garçon?",
+            "Content": "Ben jij een jongen?",
             "Question": "Select your reply.",
-            "Answers": ["Oui, je suis un garçon."],
-            "Options": ["Oui, je suis un garçon.",
-                "Oui, je es un garçon.",
-                "Oui, je est un garçon.",
-                "Oui, je sommes un garçon.",],
+            "Answers": ["Ja, ik ben een jongen."],
+            "Options": ["Ja, ik ben een jongen.",
+                "Ja, ik ben ene jongen.",
+                "Ja, ik is een jongen.",
+                "Ja, ik zijn een jongen.",],
             "Translation": "Are you a boy? Yes, I am a boy."
         },
         {
-            "Content": "Tu es un homme?",
+            "Content": "Ben jij een man?",
             "Question": "Select your reply.",
-            "Answers": ["Oui, je suis un homme."],
-            "Options": ["Oui, je suis un homme.",
-                "Oui, j'es un homme.",
-                "Oui, j'est un homme.",
-                "Oui, je est un homme.",],
+            "Answers": ["Ja, ik ben een man."],
+            "Options": ["Ja, ik ben een man.",
+                "Ja, ik wees een man.",
+                "Ja, ik was een man.",
+                "Ja, ik zijn een man.",],
             "Translation": "Are you a man? Yes, I am a man."
         },
         {
-            "Content": "Tu es une fille?",
+            "Content": "Ben jij een meisje?",
             "Question": "Select your reply.",
-            "Answers": ["Oui, je suis une fille."],
-            "Options": ["Oui, je suis une fille.",
-                "Oui, je êtes une fille.",
-                "Oui, je es une fille.",
-                "Oui, je sont une fille.",],
+            "Answers": ["Ja, ik ben een meisje."],
+            "Options": ["Ja, ik ben een meisje.",
+                "Ja, ik zijn een meisje.",
+                "Ja, ik wees een meisje.",
+                "Ja, ik ben ene meisje.",],
             "Translation": "Are you a girl? Yes, I am a girl."
         },
         {
-            "Content": "Tu es une femme?",
+            "Content": "Ben jij een vrouw?",
             "Question": "Select your reply.",
-            "Answers": ["Oui, je suis une femme."],
-            "Options": ["Oui, je suis une femme.",
-                "Oui, je sommes une femme.",
-                "Oui, j'es une femme.",
-                "Oui, je sont une femme.",],
+            "Answers": ["Ja, ik ben een vrouw."],
+            "Options": ["Ja, ik ben een vrouw.",
+                "Ja, ik was een vrouw.",
+                "Ja, ik zijn een vrouw.",
+                "Ja, ik wees een vrouw.",],
             "Translation": "Are you a woman? Yes, I am a woman."
         },
     ]
 
     lesson5Json = [
         {
-            "Content": "Bon journée.",
+            "Content": "Fijn dag.",
             "Question": "What is the error in this sentence?",
             "Answers": ["The gender is wrong."],
             "Options": ["The gender is wrong.",
                 "The spelling is wrong.",
                 "It is conjugated incorrectly.",
                 "There is no mistake."],
-            "Translation": "Bon journée. > Bonne journée."
+            "Translation": "Fijn dag. > Fijne dag."
         },
         {
-            "Content": "Aujourd'hui, je travaille.",
+            "Content": "Vandaag werk ik.",
             "Question": "When do I work?",
             "Answers": ["Today"],
             "Options": ["Today",
@@ -376,7 +376,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "Today, I work."
         },
         {
-            "Content": "Tu lis tous les jours.",
+            "Content": "Jij leest elke dag.",
             "Question": "Translate into English.",
             "Answers": ["You read everyday."],
             "Options": ["You read everyday.",
@@ -386,7 +386,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "You read everyday."
         },
         {
-            "Content": "hier",
+            "Content": "gisteren",
             "Question": "Translate into English.",
             "Answers": ["yesterday"],
             "Options": ["yesterday",
@@ -396,7 +396,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "yesterday"
         },
         {
-            "Content": "Demain et hier",
+            "Content": "Morgen en gisteren.",
             "Question": "Translate into English.",
             "Answers": ["Tomorrow and yesterday"],
             "Options": ["Tomorrow and yesterday",
@@ -406,7 +406,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "Tomorrow and yesterday"
         },
         {
-            "Content": "Il ne mange pas.",
+            "Content": "Hij eet niet.",
             "Question": "What is he doing?",
             "Answers": ["He is not eating."],
             "Options": ["He is not eating.",
@@ -416,17 +416,17 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": ""
         },
         {
-            "Content": "Il ne mange pas.",
+            "Content": "Hij ruimt op.",
             "Question": "What is he doing?",
-            "Answers": ["He is not eating."],
-            "Options": ["He is not eating.",
+            "Answers": ["He is cleaning."],
+            "Options": ["He is cleaning.",
                 "He is eating.",
                 "He is not drinking.",
                 "He is drinking."],
-            "Translation": "He is not eating."
+            "Translation": "He is cleaning."
         },
         {
-            "Content": "ne pas",
+            "Content": "doet ... niet",
             "Question": "Translate into English.",
             "Answers": ["do not"],
             "Options": ["do not",
