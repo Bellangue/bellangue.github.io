@@ -38,7 +38,7 @@ What is the error in this sentence?
 
 if (localStorage.getItem("currentLanguage") === "fr") {
 
-    lessonNameData = ["Welcome to the Course!", "Greetings 1", "People 1", "People 2", "Time 1", "Introductions 1", "People 3", "Numbers 1", "Numbers 1", "Numbers 2", "Numbers 3", "Numbers 4", "Days of the Week 1"];
+    lessonNameData = ["Welcome to the Course!", "Greetings 1", "People 1", "People 2", "Time 1", "Introductions 1", "People 3", "Numbers 1", "Numbers 1", "Numbers 2", "Numbers 3", "Numbers 4", "Days of the Week 1", "Days of the Week 2"];
 
     lesson1Json = [
         {
@@ -1088,5 +1088,40 @@ if (localStorage.getItem("currentLanguage") === "fr") {
         },
     ];
 
-    lessonJSONData = [lesson1Json, lesson2Json, lesson3Json, lesson4Json, lesson5Json, lesson6Json, lesson7Json, lesson8Json, lesson9Json, lesson10Json, lesson11Json, lesson12Json, lesson13Json];
+    lesson14Json = [
+        {
+            "Content": "Le lundi, je mange de la pizza.",
+            "Question": "When do I eat pizza?",
+            "Answers": ["On Mondays"],
+            "Options": [
+                "On Mondays",
+                "On Tuesdays",
+                "On Sundays",
+                "On Saturdays"],
+            "Translation": "On Mondays, I eat pizza."
+        },
+        {
+            "Content": "Le mardi, tu vas au parc.",
+            "Question": "When do you go to the park?",
+            "Answers": ["On Tuesdays"],
+            "Options": [
+                "On Tuesdays",
+                "On Wednesdays",
+                "On Fridays",
+                "On Saturdays"],
+            "Translation": "On Tuesdays, you go to the park."
+        },
+        {
+            "Content": "Le dimange, je vais au cinéma.",
+            "Question": "What is the error in this sentence?",
+            "Answers": ["The spelling is wrong."],
+            "Options": ["The gender is wrong.",
+                "The spelling is wrong.",
+                "It is conjugated incorrectly.",
+                "There is no mistake."],
+            "Translation": "dimange > dimanche (On sundays, I go to the cinema.)"
+        },
+    ];
+
+    lessonJSONData = [lesson1Json, lesson2Json, lesson3Json, lesson4Json, lesson5Json, lesson6Json, lesson7Json, lesson8Json, lesson9Json, lesson10Json, lesson11Json, lesson12Json, lesson13Json, lesson14Json];
 }
