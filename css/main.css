@@ -14,7 +14,7 @@ ee7070
     margin: 5%;
 }
 
-button.questionElements {
+button.questionElements, #soundSpeaker, #contentSpeaker {
     background-color: #c2c2f4;
     zoom: 150%;
     border: #595958 solid;
