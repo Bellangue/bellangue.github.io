@@ -38,7 +38,7 @@ What is the error in this sentence?
 
 if (localStorage.getItem("currentLanguage") === "nl") {
 
-    lessonNameData = ["Welkom bij de cursus!", "Begroetingen 1", "Mensen 1", "Mensen 2", "Tijd 1", "Introductions 1", "People 3", "Numbers 1", "Numbers 1", "Numbers 2", "Numbers 3", "Numbers 4", "Days of the Week 1"];
+    lessonNameData = ["Welkom bij de cursus!", "Begroetingen 1", "Mensen 1", "Mensen 2", "Tijd 1", "Introductie 1", "Mensen 3", "Getallen 1", "Numbers 1", "Numbers 2", "Numbers 3", "Numbers 4", "Days of the Week 1"];
 
     lesson1Json = [
         {
@@ -439,74 +439,74 @@ if (localStorage.getItem("currentLanguage") === "nl") {
 
     lesson6Json = [
         {
-            "Content": "Bonjour! Je m'appelle Pierre.",
+            "Content": "Hallo! Ik heet Pieter.",
             "Question": "Who is speaking?",
-            "Answers": ["Pierre"],
-            "Options": ["Pierre",
-                "Charles",
-                "Fleur",
-                "Camille"],
-            "Translation": "Hello! I am called Pierre."
+            "Answers": ["Pietter"],
+            "Options": ["Pietter",
+                "Karel",
+                "Floor",
+                "Cornelia"],
+            "Translation": "Hello! I am called Pieter."
         },
         {
-            "Content": "Je m'appelle Jacques.",
+            "Content": "Ik heet Jan.",
             "Question": "Translate into English",
-            "Answers": ["I am called Jacques."],
-            "Options": ["I am called Jacques.",
-                "My friend is called Jacques.",
-                "I hate people called Jacques.",
-                "Jacques is a bad name."],
-            "Translation": "I am called Jacques."
+            "Answers": ["I am called Jan."],
+            "Options": ["I am called Jan.",
+                "My friend is called Jan.",
+                "I hate people called Jan.",
+                "Jan is a bad name."],
+            "Translation": "I am called Jan."
         },
         {
-            "Content": "Tu appelles Louis.",
+            "Content": "Hij heten Lucas.",
             "Question": "What is the error in this sentence?",
             "Answers": ["It is conjugated incorrectly."],
             "Options": ["The gender is wrong.",
                 "The spelling is wrong.",
                 "It is conjugated incorrectly.",
                 "There is no mistake."],
-            "Translation": "appelles > t'appelles"
+            "Translation": "heten > heet"
         },
         {
-            "Content": "Il m'appelle Charles.",
+            "Content": "Hij heten Karel.",
             "Question": "What is the error in this sentence?",
             "Answers": ["It is conjugated incorrectly."],
             "Options": ["The gender is wrong.",
                 "The spelling is wrong.",
                 "It is conjugated incorrectly.",
                 "There is no mistake."],
-            "Translation": "m'appelle > s'appelle"
+            "Translation": "heten > heet"
         },
         {
-            "Content": "Comment tu t'appelles?",
+            "Content": "Hoe heet je?",
             "Question": "Select your reply.",
-            "Answers": ["Je m'appelle Charlotte. Et toi?"],
-            "Options": ["Je m'appelle Charlotte. Et toi?",
-                "Tu t'appelles Chloé.",
-                "Il s'appelle Josephine.",
-                "Nous nous appelons Gabriel."],
-            "Translation": "What are you called? I am called Charlotte. And you?"
+            "Answers": ["Ik heet Charlotte. En jij?"],
+            "Options": ["Ik heet Charlotte. En jij?",
+                "Jij heet Charlotte.",
+                "Zij heet Josefien.",
+                "Onze naam is Gerard."],
+            "Translation": "Hoe heet je? Ik heet Charlotte. En jij?"
         },
         {
-            "Content": "Elle s'appelle Fleur et il s'appelle George.",
+            "Content": "Zij heet Floor en hij heet Gerard.",
             "Question": "Translate into English",
-            "Answers": ["She is called Fleur and he is called George."],
-            "Options": ["She is called Fleur and he is called George.",
-                "He is called Fleur and she is called George.",
-                "Fleur and George are apples.",
-                "Fleur and George are not apples."],
-            "Translation": "She is called Fleur and he is called George."
+            "Answers": ["She is called Floor and he is called Gerard."],
+            "Options": ["She is called Floor and he is called Gerard.",
+                "He is called Floor and she is called Gerard.",
+                "Floor and Gerard are apples.",
+                "Floor and Gerard are not apples."],
+            "Translation": "She is called Floor and he is called Gerard."
         },
         {
-            "Content": "Tu t'appelle Nathaniel.",
+            "Content": "Hij heten Karel.",
             "Question": "What is the error in this sentence?",
             "Answers": ["It is conjugated incorrectly."],
             "Options": ["The gender is wrong.",
                 "The spelling is wrong.",
                 "It is conjugated incorrectly.",
                 "There is no mistake."],
-            "Translation": "appelle > appelles"
+            "Translation": "heten > heet"
         },
     ]
 
