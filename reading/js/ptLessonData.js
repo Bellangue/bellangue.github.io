@@ -37,7 +37,7 @@ What is the error in this sentence?
 */
 
 if (localStorage.getItem("currentLanguage") === "pt") {
-    lessonNameData = ["Welcome to the Course!", "Greetings 1", "People 1", "People 2"];
+    lessonNameData = ["Welcome to the Course!", "Greetings 1", "People 1", "People 2", "Time 1", "Introductions 1", "People 3"];
 
     lesson1Json = [
         {
@@ -353,7 +353,216 @@ if (localStorage.getItem("currentLanguage") === "pt") {
                 "Sim, eu são uma mulher.",],
             "Translation": "Are you a woman? Yes, I am a woman."
         },
-   ]
+    ]
 
-    lessonJSONData = [lesson1Json, lesson2Json, lesson3Json, lesson4Json];
+    lesson5Json = [
+        {
+            "Content": "Boa dia.",
+            "Question": "What is the error in this sentence?",
+            "Answers": ["The gender is wrong."],
+            "Options": ["The gender is wrong.",
+                "The spelling is wrong.",
+                "It is conjugated incorrectly.",
+                "There is no mistake."],
+            "Translation": "Boa dia. > Bom dia."
+        },
+        {
+            "Content": "Hoje, eu trabalho.",
+            "Question": "When do I work?",
+            "Answers": ["Today"],
+            "Options": ["Today",
+                "Tomorrow",
+                "Yesterday",
+                "Never"],
+            "Translation": "Today, I work."
+        },
+        {
+            "Content": "Você lê todos dias.",
+            "Question": "Translate into English.",
+            "Answers": ["You read everyday."],
+            "Options": ["You read everyday.",
+                "You lie often.",
+                "You and me",
+                "You are always lying down."],
+            "Translation": "You read everyday."
+        },
+        {
+            "Content": "ontem",
+            "Question": "Translate into English.",
+            "Answers": ["yesterday"],
+            "Options": ["yesterday",
+                "have",
+                "tomorrow",
+                "on the table"],
+            "Translation": "yesterday"
+        },
+        {
+            "Content": "amanhã e ontem",
+            "Question": "Translate into English.",
+            "Answers": ["tomorrow and yesterday"],
+            "Options": ["tomorrow and yesterday",
+                "today and tomorrow",
+                "today and yesterday",
+                "it will never happen."],
+            "Translation": "tomorrow and yesterday"
+        },
+        {
+            "Content": "Ele não come.",
+            "Question": "What is he doing?",
+            "Answers": ["He is not eating."],
+            "Options": ["He is not eating.",
+                "He is eating.",
+                "He is not drinking.",
+                "He is drinking."],
+            "Translation": "He does not eat"
+        },
+        {
+            "Content": "Ela não bebe.",
+            "Question": "What is she doing?",
+            "Answers": ["She is not drinking."],
+            "Options": ["She is not drinking.",
+                "She is eating.",
+                "She is not eating.",
+                "She is drinking."],
+            "Translation": "She is not drinking."
+        },
+        {
+            "Content": "não",
+            "Question": "Translate into English.",
+            "Answers": ["do not"],
+            "Options": ["do not",
+                "nil",
+                "night",
+                "nice"],
+            "Translation": "do not ..."
+        },
+    ]
+
+    lesson6Json = [
+        {
+            "Content": "Olá! Eu me chamo Pedro.",
+            "Question": "Who is speaking?",
+            "Answers": ["Pedro"],
+            "Options": ["Pedro",
+                "Carlos",
+                "Maria",
+                "Ana"],
+            "Translation": "Hello! I am called Pedro."
+        },
+        {
+            "Content": "Eu me chamo Carlos.",
+            "Question": "Translate into English",
+            "Answers": ["I am called Carlos."],
+            "Options": ["I am called Carlos.",
+                "My friend is called Carlos.",
+                "I hate people called Carlos.",
+                "Carlos is a bad name."],
+            "Translation": "I am called Carlos."
+        },
+        {
+            "Content": "Você chama Maria.",
+            "Question": "What is the error in this sentence?",
+            "Answers": ["It is conjugated incorrectly."],
+            "Options": ["The gender is wrong.",
+                "The spelling is wrong.",
+                "It is conjugated incorrectly.",
+                "There is no mistake."],
+            "Translation": "chama > se chama"
+        },
+        {
+            "Content": "Ele me chama Luiz.",
+            "Question": "What is the error in this sentence?",
+            "Answers": ["It is conjugated incorrectly."],
+            "Options": ["The gender is wrong.",
+                "The spelling is wrong.",
+                "It is conjugated incorrectly.",
+                "There is no mistake."],
+            "Translation": "me chama > se chama"
+        },
+        {
+            "Content": "Como você se chama?",
+            "Question": "Select your reply.",
+            "Answers": ["Eu me chamo Maria. E você?"],
+            "Options": ["Eu me chamo Maria. E você?",
+                "Você se chama Maria.",
+                "Ele se chama Maria.",
+                "Nós nos chamamos Maria."],
+            "Translation": "What are you called? I am called Maria. And you?"
+        },
+        {
+            "Content": "Ela se chama Ana e ele se chama Carlos.",
+            "Question": "Translate into English",
+            "Answers": ["She is called Ana and he is called Carlos."],
+            "Options": ["She is called Ana and he is called Carlos.",
+                "He is called Ana and she is called Carlos.",
+                "Ana and Carlos are apples.",
+                "Ana and Carlos are not apples."],
+            "Translation": "She is called Ana and he is called Carlos."
+        },
+        {
+            "Content": "Você se chamo Ana-Maria?",
+            "Question": "What is the error in this sentence?",
+            "Answers": ["It is conjugated incorrectly."],
+            "Options": ["The gender is wrong.",
+                "The spelling is wrong.",
+                "It is conjugated incorrectly.",
+                "There is no mistake."],
+            "Translation": "chamo > chama"
+        },
+    ]
+
+    lesson7Json = [
+        {
+            "Content": "Ela é estudante. _____ gosto de escola",
+            "Question": "Choose the correct pronoun:",
+            "Answers": ["Ela"],
+            "Options": ["Ela", "Ele", "Eles", "Elas"],
+            "Translation": "She is a student. She likes school."
+        },
+        {
+            "Content": "Vamos à casa do Pedro. _____ somos amigos.",
+            "Question": "Choose the correct pronoun:",
+            "Answers": ["Nós"],
+            "Options": ["Nós", "Você", "Vocês", "Eles"],
+            "Translation": "We are going to Pedro's house. We are friends."
+        },
+        {
+            "Content": "Marco é meu amigo. _____ é muito simpático.",
+            "Question": "Choose the correct pronoun:",
+            "Answers": ["Ele"],
+            "Options": ["Ela", "Ele", "Eles", "Elas"],
+            "Translation": "Marco is my friend. He is very nice."
+        },
+        {
+            "Content": "Paulo fala inglês. _____ fala com a mãe dele.",
+            "Question": "Choose the correct pronoun:",
+            "Answers": ["Ele"],
+            "Options": ["Ele", "Ela", "Eles", "Elas"],
+            "Translation": "Paulo speaks English. He talks with his mother."
+        },
+        {
+            "Content": "Cheryl e eu são amigas. _____ gostamos de brincar.",
+            "Question": "Choose the correct pronoun:",
+            "Answers": ["Nós"],
+            "Options": ["Nós", "Tu", "Você", "Eles"],
+            "Translation": "Cheryl and I are friends. We like to play."
+        },
+        {
+            "Content": "___ falam.",
+            "Question": "Choose the correct pronoun:",
+            "Answers": ["Eles"],
+            "Options": ["Eles", "Eu", "Tu", "Ela"],
+            "Translation": "They speak."
+        },
+        {
+            "Content": "______ fala françês.",
+            "Question": "Choose the correct pronoun:",
+            "Answers": ["Eu"],
+            "Options": ["Eu", "Nós", "Vocês", "Elas"],
+            "Translation": "I speak French."
+        },
+    ]
+
+
+    lessonJSONData = [lesson1Json, lesson2Json, lesson3Json, lesson4Json, lesson5Json, lesson6Json, lesson7Json];
 }

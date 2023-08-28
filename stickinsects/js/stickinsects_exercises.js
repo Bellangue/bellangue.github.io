@@ -30,7 +30,7 @@ function setQuestion() {
     confirmButton.style.backgroundColor = "#c2f4c2";
     questionElements[0].textContent = currentLessonJson[currentQuestionNo].Content;
     questionElements[1].textContent = currentLessonJson[currentQuestionNo].Question;
-    questionElements[2].value === "";
+    questionElements[2].value = "";
 }
 
 confirmButton.addEventListener("click", function () {
@@ -70,7 +70,7 @@ confirmButton.addEventListener("click", function () {
 });
 
 siPicture.addEventListener("click", function () {
-    window.location.href = "reading.html";
+    window.location.href = "stickinsects.html";
 });
 
 function checkIfCorrect() {
@@ -79,3 +79,38 @@ function checkIfCorrect() {
     }
     return false;
 }
+
+const synth = window.speechSynthesis;
+voices = synth.getVoices();
+
+const soundSpeaker = document.getElementById("soundSpeaker");
+
+soundSpeaker.addEventListener("click", function () {
+    let soundToMake = new SpeechSynthesisUtterance(lessonSoundData[selected]);
+    if (currentLanguage === "fr") {
+        soundToMake.lang = "fr-FR";
+    } else if (currentLanguage === "pt") {
+        soundToMake.lang = "pt-BR";
+    } else if (currentLanguage === "nl") {
+        soundToMake.lang = "nl-NL";
+    } else if (currentLanguage === "rz") {
+        soundToMake.lang = "en-UK";
+    }
+    soundToMake.voice = voices[0];
+    synth.speak(soundToMake);
+});
+
+const contentSpeaker = document.getElementById("contentSpeaker");
+
+contentSpeaker.addEventListener("click", function () {
+    let soundToMake = new SpeechSynthesisUtterance(questionElements[0].textContent);
+    if (currentLanguage === "fr") {
+        soundToMake.lang = "fr-FR";
+    } else if (currentLanguage === "pt") {
+        soundToMake.lang = "pt-BR";
+    } else if (currentLanguage === "nl") {
+        soundToMake.lang = "nl-NL";
+    } else if (currentLanguage === "rz") {
+        soundToMake.lang = "en-UK";
+    }    synth.speak(soundToMake);
+});
