@@ -81,6 +81,8 @@ function checkIfCorrect() {
 }
 
 const synth = window.speechSynthesis;
+voices = synth.getVoices();
+
 const soundSpeaker = document.getElementById("soundSpeaker");
 
 soundSpeaker.addEventListener("click", function () {
@@ -94,7 +96,7 @@ soundSpeaker.addEventListener("click", function () {
     } else if (currentLanguage === "rz") {
         soundToMake.lang = "en-UK";
     }
-
+    soundToMake.voice = voices[0];
     synth.speak(soundToMake);
 });
 
@@ -102,6 +104,13 @@ const contentSpeaker = document.getElementById("contentSpeaker");
 
 contentSpeaker.addEventListener("click", function () {
     let soundToMake = new SpeechSynthesisUtterance(questionElements[0].textContent);
-    soundToMake.lang = "fr-FR";
-    synth.speak(soundToMake);
+    if (currentLanguage === "fr") {
+        soundToMake.lang = "fr-FR";
+    } else if (currentLanguage === "pt") {
+        soundToMake.lang = "pt-BR";
+    } else if (currentLanguage === "nl") {
+        soundToMake.lang = "nl-NL";
+    } else if (currentLanguage === "rz") {
+        soundToMake.lang = "en-UK";
+    }    synth.speak(soundToMake);
 });
