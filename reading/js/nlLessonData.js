@@ -38,7 +38,7 @@ What is the error in this sentence?
 
 if (localStorage.getItem("currentLanguage") === "nl") {
 
-    lessonNameData = ["Welkom bij de cursus!", "Begroetingen 1", "Mensen 1", "Mensen 2", "Tijd 1", "Introductie 1", "Mensen 3", "Getallen 1", "Numbers 1", "Numbers 2", "Numbers 3", "Numbers 4", "Days of the Week 1"];
+    lessonNameData = ["Welkom bij de cursus!", "Begroetingen 1", "Mensen 1", "Mensen 2", "Tijd 1", "Introductie 1", "Mensen 3", "Getallen 1", "Getallen 1", "Getallen 2", "Getallen 3", "Getallen 4", "Days of the Week 1"];
 
     lesson1Json = [
         {
@@ -512,59 +512,59 @@ if (localStorage.getItem("currentLanguage") === "nl") {
 
     lesson7Json = [
         {
-            "Content": "Elle est étudiante. _____ aime l'école.",
+            "Content": "Zij is een studente. __ houdt van school.",
             "Question": "Choose the correct pronoun:",
-            "Answers": ["Elle"],
-            "Options": ["Elle", "Il", "Ils", "Elles"],
+            "Answers": ["Zij"],
+            "Options": ["Zij", "Ik", "Jullie", "Wij"],
             "Translation": "She is a student. She likes school."
         },
         {
-            "Content": "Nous allons chez Pierre. _____ sommes amis.",
+            "Content": "Wij gaan naar het huis van Pieter. ___ zijn vrienden.",
             "Question": "Choose the correct pronoun:",
-            "Answers": ["Nous"],
-            "Options": ["Nous", "Tu", "Vous", "Ils"],
-            "Translation": "We are going to Pierre's place. We are friends."
+            "Answers": ["Wij"],
+            "Options": ["Wij", "Ik", "Hij", "Het"],
+            "Translation": "We are going to Pieter's place. We are friends."
         },
         {
-            "Content": "Marc est mon ami. _____ est très sympa.",
+            "Content": "Mark is mijn vriend. ___ is erg aardig.",
             "Question": "Choose the correct pronoun:",
-            "Answers": ["Il"],
-            "Options": ["Elle", "Il", "Ils", "Elles"],
-            "Translation": "Marc is my friend. He is very nice."
+            "Answers": ["Hij"],
+            "Options": ["Hij", "Jullie", "Zij", "Wij"],
+            "Translation": "Mark is my friend. He is very nice."
         },
         {
-            "Content": "Paul parle anglais. _____ parle avec sa mère.",
+            "Content": "Paul praat Engels. ___ praat met zijn moeder.",
             "Question": "Choose the correct pronoun:",
-            "Answers": ["Il"],
-            "Options": ["Il", "Elle", "Ils", "Elles"],
+            "Answers": ["Hij"],
+            "Options": ["Hij", "Zij", "Jullie", "Wij"],
             "Translation": "Paul is talking English. He is talking with his mother."
         },
         {
-            "Content": "Cheryl et moi sommes amies. _____ aimons jouer.",
+            "Content": "Charlotte en ik zijn vrienden. ___ houden van spelen.",
             "Question": "Choose the correct pronoun:",
-            "Answers": ["Nous"],
-            "Options": ["Nous", "Tu", "Vous", "Ils"],
-            "Translation": "Cheryl and I are friends. We love to play."
+            "Answers": ["Wij"],
+            "Options": ["Wij", "Het", "Ik", "Hij"],
+            "Translation": "Charlotte and I are friends. We love to play."
         },
         {
-            "Content": "___ parlent.",
+            "Content": "___ spreken.",
             "Question": "Choose the correct pronoun:",
-            "Answers": ["Ils"],
-            "Options": ["Ils", "Elle", "Je", "Nous"],
+            "Answers": ["Zij"],
+            "Options": ["Zij", "Hij", "Ik", "Het"],
             "Translation": "They speak."
         },
         {
-            "Content": "______ parle le français.",
+            "Content": "__ spreek Nederlands.",
             "Question": "Choose the correct pronoun:",
-            "Answers": ["Je"],
-            "Options": ["Je", "Nous", "Vous", "Elles"],
+            "Answers": ["Ik"],
+            "Options": ["Ik", "Het", "Hij", "Zij"],
             "Translation": "I speak French."
         },
     ]
 
     lesson8Json = [
         {
-            "Content": "un/une",
+            "Content": "een",
             "Question": "Translate into English",
             "Answers": ["one"],
             "Options": [
@@ -575,7 +575,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "one"
         },
         {
-            "Content": "deux",
+            "Content": "twee",
             "Question": "Translate into English",
             "Answers": ["two"],
             "Options": [
@@ -586,7 +586,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "two"
         },
         {
-            "Content": "trois",
+            "Content": "drie",
             "Question": "Translate into English",
             "Answers": ["three"],
             "Options": [
@@ -597,7 +597,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "three"
         },
         {
-            "Content": "quatre",
+            "Content": "vier",
             "Question": "Translate into English",
             "Answers": ["four"],
             "Options": [
@@ -608,7 +608,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "four"
         },
         {
-            "Content": "cinq",
+            "Content": "vijf",
             "Question": "Translate into English",
             "Answers": ["five"],
             "Options": [
@@ -619,7 +619,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "five"
         },
         {
-            "Content": "six",
+            "Content": "zes",
             "Question": "Translate into English",
             "Answers": ["six"],
             "Options": [
@@ -630,7 +630,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "six"
         },
         {
-            "Content": "sept",
+            "Content": "zeven",
             "Question": "Translate into English",
             "Answers": ["seven"],
             "Options": [
@@ -641,7 +641,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "seven"
         },
         {
-            "Content": "huit",
+            "Content": "acht",
             "Question": "Translate into English",
             "Answers": ["eight"],
             "Options": [
@@ -652,7 +652,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "eight"
         },
         {
-            "Content": "neuf",
+            "Content": "negen",
             "Question": "Translate into English",
             "Answers": ["nine"],
             "Options": [
@@ -662,23 +662,11 @@ if (localStorage.getItem("currentLanguage") === "nl") {
                 "seven"],
             "Translation": "nine"
         },
-        {
-            "Content": "dix",
-            "Question": "Translate into English",
-            "Answers": ["ten"],
-            "Options": [
-                "ten",
-                "nine",
-                "seven",
-                "two"],
-            "Translation": "nine"
-        },
-
     ]
 
     lesson9Json = [
         {
-            "Content": "un/une",
+            "Content": "een",
             "Question": "Translate into English",
             "Answers": ["one"],
             "Options": [
@@ -689,7 +677,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "one"
         },
         {
-            "Content": "deux",
+            "Content": "twee",
             "Question": "Translate into English",
             "Answers": ["two"],
             "Options": [
@@ -700,7 +688,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "two"
         },
         {
-            "Content": "trois",
+            "Content": "drie",
             "Question": "Translate into English",
             "Answers": ["three"],
             "Options": [
@@ -711,7 +699,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "three"
         },
         {
-            "Content": "quatre",
+            "Content": "vier",
             "Question": "Translate into English",
             "Answers": ["four"],
             "Options": [
@@ -722,7 +710,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "four"
         },
         {
-            "Content": "cinq",
+            "Content": "vijf",
             "Question": "Translate into English",
             "Answers": ["five"],
             "Options": [
@@ -733,7 +721,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "five"
         },
         {
-            "Content": "six",
+            "Content": "zes",
             "Question": "Translate into English",
             "Answers": ["six"],
             "Options": [
@@ -744,7 +732,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "six"
         },
         {
-            "Content": "sept",
+            "Content": "zeven",
             "Question": "Translate into English",
             "Answers": ["seven"],
             "Options": [
@@ -755,7 +743,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "seven"
         },
         {
-            "Content": "huit",
+            "Content": "acht",
             "Question": "Translate into English",
             "Answers": ["eight"],
             "Options": [
@@ -766,7 +754,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "eight"
         },
         {
-            "Content": "neuf",
+            "Content": "negen",
             "Question": "Translate into English",
             "Answers": ["nine"],
             "Options": [
@@ -774,17 +762,6 @@ if (localStorage.getItem("currentLanguage") === "nl") {
                 "five",
                 "three",
                 "seven"],
-            "Translation": "nine"
-        },
-        {
-            "Content": "dix",
-            "Question": "Translate into English",
-            "Answers": ["ten"],
-            "Options": [
-                "ten",
-                "nine",
-                "seven",
-                "two"],
             "Translation": "nine"
         },
 
@@ -792,7 +769,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
 
     lesson10Json = [
         {
-            "Content": "J'ai un chat.",
+            "Content": "Ik heb een kat.",
             "Question": "What is the error in this sentence?",
             "Answers": ["There is no mistake."],
             "Options": ["The gender is wrong.",
@@ -802,149 +779,149 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "I have a cat."
         },
         {
-            "Content": "J'ai deux chien.",
+            "Content": "Ik heb twee honden.",
             "Question": "What is the error in this sentence?",
             "Answers": ["There is no mistake."],
             "Options": ["The gender is wrong.",
                 "The spelling is wrong.",
                 "It is conjugated incorrectly.",
                 "There is no mistake."],
-            "Translation": "chien > chiens (I have two dogs.)"
+            "Translation": "I have two dogs."
         },
         {
-            "Content": "Tu as trois animaux?",
+            "Content": "Heb jij drie dieren?",
             "Question": "Select your reply.",
-            "Answers": ["Oui, j'ai deux chats et un poisson."],
+            "Answers": ["Ja, ik heb twee katten en een vis."],
             "Options": [
-                "Oui, j'ai deux chats et un poisson.",
-                "Oui, j'ai une fille.",
-                "Non, j'ai une chien et un garçon.",
-                "Non, je suis Pierre."],
+                "Ja, ik heb twee katten en een vis.",
+                "Ja, ik heb een kat en een hond.",
+                "Nee, ik ben Piet.",
+                "Nee, ik heb een huis."],
             "Translation": "Do you have three animals? Yes, I have two cats and one fish."
         },
         {
-            "Content": "Il a quatre amis.",
+            "Content": "Hij heeft vier vrienden.",
             "Question": "How many friends does he have?",
-            "Answers": ["four"],
+            "Answers": ["vier"],
             "Options": [
-                "four",
-                "nine",
-                "eight",
-                "three"],
+                "vier",
+                "negen",
+                "acht",
+                "drie"],
             "Translation": "He has four friends."
         },
         {
-            "Content": "Elle a cinq jeux vidéo.",
+            "Content": "Zij heeft vijf computerspellen.",
             "Question": "How many video games does she have?",
-            "Answers": ["five"],
+            "Answers": ["vijf"],
             "Options": [
-                "five",
-                "seven",
-                "two",
-                "eight"],
+                "vijf",
+                "zeven",
+                "twee",
+                "acht"],
             "Translation": "She has five video games."
         },
         {
-            "Content": "Ils ont six stylos.",
+            "Content": "Zij hebben zes pennen.",
             "Question": "How many pens do they have?",
-            "Answers": ["six"],
+            "Answers": ["zes"],
             "Options": [
-                "six",
-                "seven",
-                "one",
-                "nine"],
+                "zes",
+                "zeven",
+                "een",
+                "negen"],
             "Translation": "They have six pens."
         },
         {
-            "Content": "Elles ont sept cahiers.",
+            "Content": "Zij hebben zeven schriften.",
             "Question": "How many notebooks do they have?",
-            "Answers": ["seven"],
+            "Answers": ["zeven"],
             "Options": [
-                "seven",
-                "nine",
-                "one",
-                "two"],
+                "zeven",
+                "negen",
+                "een",
+                "twee"],
             "Translation": "They have seven notebooks."
         },
         {
-            "Content": "J'ai ___ carte.",
+            "Content": "Ik heb ___ kaart.",
             "Question": "Select the correct number:",
-            "Answers": ["une"],
+            "Answers": ["een"],
             "Options": [
-                "une",
-                "deux",
-                "trois",
-                "quatre"],
+                "een",
+                "twee",
+                "drie",
+                "vier"],
             "Translation": "I have one card."
         },
     ]
 
     lesson11Json = [
         {
-            "Content": "onze",
+            "Content": "elf",
             "Question": "Translate into English.",
             "Answers": ["eleven"],
             "Options": ["eleven", "four", "eighteen", "fifteen"],
             "Translation": "eleven"
         },
         {
-            "Content": "douze",
+            "Content": "twaalf",
             "Question": "Translate into English.",
             "Answers": ["twelve"],
             "Options": ["twelve", "seventeen", "nine", "five"],
             "Translation": "twelve"
         },
         {
-            "Content": "treize",
+            "Content": "dertien",
             "Question": "Translate into English.",
             "Answers": ["thirteen"],
             "Options": ["thirteen", "ten", "sixteen", "three"],
             "Translation": "thirteen"
         },
         {
-            "Content": "quatorze",
+            "Content": "veertien",
             "Question": "Translate into English.",
             "Answers": ["fourteen"],
             "Options": ["fourteen", "two", "nineteen", "seven"],
             "Translation": "fourteen"
         },
         {
-            "Content": "quinze",
+            "Content": "vijftien",
             "Question": "Translate into English.",
             "Answers": ["fifteen"],
             "Options": ["fifteen", "six", "eight", "one"],
             "Translation": "fifteen"
         },
         {
-            "Content": "seize",
+            "Content": "zestien",
             "Question": "Translate into English.",
             "Answers": ["sixteen"],
             "Options": ["sixteen", "seventeen", "thirteen", "five"],
             "Translation": "sixteen"
         },
         {
-            "Content": "dix-sept",
+            "Content": "zeventien",
             "Question": "Translate into English.",
             "Answers": ["seventeen"],
             "Options": ["seventeen", "three", "ten", "four"],
             "Translation": "seventeen"
         },
         {
-            "Content": "dix-huit",
+            "Content": "achttien",
             "Question": "Translate into English.",
             "Answers": ["eighteen"],
             "Options": ["eighteen", "eight", "thirteen", "nineteen"],
             "Translation": "eighteen"
         },
         {
-            "Content": "dix-neuf",
+            "Content": "negentien",
             "Question": "Translate into English.",
             "Answers": ["nineteen"],
             "Options": ["nineteen", "sixteen", "two", "twelve"],
             "Translation": "nineteen"
         },
         {
-            "Content": "vingt",
+            "Content": "twintig",
             "Question": "Translate into English.",
             "Answers": ["twenty"],
             "Options": ["twenty", "fifteen", "eight", "seven"],
@@ -954,70 +931,70 @@ if (localStorage.getItem("currentLanguage") === "nl") {
 
     lesson12Json = [
         {
-            "Content": "vingt et un",
+            "Content": "eenentwintig",
             "Question": "Translate into English.",
             "Answers": ["twenty-one"],
             "Options": ["twenty-one", "twenty-nine", "twenty-four", "twenty-five"],
             "Translation": "twenty-one"
         },
         {
-            "Content": "vingt-deux",
+            "Content": "tweeëntwintig",
             "Question": "Translate into English.",
             "Answers": ["twenty-two"],
             "Options": ["nine", "twenty-two", "twenty", "thirty"],
             "Translation": "twenty-two"
         },
         {
-            "Content": "vingt-trois",
+            "Content": "drieëntwintig",
             "Question": "Translate into English.",
             "Answers": ["twenty-three"],
             "Options": ["twenty-three", "three", "sixteen", "nineteen"],
             "Translation": "twenty-three"
         },
         {
-            "Content": "vingt-quatre",
+            "Content": "vierentwintig",
             "Question": "Translate into English.",
             "Answers": ["twenty-four"],
             "Options": ["fourteen", "twenty-four", "fourty", "four"],
             "Translation": "twenty-four"
         },
         {
-            "Content": "vingt-cinq",
+            "Content": "vijfentwintig",
             "Question": "Translate into English.",
             "Answers": ["twenty-five"],
             "Options": ["fifteen", "eighteen", "twenty-five", "seven"],
             "Translation": "twenty-five"
         },
         {
-            "Content": "vingt-six",
+            "Content": "zesentwintig",
             "Question": "Translate into English.",
             "Answers": ["twenty-six"],
             "Options": ["twenty-six", "twenty-seven", "twenty-two", "twelve"],
             "Translation": "twenty-six"
         },
         {
-            "Content": "vingt-sept",
+            "Content": "zevenentwintig",
             "Question": "Translate into English.",
             "Answers": ["twenty-seven"],
             "Options": ["twenty-seven", "eleven", "ten", "fourteen"],
             "Translation": "twenty-seven"
         },
         {
-            "Content": "vingt-huit",
+            "Content": "achtenentwintig",
             "Question": "Translate into English.",
             "Answers": ["twenty-eight"],
             "Options": ["eighteen", "twenty-eight", "twenty-three", "nineteen"],
             "Translation": "twenty-eight"
         },
         {
-            "Content": "vingt-neuf",
+            "Content": "negenentwintig",
             "Question": "Translate into English.",
             "Answers": ["twenty-nine"],
             "Options": ["twenty-nine", "nineteen", "nine", "fourteen"],
             "Translation": "twenty-nine"
         },
         {
-            "Content": "trente",
+            "Content": "dertig",
             "Question": "Translate into English.",
             "Answers": ["thirty"],
             "Options": ["thirty", "twenty", "ten", "zero"],
@@ -1027,7 +1004,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
 
     lesson13Json = [
         {
-            "Content": "lundi",
+            "Content": "maandag",
             "Question": "Translate into English.",
             "Answers": ["Monday"],
             "Options": ["Monday",
@@ -1037,7 +1014,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "Monday"
         },
         {
-            "Content": "mardi",
+            "Content": "dinsdag",
             "Question": "Translate into English.",
             "Answers": ["Tuesday"],
             "Options": ["Tuesday",
@@ -1047,7 +1024,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "Tuesday"
         },
         {
-            "Content": "mercredi",
+            "Content": "woensdag",
             "Question": "Translate into English.",
             "Answers": ["Wednesday"],
             "Options": ["Wednesday",
@@ -1057,7 +1034,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "Wednesday"
         },
         {
-            "Content": "jeudi",
+            "Content": "donderdag",
             "Question": "Translate into English.",
             "Answers": ["Thursday"],
             "Options": ["Thursday",
@@ -1067,7 +1044,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "Thursday"
         },
         {
-            "Content": "vendredi",
+            "Content": "vrijdag",
             "Question": "Translate into English.",
             "Answers": ["Friday"],
             "Options": ["Friday",
@@ -1077,7 +1054,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "Friday"
         },
         {
-            "Content": "samedi",
+            "Content": "zaterdag",
             "Question": "Translate into English.",
             "Answers": ["Saturday"],
             "Options": ["Saturday",
@@ -1087,7 +1064,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "Saturday"
         },
         {
-            "Content": "dimache",
+            "Content": "zondag",
             "Question": "Translate into English.",
             "Answers": ["Sunday"],
             "Options": ["Sunday",
