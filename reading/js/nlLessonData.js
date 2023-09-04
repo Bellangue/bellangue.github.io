@@ -49,7 +49,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
                 "Karel",
                 "Floor",
                 "Carolien"],
-            "Translation": "Hello! I am called Pierre."
+            "Translation": "Hello! I am called Jan."
         },
         {
             "Content": "de jongen",
@@ -69,7 +69,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
                 "Ik spreek geen Nederlands.",
                 "Ik hou van stamppot.",
                 "Ik ben een kroket."],
-            "Translation": "Hello. What are you called? I am called Fleur."
+            "Translation": "Hello. What are you called? I am called Floor."
         },
         {
             "Content": "Fijne dag.",
