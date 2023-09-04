@@ -38,7 +38,7 @@ What is the error in this sentence?
 
 if (localStorage.getItem("currentLanguage") === "fr") {
 
-    lessonNameData = ["Welcome to the Course!", "Greetings 1", "People 1", "People 2", "Time 1", "Introductions 1", "People 3", "Numbers 1", "Numbers 1", "Numbers 2", "Numbers 3", "Numbers 4", "Days of the Week 1", "Days of the Week 2"];
+    lessonNameData = ["Welcome to the Course!", "Greetings 1", "People 1", "People 2", "Time 1", "Introductions 1", "People 3", "Numbers 1", "Numbers 1", "Numbers 2", "Numbers 3", "Numbers 4", "Days of the Week 1", "Days of the Week 2", "Appearance 1", "Appearance 2", "Appearance 3", "Numbers 5", "Age 1", "Personality 1", "Countries 1", "Countries 2", "Family 1", "Hobbies 1", "Weather 1", "Time 1", "Daily Routine 1", "Questions 1"];
 
     lesson1Json = [
         {
@@ -1090,6 +1090,18 @@ if (localStorage.getItem("currentLanguage") === "fr") {
 
     lesson14Json = [
         {
+            "Content": "Le dimanche, elle regarde des films.",
+            "Question": "When does she watch movies?",
+            "Answers": ["On Sundays"],
+            "Options": [
+                "On Sundays",
+                "On Mondays",
+                "On Wednesdays",
+                "On Fridays"
+            ],
+            "Translation": "On Sundays, she watches movies."
+        },
+        {
             "Content": "Le lundi, je mange de la pizza.",
             "Question": "When do I eat pizza?",
             "Answers": ["On Mondays"],
@@ -1112,16 +1124,748 @@ if (localStorage.getItem("currentLanguage") === "fr") {
             "Translation": "On Tuesdays, you go to the park."
         },
         {
-            "Content": "Le dimange, je vais au cinéma.",
-            "Question": "What is the error in this sentence?",
-            "Answers": ["The spelling is wrong."],
-            "Options": ["The gender is wrong.",
-                "The spelling is wrong.",
-                "It is conjugated incorrectly.",
-                "There is no mistake."],
-            "Translation": "dimange > dimanche (On sundays, I go to the cinema.)"
+            "Content": "Le mercredi, il va au travail.",
+            "Question": "When does he go to work?",
+            "Answers": ["On Wednesdays"],
+            "Options": [
+                "On Wednesdays",
+                "On Thursdays",
+                "On Tuesdays",
+                "On Fridays"
+            ],
+            "Translation": "On Wednesdays, he goes to work."
         },
+        {
+            "Content": "Le jeudi, nous faisons nos courses.",
+            "Question": "When do we do our shopping?",
+            "Answers": ["On Thursdays"],
+            "Options": [
+                "On Thursdays",
+                "On Saturdays",
+                "On Sundays",
+                "On Mondays"
+            ],
+            "Translation": "On Thursdays, we do our shopping."
+        },
+        {
+            "Content": "Le vendredi, elle retrouve ses amis.",
+            "Question": "When does she meet her friends?",
+            "Answers": ["On Fridays"],
+            "Options": [
+                "On Fridays",
+                "On Sundays",
+                "On Wednesdays",
+                "On Tuesdays"
+            ],
+            "Translation": "On Fridays, she meets her friends."
+        },
+        {
+            "Content": "Le samedi, ils font du sport.",
+            "Question": "When do they do sports?",
+            "Answers": ["On Saturdays"],
+            "Options": [
+                "On Saturdays",
+                "On Wednesdays",
+                "On Mondays",
+                "On Thursdays"
+            ],
+            "Translation": "On Saturdays, they do sports."
+        }
     ];
 
-    lessonJSONData = [lesson1Json, lesson2Json, lesson3Json, lesson4Json, lesson5Json, lesson6Json, lesson7Json, lesson8Json, lesson9Json, lesson10Json, lesson11Json, lesson12Json, lesson13Json, lesson14Json];
+    lesson15Json = [
+        {
+            "Content": "Elle a les yeux marron.",
+            "Question": "What color are her eyes?",
+            "Answers": ["Brown"],
+            "Options": ["Brown", "Blue", "Green", "Hazel"],
+            "Translation": "She has brown eyes."
+        },
+        {
+            "Content": "Il a les yeux bleus.",
+            "Question": "What color are his eyes?",
+            "Answers": ["Blue"],
+            "Options": ["Blue", "Brown", "Green", "Gray"],
+            "Translation": "He has blue eyes."
+        },
+        {
+            "Content": "J'ai les yeux verts.",
+            "Question": "What color are my eyes?",
+            "Answers": ["Green"],
+            "Options": ["Green", "Brown", "Blue", "Hazel"],
+            "Translation": "I have green eyes."
+        },
+        {
+            "Content": "Ils ont les yeux noisette.",
+            "Question": "What color are their eyes?",
+            "Answers": ["Hazel"],
+            "Options": ["Hazel", "Brown", "Blue", "Green"],
+            "Translation": "They have hazel eyes."
+        },
+        {
+            "Content": "Elle a les yeux gris.",
+            "Question": "What color are her eyes?",
+            "Answers": ["Gray"],
+            "Options": ["Gray", "Brown", "Blue", "Green"],
+            "Translation": "She has gray eyes."
+        }
+    ];
+
+    lesson16Json = [
+        {
+            "Content": "Elle a les cheveux blonds.",
+            "Question": "What color is her hair?",
+            "Answers": ["Blonde"],
+            "Options": ["Blonde", "Brown", "Black", "Red"],
+            "Translation": "She has blonde hair."
+        },
+        {
+            "Content": "Il a les cheveux bruns.",
+            "Question": "What color is his hair?",
+            "Answers": ["Brown"],
+            "Options": ["Brown", "Blonde", "Black", "Red"],
+            "Translation": "He has brown hair."
+        },
+        {
+            "Content": "J'ai les cheveux noirs.",
+            "Question": "What color is my hair?",
+            "Answers": ["Black"],
+            "Options": ["Black", "Blonde", "Brown", "Red"],
+            "Translation": "I have black hair."
+        },
+        {
+            "Content": "Ils ont les cheveux roux.",
+            "Question": "What color is their hair?",
+            "Answers": ["Red"],
+            "Options": ["Red", "Blonde", "Brown", "Black"],
+            "Translation": "They have red hair."
+        },
+        {
+            "Content": "Elle a les cheveux châtains.",
+            "Question": "What color is her hair?",
+            "Answers": ["Brown"],
+            "Options": ["Brown", "Blonde", "Black", "Red"],
+            "Translation": "She has brown hair."
+        },
+        {
+            "Content": "Nous avons les cheveux blonds.",
+            "Question": "What color is our hair?",
+            "Answers": ["Blonde"],
+            "Options": ["Blonde", "Brown", "Black", "Red"],
+            "Translation": "We have blonde hair."
+        },
+        {
+            "Content": "Ils ont les cheveux noirs.",
+            "Question": "What color is their hair?",
+            "Answers": ["Black"],
+            "Options": ["Black", "Blonde", "Brown", "Red"],
+            "Translation": "They have black hair."
+        }
+    ];
+
+    lesson17Json = [
+        {
+            "Content": "Elle a les cheveux longs et bouclés.",
+            "Question": "What is her hair style?",
+            "Answers": ["Long and curly"],
+            "Options": ["Long and curly", "Short and straight", "Medium and wavy", "Bald"],
+            "Translation": "She has long and curly hair."
+        },
+        {
+            "Content": "Il a les cheveux rasés.",
+            "Question": "What is his hair style?",
+            "Answers": ["Shaved"],
+            "Options": ["Shaved", "Medium length", "Balding", "Curly"],
+            "Translation": "He has shaved hair."
+        },
+        {
+            "Content": "Elle a les cheveux mi-longs et raides.",
+            "Question": "What is her hair style?",
+            "Answers": ["Medium length and straight"],
+            "Options": ["Medium length and straight", "Short and curly", "Long and wavy", "Bald"],
+            "Translation": "She has medium length and straight hair."
+        },
+        {
+            "Content": "Il a les cheveux frisés.",
+            "Question": "What is his hair style?",
+            "Answers": ["Curly"],
+            "Options": ["Curly", "Straight", "Short", "Balding"],
+            "Translation": "He has curly hair."
+        },
+        {
+            "Content": "Elle a les cheveux très courts.",
+            "Question": "What is her hair style?",
+            "Answers": ["Very short"],
+            "Options": ["Very short", "Long and wavy", "Curly", "Bald"],
+            "Translation": "She has very short hair."
+        },
+        {
+            "Content": "Il a les cheveux ondulés.",
+            "Question": "What is his hair style?",
+            "Answers": ["Wavy"],
+            "Options": ["Wavy", "Straight", "Short and curly", "Balding"],
+            "Translation": "He has wavy hair."
+        },
+        {
+            "Content": "Elle a les cheveux bouclés.",
+            "Question": "What is her hair style?",
+            "Answers": ["Curly"],
+            "Options": ["Curly", "Straight", "Short and wavy", "Balding"],
+            "Translation": "She has curly hair."
+        }
+    ];
+
+    lesson18Json = [
+        {
+            "Content": "Il a trente ans.",
+            "Question": "How old is he?",
+            "Answers": ["Thirty"],
+            "Options": ["Thirty", "Twenty", "Fifty", "Seventy"],
+            "Translation": "He is thirty years old."
+        },
+        {
+            "Content": "Elle a quarante-cinq dollars.",
+            "Question": "How much money does she have?",
+            "Answers": ["Forty-five"],
+            "Options": ["Forty-five", "Sixty", "Ninety", "Seventy-five"],
+            "Translation": "She has forty-five dollars."
+        },
+        {
+            "Content": "Il y a soixante secondes dans une minute.",
+            "Question": "How many seconds are there in a minute?",
+            "Answers": ["Sixty"],
+            "Options": ["Sixty", "Fifty", "Seventy", "Eighty"],
+            "Translation": "There are sixty seconds in a minute."
+        },
+        {
+            "Content": "Il a quatre-vingts livres.",
+            "Question": "How much does he weigh?",
+            "Answers": ["Eighty"],
+            "Options": ["Eighty", "Sixty", "Ninety", "Seventy-five"],
+            "Translation": "He weighs eighty pounds."
+        },
+        {
+            "Content": "Elle a cinquante-cinq pommes.",
+            "Question": "How many apples does she have?",
+            "Answers": ["Fifty-five"],
+            "Options": ["Fifty-five", "Sixty", "Ninety", "Seventy-five"],
+            "Translation": "She has fifty-five apples."
+        },
+        {
+            "Content": "Il y a trois cent soixante-cinq jours dans une année.",
+            "Question": "How many days are there in a year?",
+            "Answers": ["Three hundred sixty-five"],
+            "Options": ["Three hundred sixty-five", "Sixty", "Eighty", "Seventy-five"],
+            "Translation": "There are three hundred sixty-five days in a year."
+        },
+        {
+            "Content": "Il a soixante-dix employés.",
+            "Question": "How many employees does he have?",
+            "Answers": ["Seventy"],
+            "Options": ["Seventy", "Sixty", "Eighty", "Ninety"],
+            "Translation": "He has seventy employees."
+        }
+    ];
+
+    lesson19Json = [
+        {
+            "Content": "Elle a vingt-deux ans.",
+            "Question": "How old is she?",
+            "Answers": ["Twenty-two"],
+            "Options": ["Twenty-two", "Fifteen", "Thirty", "Forty-five"],
+            "Translation": "She is twenty-two years old."
+        },
+        {
+            "Content": "Il a trente-sept ans.",
+            "Question": "How old is he?",
+            "Answers": ["Thirty-seven"],
+            "Options": ["Thirty-seven", "Twenty", "Fifty", "Sixty"],
+            "Translation": "He is thirty-seven years old."
+        },
+        {
+            "Content": "Elle a dix-neuf ans.",
+            "Question": "How old is she?",
+            "Answers": ["Nineteen"],
+            "Options": ["Nineteen", "Twenty-five", "Thirty", "Forty-five"],
+            "Translation": "She is nineteen years old."
+        },
+        {
+            "Content": "Il a cinquante-et-un ans.",
+            "Question": "How old is he?",
+            "Answers": ["Fifty-one"],
+            "Options": ["Fifty-one", "Thirty-five", "Sixty", "Seventy-five"],
+            "Translation": "He is fifty-one years old."
+        },
+        {
+            "Content": "Elle a vingt-six ans.",
+            "Question": "How old is she?",
+            "Answers": ["Twenty-six"],
+            "Options": ["Twenty-six", "Eighteen", "Thirty", "Forty-five"],
+            "Translation": "She is twenty-six years old."
+        },
+        {
+            "Content": "Il a soixante-trois ans.",
+            "Question": "How old is he?",
+            "Answers": ["Sixty-three"],
+            "Options": ["Sixty-three", "Thirty-five", "Fifty", "Seventy-five"],
+            "Translation": "He is sixty-three years old."
+        },
+        {
+            "Content": "Elle a quarante-sept ans.",
+            "Question": "How old is she?",
+            "Answers": ["Forty-seven"],
+            "Options": ["Forty-seven", "Eighteen", "Thirty", "Twenty-six"],
+            "Translation": "She is forty-seven years old."
+        }
+    ];
+
+    lesson20Json = [
+        {
+            "Content": "Elle est très gentille.",
+            "Question": "What is her personality like?",
+            "Answers": ["Very kind"],
+            "Options": ["Very kind", "Funny", "Serious", "Shy"],
+            "Translation": "She is very kind."
+        },
+        {
+            "Content": "Il est très drôle.",
+            "Question": "What is his personality like?",
+            "Answers": ["Very funny"],
+            "Options": ["Very funny", "Kind", "Serious", "Shy"],
+            "Translation": "He is very funny."
+        },
+        {
+            "Content": "Elle est très sérieuse.",
+            "Question": "What is her personality like?",
+            "Answers": ["Very serious"],
+            "Options": ["Very serious", "Kind", "Funny", "Shy"],
+            "Translation": "She is very serious."
+        },
+        {
+            "Content": "Il est très timide.",
+            "Question": "What is his personality like?",
+            "Answers": ["Very shy"],
+            "Options": ["Very shy", "Kind", "Funny", "Serious"],
+            "Translation": "He is very shy."
+        },
+        {
+            "Content": "Elle est très sociable.",
+            "Question": "What is her personality like?",
+            "Answers": ["Very sociable"],
+            "Options": ["Very sociable", "Kind", "Funny", "Serious"],
+            "Translation": "She is very sociable."
+        },
+        {
+            "Content": "Il est très calme.",
+            "Question": "What is his personality like?",
+            "Answers": ["Very calm"],
+            "Options": ["Very calm", "Kind", "Funny", "Serious"],
+            "Translation": "He is very calm."
+        },
+        {
+            "Content": "Elle est très énergique.",
+            "Question": "What is her personality like?",
+            "Answers": ["Very energetic"],
+            "Options": ["Very energetic", "Kind", "Funny", "Serious"],
+            "Translation": "She is very energetic."
+        }
+    ];
+
+    lesson21Json = [
+        {
+            "Content": "La Chine",
+            "Question": "Translate into English.",
+            "Answers": ["China"],
+            "Options": ["China", "India", "Brazil", "Russia"],
+            "Translation": "China"
+        },
+        {
+            "Content": "Les États-Unis",
+            "Question": "Translate into English.",
+            "Answers": ["The United States"],
+            "Options": ["The United States", "United Kingdom", "Canada", "Australia"],
+            "Translation": "The United States"
+        },
+        {
+            "Content": "Le Japon",
+            "Question": "Translate into English.",
+            "Answers": ["Japan"],
+            "Options": ["Japan", "South Korea", "Germany", "France"],
+            "Translation": "Japan"
+        },
+        {
+            "Content": "L'Inde",
+            "Question": "Translate into English.",
+            "Answers": ["India"],
+            "Options": ["India", "Pakistan", "Bangladesh", "Nepal"],
+            "Translation": "India"
+        },
+        {
+            "Content": "Le Brésil",
+            "Question": "Translate into English.",
+            "Answers": ["Brazil"],
+            "Options": ["Brazil", "Argentina", "Mexico", "Colombia"],
+            "Translation": "Brazil"
+        },
+        {
+            "Content": "La Russie",
+            "Question": "Translate into English.",
+            "Answers": ["Russia"],
+            "Options": ["Russia", "Germany", "Canada", "China"],
+            "Translation": "Russia"
+        },
+        {
+            "Content": "L'Allemagne",
+            "Question": "Translate into English.",
+            "Answers": ["Germany"],
+            "Options": ["Germany", "France", "Italy", "Spain"],
+            "Translation": "Germany"
+        },
+        {
+            "Content": "La France",
+            "Question": "Translate into English.",
+            "Answers": ["France"],
+            "Options": ["France", "Spain", "Italy", "Germany"],
+            "Translation": "France"
+        },
+        {
+            "Content": "L'Angleterre",
+            "Question": "Translate into English.",
+            "Answers": ["England"],
+            "Options": ["England", "Scotland", "Ireland", "Wales"],
+            "Translation": "England"
+        }
+    ];
+
+    lesson22Json = [
+        {
+            "Content": "Je suis chinois.",
+            "Question": "Which nationality is 'Je'?",
+            "Answers": ["Chinese"],
+            "Options": ["Chinese", "Indian", "Brazilian", "Russian"],
+            "Translation": "I am Chinese."
+        },
+        {
+            "Content": "Tu es américain.",
+            "Question": "Which nationality is 'Tu'?",
+            "Answers": ["American"],
+            "Options": ["American", "British", "Canadian", "Australian"],
+            "Translation": "You are American."
+        },
+        {
+            "Content": "Il est japonais.",
+            "Question": "Which nationality is 'Il'?",
+            "Answers": ["Japanese"],
+            "Options": ["Japanese", "South Korean", "German", "French"],
+            "Translation": "He is Japanese."
+        },
+        {
+            "Content": "Elle est indienne.",
+            "Question": "Which nationality is 'Elle'?",
+            "Answers": ["Indian"],
+            "Options": ["Indian", "Pakistani", "Bangladeshi", "Nepali"],
+            "Translation": "She is Indian."
+        },
+        {
+            "Content": "Nous sommes brésiliens.",
+            "Question": "Which nationality is 'Nous'?",
+            "Answers": ["Brazilian"],
+            "Options": ["Brazilian", "Argentinian", "Mexican", "Colombian"],
+            "Translation": "We are Brazilian."
+        },
+        {
+            "Content": "Vous êtes russes.",
+            "Question": "Which nationality is 'Vous'?",
+            "Answers": ["Russian"],
+            "Options": ["Russian", "German", "Canadian", "Chinese"],
+            "Translation": "You are Russian."
+        },
+        {
+            "Content": "Ils sont allemands.",
+            "Question": "Which nationality is 'Ils'?",
+            "Answers": ["German"],
+            "Options": ["German", "French", "Italian", "Spanish"],
+            "Translation": "They are German."
+        },
+        {
+            "Content": "Elles sont françaises.",
+            "Question": "Which nationality is 'Elles'?",
+            "Answers": ["French"],
+            "Options": ["French", "Spanish", "Italian", "German"],
+            "Translation": "They are French."
+        },
+        {
+            "Content": "On est anglais.",
+            "Question": "Which nationality is 'On'?",
+            "Answers": ["English"],
+            "Options": ["English", "Scottish", "Irish", "Welsh"],
+            "Translation": "We are English."
+        }
+    ];
+
+    lesson23Json = [
+        {
+            "Content": "Mon père s'appelle Pierre.",
+            "Question": "Who is 'Pierre'?",
+            "Answers": ["Father"],
+            "Options": ["Father", "Mother", "Brother", "Sister"],
+            "Translation": "My father's name is Pierre."
+        },
+        {
+            "Content": "J'ai deux frères et une sœur.",
+            "Question": "How many siblings do I have?",
+            "Answers": ["Three"],
+            "Options": ["Three", "One", "Four", "Two"],
+            "Translation": "I have two brothers and one sister."
+        },
+        {
+            "Content": "Mon oncle est très gentil.",
+            "Question": "Who is 'oncle'?",
+            "Answers": ["My Uncle"],
+            "Options": ["My Uncle", "My Aunt", "My Cousin", "My Brother"],
+            "Translation": "My uncle is very kind."
+        },
+        {
+            "Content": "Ma sœur a 25 ans.",
+            "Question": "Who is 'sœur'?",
+            "Answers": ["My Sister"],
+            "Options": ["My Sister", "My Mother", "My Aunt", "My Cousin"],
+            "Translation": "My sister is 25 years old."
+        },
+        {
+            "Content": "Mon cousin adore jouer au football.",
+            "Question": "Who loves to play football?",
+            "Answers": ["My Cousin"],
+            "Options": ["My Cousin", "My Brother", "My Father", "My Uncle"],
+            "Translation": "My cousin loves to play football."
+        },
+        {
+            "Content": "Ma tante est une artiste talentueuse.",
+            "Question": "Who is 'tante'?",
+            "Answers": ["My Aunt"],
+            "Options": ["My Aunt", "My Mother", "My Sister", "My Grandmother"],
+            "Translation": "My aunt is a talented artist."
+        },
+        {
+            "Content": "Mon grand-père est le plus âgé de la famille.",
+            "Question": "Who is the oldest in the family?",
+            "Answers": ["My Grandfather"],
+            "Options": ["My Grandfather", "My Father", "My Uncle", "My Cousin"],
+            "Translation": "My grandfather is the oldest in the family."
+        }
+    ];
+
+    lesson24Json = [
+        {
+            "Content": "J'adore jouer de la guitare.",
+            "Question": "What do I love to do?",
+            "Answers": ["Play the guitar"],
+            "Options": ["Play the guitar", "Paint", "Cook", "Read books"],
+            "Translation": "I love to play the guitar."
+        },
+        {
+            "Content": "Elle aime faire de la randonnée en montagne.",
+            "Question": "What does she like to do in the mountains?",
+            "Answers": ["Hike"],
+            "Options": ["Hike", "Ski", "Swim", "Picnic"],
+            "Translation": "She likes to hike in the mountains."
+        },
+        {
+            "Content": "Mon frère collectionne des timbres rares.",
+            "Question": "What does my brother collect?",
+            "Answers": ["Rare stamps"],
+            "Options": ["Rare stamps", "Coins", "Action figures", "Books"],
+            "Translation": "My brother collects rare stamps."
+        },
+        {
+            "Content": "Nous aimons regarder des films le week-end.",
+            "Question": "What do we like to do on weekends?",
+            "Answers": ["Watch movies"],
+            "Options": ["Watch movies", "Play sports", "Go shopping", "Read newspapers"],
+            "Translation": "We like to watch movies on weekends."
+        },
+        {
+            "Content": "Il est passionné par la photographie.",
+            "Question": "What is he passionate about?",
+            "Answers": ["Photography"],
+            "Options": ["Photography", "Cooking", "Gardening", "Playing chess"],
+            "Translation": "He is passionate about photography."
+        },
+        {
+            "Content": "Elle adore la danse contemporaine.",
+            "Question": "What does she adore?",
+            "Answers": ["Contemporary dance"],
+            "Options": ["Contemporary dance", "Classical music", "Rock climbing", "Reading novels"],
+            "Translation": "She adores contemporary dance."
+        },
+        {
+            "Content": "Ils aiment faire du vélo dans le parc.",
+            "Question": "What do they like to do in the park?",
+            "Answers": ["Ride bicycles"],
+            "Options": ["Ride bicycles", "Play soccer", "Picnic", "Paint"],
+            "Translation": "They like to ride bicycles in the park."
+        }
+    ];
+
+    lesson25Json = [
+        {
+            "Content": "Il fait beau aujourd'hui.",
+            "Question": "What is the weather like today?",
+            "Answers": ["It's sunny"],
+            "Options": ["It's sunny", "It's rainy", "It's snowy", "It's windy"],
+            "Translation": "It's sunny today."
+        },
+        {
+            "Content": "Le temps est très froid en hiver.",
+            "Question": "What is the weather like in winter?",
+            "Answers": ["It's very cold"],
+            "Options": ["It's very cold", "It's hot", "It's mild", "It's rainy"],
+            "Translation": "The weather is very cold in winter."
+        },
+        {
+            "Content": "Il y a des nuages dans le ciel.",
+            "Question": "What is in the sky?",
+            "Answers": ["Clouds"],
+            "Options": ["Clouds", "Stars", "Sun", "Moon"],
+            "Translation": "There are clouds in the sky."
+        },
+        {
+            "Content": "Le vent souffle très fort.",
+            "Question": "What is happening with the wind?",
+            "Answers": ["It's blowing very hard"],
+            "Options": ["It's blowing very hard", "It's calm", "It's drizzling", "It's snowing"],
+            "Translation": "The wind is blowing very hard."
+        },
+        {
+            "Content": "Il y a de la neige partout.",
+            "Question": "What is everywhere?",
+            "Answers": ["Snow"],
+            "Options": ["Snow", "Rain", "Sunshine", "Fog"],
+            "Translation": "There is snow everywhere."
+        },
+        {
+            "Content": "Le soleil brille dans le ciel bleu.",
+            "Question": "What is shining in the blue sky?",
+            "Answers": ["The sun"],
+            "Options": ["The sun", "The moon", "Stars", "Clouds"],
+            "Translation": "The sun is shining in the blue sky."
+        },
+        {
+            "Content": "Le temps est orageux ce soir.",
+            "Question": "What is the weather like this evening?",
+            "Answers": ["It's stormy"],
+            "Options": ["It's stormy", "It's clear", "It's foggy", "It's chilly"],
+            "Translation": "The weather is stormy this evening."
+        }
+    ];
+
+    lesson26Json = [
+        {
+            "Content": "Il est huit heures du matin.",
+            "Question": "What time is it in the morning?",
+            "Answers": ["It's eight o'clock in the morning"],
+            "Options": ["It's eight o'clock in the morning", "It's eight o'clock at night", "It's eight o'clock AM", "It's noon"],
+            "Translation": "It's eight o'clock in the morning."
+        },
+        {
+            "Content": "Elle doit arriver à quatorze heures trente.",
+            "Question": "What time does she need to arrive?",
+            "Answers": ["She needs to arrive at two thirty PM", "She needs to arrive at two-thirty PM"],
+            "Options": ["She needs to arrive at two thirty PM", "She needs to arrive at three thirty AM", "She needs to arrive at two thirty AM", "She needs to arrive at one thirty PM"],
+            "Translation": "She needs to arrive at two thirty PM."
+        },
+        {
+            "Content": "Nous avons rendez-vous à dix-sept heures pile.",
+            "Question": "When is our appointment?",
+            "Answers": ["Our appointment is at exactly five o'clock"],
+            "Options": ["Our appointment is at exactly five o'clock", "Our appointment is at six o'clock", "Our appointment is at five thirty", "Our appointment is at four o'clock"],
+            "Translation": "Our appointment is at exactly five o'clock."
+        },
+        {
+            "Content": "Le film commence à dix-neuf heures quarante-cinq.",
+            "Question": "When does the movie start?",
+            "Answers": ["The movie starts at seven forty-five PM"],
+            "Options": ["The movie starts at seven forty-five PM", "The movie starts at eight forty-five AM", "The movie starts at seven thirty PM", "The movie starts at six forty-five PM"],
+            "Translation": "The movie starts at seven forty-five PM."
+        },
+        {
+            "Content": "Il est midi et demi.",
+            "Question": "What time is it?",
+            "Answers": ["It's noon and a half"],
+            "Options": ["It's noon and a half", "It's midnight and a half", "It's one thirty AM", "It's three thirty PM"],
+            "Translation": "It's noon and a half."
+        },
+        {
+            "Content": "Je me lève à six heures tous les jours.",
+            "Question": "When do I wake up every day?",
+            "Answers": ["I wake up at six o'clock every day"],
+            "Options": ["I wake up at six o'clock every day", "I wake up at seven o'clock every day", "I wake up at eight o'clock every day", "I wake up at nine o'clock every day"],
+            "Translation": "I wake up at six o'clock every day."
+        },
+        {
+            "Content": "Il est onze heures moins le quart du soir.",
+            "Question": "What time is it in the evening?",
+            "Answers": ["It's a quarter to eleven in the evening"],
+            "Options": ["It's a quarter to eleven in the evening", "It's eleven o'clock in the morning", "It's half past ten at night", "It's noon"],
+            "Translation": "It's a quarter to eleven in the evening."
+        }
+    ];
+
+    lesson27Json = [
+        {
+            "Content": "Je me lave les mains.",
+            "Question": "What am I doing?",
+            "Answers": ["I am washing my hands"],
+            "Options": ["I am washing my hands", "I am cooking dinner", "I am reading a book", "I am driving a car"],
+            "Translation": "I am washing my hands."
+        },
+        {
+            "Content": "Elle se brosse les cheveux tous les matins.",
+            "Question": "What does she do every morning?",
+            "Answers": ["She brushes her hair"],
+            "Options": ["She brushes her hair", "She brushes her teeth", "She takes a shower", "She eats breakfast"],
+            "Translation": "She brushes her hair every morning."
+        },
+        {
+            "Content": "Ils se réveillent tôt le week-end.",
+            "Question": "When do they wake up on weekends?",
+            "Answers": ["They wake up early on weekends"],
+            "Options": ["They wake up early on weekends", "They wake up late on weekends", "They go to bed early on weekends", "They sleep all day on weekends"],
+            "Translation": "They wake up early on weekends."
+        },
+        {
+            "Content": "Nous nous habillons rapidement.",
+            "Question": "How do we get dressed?",
+            "Answers": ["We dress quickly"],
+            "Options": ["We dress quickly", "We dress slowly", "We dress formally", "We dress up for a party"],
+            "Translation": "We dress quickly."
+        },
+        {
+            "Content": "Tu te maquilles pour la soirée.",
+            "Question": "Why are you applying makeup?",
+            "Answers": ["You are applying makeup for the evening"],
+            "Options": ["You are applying makeup for the evening", "You are applying makeup for work", "You are applying makeup for a photo shoot", "You are applying makeup for a vacation"],
+            "Translation": "You are applying makeup for the evening."
+        },
+        {
+            "Content": "Il se rase tous les jours.",
+            "Question": "How often does he shave?",
+            "Answers": ["He shaves every day"],
+            "Options": ["He shaves every day", "He shaves once a week", "He shaves in the evening", "He shaves in the morning"],
+            "Translation": "He shaves every day."
+        },
+        {
+            "Content": "Elles se préparent pour la fête ce soir.",
+            "Question": "What are they doing for the party tonight?",
+            "Answers": ["They are getting ready"],
+            "Options": ["They are getting ready", "They are cleaning the house", "They are cooking dinner", "They are watching a movie"],
+            "Translation": "They are getting ready for the party tonight."
+        }
+    ];
+
+    lesson28Json = [
+
+    ];
+
+    lessonJSONData = [lesson1Json, lesson2Json, lesson3Json, lesson4Json, lesson5Json, lesson6Json, lesson7Json, lesson8Json, lesson9Json, lesson10Json, lesson11Json, lesson12Json, lesson13Json, lesson14Json, lesson15Json, lesson16Json, lesson17Json, lesson18Json, lesson19Json, lesson20Json, lesson21Json, lesson22Json, lesson23Json, lesson24Json, lesson25Json, lesson26Json, lesson27Json, lesson28Json];
 }
