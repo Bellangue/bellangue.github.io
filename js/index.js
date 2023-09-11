@@ -2,6 +2,14 @@ if (localStorage.getItem("username") === null) {
     localStorage.setItem("username", "Bellangue Gardener");
 }
 
+if (localStorage.getItem("caterpillar") === null) {
+    localStorage.setItem("caterpillar", 0);
+}
+
+if (sessionStorage.getItem("combo") === null) {
+    sessionStorage.setItem("combo", 0);
+}
+
 if (localStorage.getItem("currentLanguage") === null) {
     localStorage.setItem("currentLanguage", "fr");
 }
@@ -67,6 +75,22 @@ if (localStorage.getItem("rzreading") === null) {
     localStorage.setItem("rzreading", 0);
 }
 
+const caterpillarul = document.getElementById("caterpillarul")
+const KatieLengthHeader = document.getElementById("KatieLengthHeader")
+
+KatieLengthHeader.textContent = `Katie is ${+localStorage.getItem("caterpillar")+1} segments tall!`
+
+for(let i=0;i<localStorage.getItem("caterpillar");++i)
+{
+    var li = document.createElement('li');
+    li.innerHTML = `<img src="images/katieseg.png"/>`
+    li.classList.add("caterpillar");
+    caterpillarul.appendChild(li);
+    var randomColor = Math.floor(Math.random()*16777215).toString(16);
+    li.style.backgroundColor = `#${randomColor}`
+    li.style.borderRadius = "50%"
+    li.style.border = "5px solid #000"
+}
 
 currentFlag.innerHTML = `<img class="centrePositionW stickyTop" src="images/Flags/${localStorage.getItem("currentLanguage")}.png"/>`;
 

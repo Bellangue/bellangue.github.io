@@ -46,6 +46,10 @@ a {
     color: #749274
 }
 
+.caterpillar{
+    display: block;
+}
+
 .centreText {
     text-align: center;
 }
@@ -90,7 +94,6 @@ td.languageSelection {
     background-color: #c2f4c2;
     height: 33%;
     border-left: 1px solid black;
-
 }
 
 @font-face {

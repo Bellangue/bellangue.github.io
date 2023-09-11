@@ -85,6 +85,10 @@ confirmButton.addEventListener("click", function () {
             localStorage.setItem(`${currentLanguage}dos`, currentDos + dosEarnt);
             snailPicture.style.display = '';
 
+            sessionStorage.setItem("combo", +sessionStorage.getItem("combo")+1);
+            localStorage.setItem("caterpillar", +sessionStorage.getItem("combo")+(+localStorage.getItem("caterpillar")));
+
+
             if(+counter < (selected + 1)*repetitions){
                 localStorage.setItem(`${localStorage.getItem("currentLanguage")}reading`, +counter + 1)
             }
