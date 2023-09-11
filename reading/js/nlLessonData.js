@@ -1077,7 +1077,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
 
     lesson14Json = [
         {
-            "Content": "Le dimanche, elle regarde des films.",
+            "Content": "Op zondag kijkt ze naar films.",
             "Question": "When does she watch movies?",
             "Answers": ["On Sundays"],
             "Options": [
@@ -1089,7 +1089,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "On Sundays, she watches movies."
         },
         {
-            "Content": "Le lundi, je mange de la pizza.",
+            "Content": "Op maandag eet ik pizza.",
             "Question": "When do I eat pizza?",
             "Answers": ["On Mondays"],
             "Options": [
@@ -1100,7 +1100,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "On Mondays, I eat pizza."
         },
         {
-            "Content": "Le mardi, tu vas au parc.",
+            "Content": "Op dinsdag ga jij naar het park.",
             "Question": "When do you go to the park?",
             "Answers": ["On Tuesdays"],
             "Options": [
@@ -1111,7 +1111,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "On Tuesdays, you go to the park."
         },
         {
-            "Content": "Le mercredi, il va au travail.",
+            "Content": "Op woensdag gaat hij naar zijn werk.",
             "Question": "When does he go to work?",
             "Answers": ["On Wednesdays"],
             "Options": [
@@ -1123,7 +1123,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "On Wednesdays, he goes to work."
         },
         {
-            "Content": "Le jeudi, nous faisons nos courses.",
+            "Content": "Op donderdag doen we boodschappen.",
             "Question": "When do we do our shopping?",
             "Answers": ["On Thursdays"],
             "Options": [
@@ -1135,8 +1135,8 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "On Thursdays, we do our shopping."
         },
         {
-            "Content": "Le vendredi, elle retrouve ses amis.",
-            "Question": "When does she meet her friends?",
+            "Content": "Op vrijdag ziet ze haar vrienden.",
+            "Question": "When does she see her friends?",
             "Answers": ["On Fridays"],
             "Options": [
                 "On Fridays",
@@ -1147,7 +1147,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "On Fridays, she meets her friends."
         },
         {
-            "Content": "Le samedi, ils font du sport.",
+            "Content": "Op zaterdag doen ze aan sport.",
             "Question": "When do they do sports?",
             "Answers": ["On Saturdays"],
             "Options": [
@@ -1162,35 +1162,35 @@ if (localStorage.getItem("currentLanguage") === "nl") {
 
     lesson15Json = [
         {
-            "Content": "Elle a les yeux marron.",
+            "Content": "Wat voor kleur hebben haar ogen?",
             "Question": "What color are her eyes?",
             "Answers": ["Brown"],
             "Options": ["Brown", "Blue", "Green", "Hazel"],
             "Translation": "She has brown eyes."
         },
         {
-            "Content": "Il a les yeux bleus.",
+            "Content": "Hij heeft blauwe ogen.",
             "Question": "What color are his eyes?",
             "Answers": ["Blue"],
             "Options": ["Blue", "Brown", "Green", "Gray"],
             "Translation": "He has blue eyes."
         },
         {
-            "Content": "J'ai les yeux verts.",
+            "Content": "Ik heb groene ogen.",
             "Question": "What color are my eyes?",
             "Answers": ["Green"],
             "Options": ["Green", "Brown", "Blue", "Hazel"],
             "Translation": "I have green eyes."
         },
         {
-            "Content": "Ils ont les yeux noisette.",
+            "Content": "Zij hebben hazelnootkleurige ogen.",
             "Question": "What color are their eyes?",
             "Answers": ["Hazel"],
             "Options": ["Hazel", "Brown", "Blue", "Green"],
             "Translation": "They have hazel eyes."
         },
         {
-            "Content": "Elle a les yeux gris.",
+            "Content": "Zij heeft grijze ogen.",
             "Question": "What color are her eyes?",
             "Answers": ["Gray"],
             "Options": ["Gray", "Brown", "Blue", "Green"],
@@ -1200,49 +1200,49 @@ if (localStorage.getItem("currentLanguage") === "nl") {
 
     lesson16Json = [
         {
-            "Content": "Elle a les cheveux blonds.",
+            "Content": "Zij heeft blond haar.",
             "Question": "What color is her hair?",
             "Answers": ["Blonde"],
             "Options": ["Blonde", "Brown", "Black", "Red"],
             "Translation": "She has blonde hair."
         },
         {
-            "Content": "Il a les cheveux bruns.",
+            "Content": "Hij heeft bruin haar.",
             "Question": "What color is his hair?",
             "Answers": ["Brown"],
             "Options": ["Brown", "Blonde", "Black", "Red"],
             "Translation": "He has brown hair."
         },
         {
-            "Content": "J'ai les cheveux noirs.",
+            "Content": "Ik heb zwart haar.",
             "Question": "What color is my hair?",
             "Answers": ["Black"],
             "Options": ["Black", "Blonde", "Brown", "Red"],
             "Translation": "I have black hair."
         },
         {
-            "Content": "Ils ont les cheveux roux.",
+            "Content": "Zij hebbben rood haar.",
             "Question": "What color is their hair?",
             "Answers": ["Red"],
             "Options": ["Red", "Blonde", "Brown", "Black"],
             "Translation": "They have red hair."
         },
         {
-            "Content": "Elle a les cheveux châtains.",
+            "Content": "Zij heeft bruin haar.",
             "Question": "What color is her hair?",
             "Answers": ["Brown"],
             "Options": ["Brown", "Blonde", "Black", "Red"],
             "Translation": "She has brown hair."
         },
         {
-            "Content": "Nous avons les cheveux blonds.",
+            "Content": "Wij hebben blond haar.",
             "Question": "What color is our hair?",
             "Answers": ["Blonde"],
             "Options": ["Blonde", "Brown", "Black", "Red"],
             "Translation": "We have blonde hair."
         },
         {
-            "Content": "Ils ont les cheveux noirs.",
+            "Content": "Ze hebben zwart haar.",
             "Question": "What color is their hair?",
             "Answers": ["Black"],
             "Options": ["Black", "Blonde", "Brown", "Red"],
@@ -1252,35 +1252,35 @@ if (localStorage.getItem("currentLanguage") === "nl") {
 
     lesson17Json = [
         {
-            "Content": "Elle a les cheveux longs et bouclés.",
+            "Content": "Ze heeft lang en krullend haar.",
             "Question": "What is her hair style?",
             "Answers": ["Long and curly"],
             "Options": ["Long and curly", "Short and straight", "Medium and wavy", "Bald"],
             "Translation": "She has long and curly hair."
         },
         {
-            "Content": "Il a les cheveux rasés.",
+            "Content": "Hij heeft geschoren haar.",
             "Question": "What is his hair style?",
             "Answers": ["Shaved"],
             "Options": ["Shaved", "Medium length", "Balding", "Curly"],
             "Translation": "He has shaved hair."
         },
         {
-            "Content": "Elle a les cheveux mi-longs et raides.",
+            "Content": "Zij heeft middellang en stijl haar.",
             "Question": "What is her hair style?",
             "Answers": ["Medium length and straight"],
             "Options": ["Medium length and straight", "Short and curly", "Long and wavy", "Bald"],
             "Translation": "She has medium length and straight hair."
         },
         {
-            "Content": "Il a les cheveux frisés.",
+            "Content": "Hij heeft krullen.",
             "Question": "What is his hair style?",
             "Answers": ["Curly"],
             "Options": ["Curly", "Straight", "Short", "Balding"],
             "Translation": "He has curly hair."
         },
         {
-            "Content": "Elle a les cheveux très courts.",
+            "Content": "Zij heeft zeer kort haar.",
             "Question": "What is her hair style?",
             "Answers": ["Very short"],
             "Options": ["Very short", "Long and wavy", "Curly", "Bald"],
