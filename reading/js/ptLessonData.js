@@ -73,7 +73,7 @@ if (localStorage.getItem("currentLanguage") === "pt") {
             "Translation": "the boy"
         },
         {
-            "Content": "Olá. Como você se chama?",
+            "Content": "Olá. Como você te chama?",
             "Question": "Select your reply.",
             "Answers": ["Eu me chamo Ana."],
             "Options": ["Eu me chamo Ana.",
@@ -563,6 +563,496 @@ if (localStorage.getItem("currentLanguage") === "pt") {
         },
     ]
 
+    lesson8Json = [
+        {
+            "Content": "um/uma",
+            "Question": "Translate into English",
+            "Answers": ["one"],
+            "Options": [
+                "one",
+                "two",
+                "three",
+                "four"
+            ],
+            "Translation": "one"
+        },
+        {
+            "Content": "dois/duas",
+            "Question": "Translate into English",
+            "Answers": ["two"],
+            "Options": [
+                "two",
+                "eight",
+                "nine",
+                "four"
+            ],
+            "Translation": "two"
+        },
+        {
+            "Content": "três",
+            "Question": "Translate into English",
+            "Answers": ["three"],
+            "Options": [
+                "three",
+                "seven",
+                "one",
+                "nine"
+            ],
+            "Translation": "three"
+        },
+        {
+            "Content": "quatro",
+            "Question": "Translate into English",
+            "Answers": ["four"],
+            "Options": [
+                "four",
+                "one",
+                "five",
+                "two"
+            ],
+            "Translation": "four"
+        },
+        {
+            "Content": "cinco",
+            "Question": "Translate into English",
+            "Answers": ["five"],
+            "Options": [
+                "five",
+                "six",
+                "three",
+                "eight"
+            ],
+            "Translation": "five"
+        },
+        {
+            "Content": "seis",
+            "Question": "Translate into English",
+            "Answers": ["six"],
+            "Options": [
+                "six",
+                "nine",
+                "ten",
+                "four"
+            ],
+            "Translation": "six"
+        },
+        {
+            "Content": "sete",
+            "Question": "Translate into English",
+            "Answers": ["seven"],
+            "Options": [
+                "seven",
+                "three",
+                "ten",
+                "two"
+            ],
+            "Translation": "seven"
+        },
+        {
+            "Content": "oito",
+            "Question": "Translate into English",
+            "Answers": ["eight"],
+            "Options": [
+                "eight",
+                "five",
+                "one",
+                "two"
+            ],
+            "Translation": "eight"
+        },
+        {
+            "Content": "nove",
+            "Question": "Translate into English",
+            "Answers": ["nine"],
+            "Options": [
+                "nine",
+                "five",
+                "three",
+                "seven"
+            ],
+            "Translation": "nine"
+        },
+        {
+            "Content": "dez",
+            "Question": "Translate into English",
+            "Answers": ["ten"],
+            "Options": [
+                "ten",
+                "nine",
+                "seven",
+                "two"
+            ],
+            "Translation": "ten"
+        }
+    ]
 
-    lessonJSONData = [lesson1Json, lesson2Json, lesson3Json, lesson4Json, lesson5Json, lesson6Json, lesson7Json];
+    lesson9Json = [
+        {
+            "Content": "um/uma",
+            "Question": "Translate into English",
+            "Answers": ["one"],
+            "Options": [
+                "one",
+                "two",
+                "three",
+                "four"
+            ],
+            "Translation": "one"
+        },
+        {
+            "Content": "dois/duas",
+            "Question": "Translate into English",
+            "Answers": ["two"],
+            "Options": [
+                "two",
+                "eight",
+                "nine",
+                "four"
+            ],
+            "Translation": "two"
+        },
+        {
+            "Content": "três",
+            "Question": "Translate into English",
+            "Answers": ["three"],
+            "Options": [
+                "three",
+                "seven",
+                "one",
+                "nine"
+            ],
+            "Translation": "three"
+        },
+        {
+            "Content": "quatro",
+            "Question": "Translate into English",
+            "Answers": ["four"],
+            "Options": [
+                "four",
+                "one",
+                "five",
+                "two"
+            ],
+            "Translation": "four"
+        },
+        {
+            "Content": "cinco",
+            "Question": "Translate into English",
+            "Answers": ["five"],
+            "Options": [
+                "five",
+                "six",
+                "three",
+                "eight"
+            ],
+            "Translation": "five"
+        },
+        {
+            "Content": "seis",
+            "Question": "Translate into English",
+            "Answers": ["six"],
+            "Options": [
+                "six",
+                "nine",
+                "ten",
+                "four"
+            ],
+            "Translation": "six"
+        },
+        {
+            "Content": "sete",
+            "Question": "Translate into English",
+            "Answers": ["seven"],
+            "Options": [
+                "seven",
+                "three",
+                "ten",
+                "two"
+            ],
+            "Translation": "seven"
+        },
+        {
+            "Content": "oito",
+            "Question": "Translate into English",
+            "Answers": ["eight"],
+            "Options": [
+                "eight",
+                "five",
+                "one",
+                "two"
+            ],
+            "Translation": "eight"
+        },
+        {
+            "Content": "nove",
+            "Question": "Translate into English",
+            "Answers": ["nine"],
+            "Options": [
+                "nine",
+                "five",
+                "three",
+                "seven"
+            ],
+            "Translation": "nine"
+        },
+        {
+            "Content": "dez",
+            "Question": "Translate into English",
+            "Answers": ["ten"],
+            "Options": [
+                "ten",
+                "nine",
+                "seven",
+                "two"
+            ],
+            "Translation": "ten"
+        }
+    ]
+
+    lesson10Json = [
+        {
+            "Content": "Eu tenho um gato.",
+            "Question": "What is the error in this sentence?",
+            "Answers": ["There is no mistake."],
+            "Options": [
+                "The gender is wrong.",
+                "The spelling is wrong.",
+                "It is conjugated incorrectly.",
+                "There is no mistake."
+            ],
+            "Translation": "I have a cat."
+        },
+        {
+            "Content": "Eu tenho dois cachoros.",
+            "Question": "What is the error in this sentence?",
+            "Answers": ["The spelling is wrong."],
+            "Options": [
+                "The gender is wrong.",
+                "The spelling is wrong.",
+                "It is conjugated incorrectly.",
+                "There is no mistake."
+            ],
+            "Translation": "cachoros > cachorros (I have two dogs.)"
+        },
+        {
+            "Content": "Você tem três animais.",
+            "Question": "Select your reply.",
+            "Answers": ["Sim, eu tenho dois gatos e um peixe."],
+            "Options": [
+                "Sim, eu tenho dois gatos e um peixe.",
+                "Sim, eu tenho uma filha.",
+                "Não, eu tenho um cachorro e um filho.",
+                "Não, eu sou Pierre."
+            ],
+            "Translation": "Do you have three animals? Yes, I have two cats and one fish."
+        },
+        {
+            "Content": "Ele tem quatro amigos.",
+            "Question": "How many friends does he have?",
+            "Answers": ["four"],
+            "Options": [
+                "four",
+                "nine",
+                "eight",
+                "three"
+            ],
+            "Translation": "He has four friends."
+        },
+        {
+            "Content": "Ela tem cinco jogos de vídeo.",
+            "Question": "How many video games does she have?",
+            "Answers": ["five"],
+            "Options": [
+                "five",
+                "seven",
+                "two",
+                "eight"
+            ],
+            "Translation": "She has five video games."
+        },
+        {
+            "Content": "Eles têm seis canetas.",
+            "Question": "How many pens do they have?",
+            "Answers": ["six"],
+            "Options": [
+                "six",
+                "seven",
+                "one",
+                "nine"
+            ],
+            "Translation": "They have six pens."
+        },
+        {
+            "Content": "Elas têm sete cadernos.",
+            "Question": "How many notebooks do they have?",
+            "Answers": ["seven"],
+            "Options": [
+                "seven",
+                "nine",
+                "one",
+                "two"
+            ],
+            "Translation": "They have seven notebooks."
+        },
+        {
+            "Content": "Eu tenho ___ cartão.",
+            "Question": "Select the correct number:",
+            "Answers": ["um"],
+            "Options": [
+                "um",
+                "dois",
+                "três",
+                "quatro"
+            ],
+            "Translation": "I have one card."
+        }
+    ]
+
+    lesson11Json = [
+        {
+            "Content": "onze",
+            "Question": "Translate into English.",
+            "Answers": ["eleven"],
+            "Options": ["eleven", "four", "eighteen", "fifteen"],
+            "Translation": "eleven"
+        },
+        {
+            "Content": "doze",
+            "Question": "Translate into English.",
+            "Answers": ["twelve"],
+            "Options": ["twelve", "seventeen", "nine", "five"],
+            "Translation": "twelve"
+        },
+        {
+            "Content": "treze",
+            "Question": "Translate into English.",
+            "Answers": ["thirteen"],
+            "Options": ["thirteen", "ten", "sixteen", "three"],
+            "Translation": "thirteen"
+        },
+        {
+            "Content": "quatorze",
+            "Question": "Translate into English.",
+            "Answers": ["fourteen"],
+            "Options": ["fourteen", "two", "nineteen", "seven"],
+            "Translation": "fourteen"
+        },
+        {
+            "Content": "quinze",
+            "Question": "Translate into English.",
+            "Answers": ["fifteen"],
+            "Options": ["fifteen", "six", "eight", "one"],
+            "Translation": "fifteen"
+        },
+        {
+            "Content": "dezesseis",
+            "Question": "Translate into English.",
+            "Answers": ["sixteen"],
+            "Options": ["sixteen", "seventeen", "thirteen", "five"],
+            "Translation": "sixteen"
+        },
+        {
+            "Content": "dezessete",
+            "Question": "Translate into English.",
+            "Answers": ["seventeen"],
+            "Options": ["seventeen", "three", "ten", "four"],
+            "Translation": "seventeen"
+        },
+        {
+            "Content": "dezoito",
+            "Question": "Translate into English.",
+            "Answers": ["eighteen"],
+            "Options": ["eighteen", "eight", "thirteen", "nineteen"],
+            "Translation": "eighteen"
+        },
+        {
+            "Content": "deznove",
+            "Question": "Translate into English.",
+            "Answers": ["nineteen"],
+            "Options": ["nineteen", "sixteen", "two", "twelve"],
+            "Translation": "nineteen"
+        },
+        {
+            "Content": "vinte",
+            "Question": "Translate into English.",
+            "Answers": ["twenty"],
+            "Options": ["twenty", "fifteen", "eight", "seven"],
+            "Translation": "twenty"
+        }
+    ];
+
+    lesson12Json = [
+        {
+            "Content": "vinte e um",
+            "Question": "Translate into English.",
+            "Answers": ["twenty-one"],
+            "Options": ["twenty-one", "twenty-nine", "twenty-four", "twenty-five"],
+            "Translation": "twenty-one"
+        },
+        {
+            "Content": "vinte e dois",
+            "Question": "Translate into English.",
+            "Answers": ["twenty-two"],
+            "Options": ["nine", "twenty-two", "twenty", "thirty"],
+            "Translation": "twenty-two"
+        },
+        {
+            "Content": "vinte e três",
+            "Question": "Translate into English.",
+            "Answers": ["twenty-three"],
+            "Options": ["twenty-three", "three", "sixteen", "nineteen"],
+            "Translation": "twenty-three"
+        },
+        {
+            "Content": "vinte e quatro",
+            "Question": "Translate into English.",
+            "Answers": ["twenty-four"],
+            "Options": ["fourteen", "twenty-four", "fourty", "four"],
+            "Translation": "twenty-four"
+        },
+        {
+            "Content": "vinte e cinco",
+            "Question": "Translate into English.",
+            "Answers": ["twenty-five"],
+            "Options": ["fifteen", "eighteen", "twenty-five", "seven"],
+            "Translation": "twenty-five"
+        },
+        {
+            "Content": "vinte e sez",
+            "Question": "Translate into English.",
+            "Answers": ["twenty-six"],
+            "Options": ["twenty-six", "twenty-seven", "twenty-two", "twelve"],
+            "Translation": "twenty-six"
+        },
+        {
+            "Content": "vinte e sete",
+            "Question": "Translate into English.",
+            "Answers": ["twenty-seven"],
+            "Options": ["twenty-seven", "eleven", "ten", "fourteen"],
+            "Translation": "twenty-seven"
+        },
+        {
+            "Content": "vinte e oito",
+            "Question": "Translate into English.",
+            "Answers": ["twenty-eight"],
+            "Options": ["eighteen", "twenty-eight", "twenty-three", "nineteen"],
+            "Translation": "twenty-eight"
+        },
+        {
+            "Content": "vinte e nove",
+            "Question": "Translate into English.",
+            "Answers": ["twenty-nine"],
+            "Options": ["twenty-nine", "nineteen", "nine", "fourteen"],
+            "Translation": "twenty-nine"
+        },
+        {
+            "Content": "trinta",
+            "Question": "Translate into English.",
+            "Answers": ["thirty"],
+            "Options": ["thirty", "twenty", "ten", "zero"],
+            "Translation": "thirty"
+        }
+    ];
+
+    lessonJSONData = [lesson1Json, lesson2Json, lesson3Json, lesson4Json, lesson5Json, lesson6Json, lesson7Json, lesson8Json, lesson9Json, lesson10Json, lesson11Json, lesson12Json];
 }

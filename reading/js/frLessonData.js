@@ -661,7 +661,7 @@ if (localStorage.getItem("currentLanguage") === "fr") {
                 "nine",
                 "seven",
                 "two"],
-            "Translation": "nine"
+            "Translation": "ten"
         },
 
     ]
@@ -794,7 +794,7 @@ if (localStorage.getItem("currentLanguage") === "fr") {
         {
             "Content": "J'ai deux chien.",
             "Question": "What is the error in this sentence?",
-            "Answers": ["There is no mistake."],
+            "Answers": ["The spelling is wrong."],
             "Options": ["The gender is wrong.",
                 "The spelling is wrong.",
                 "It is conjugated incorrectly.",
