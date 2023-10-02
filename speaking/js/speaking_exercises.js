@@ -15,12 +15,16 @@ const necessaryQuestions = 5;
 let doneQuestions = 0;
 let totalQuestions = 0;
 
+
+let canSkip = false;
+
 setQuestion();
 
 const currentFlag = document.getElementById("currentFlag");
 currentFlag.innerHTML = `<img class="centrePositionW stickyTop" src="../images/Flags/${currentLanguage}.png"/>`;
 
 function setQuestion() {
+    canSkip = false;
     currentQuestionNo = Math.round(Math.random() * (currentLessonJson.length - 1));
     selectedAnswer = undefined;
     endText.textContent = "";
@@ -29,23 +33,17 @@ function setQuestion() {
     questionElements[0].textContent = currentLessonJson[currentQuestionNo].Content;
 }
 
+
 confirmButton.addEventListener("click", function () {
     if (confirmButton.textContent === "Confirm Answer") {
-        if (questionElements[2].value === "") {
-            alert("You did not input an answer. Try again.");
+        if (canSkip === false) {
+            alert("Please play content and repeat the phrase.");
         } else {
             ++totalQuestions;
-            if (checkIfCorrect()) {
-                endText.textContent = "Correct! " + currentLessonJson[currentQuestionNo].Translation;
-                endText.style.color = "green";
-                confirmButton.textContent = "Next...";
-                ++doneQuestions;
-            } else {
-                endText.textContent = "Incorrect! " + currentLessonJson[currentQuestionNo].Answers + ": " + currentLessonJson[currentQuestionNo].Translation;
-                endText.style.color = "red";
-                confirmButton.textContent = "Next...";
-                confirmButton.style.backgroundColor = "#ee7070";
-            }
+            endText.textContent = "Correct! " + currentLessonJson[currentQuestionNo].Translation;
+            endText.style.color = "green";
+            confirmButton.textContent = "Next...";
+            ++doneQuestions;
         }
     } else if (confirmButton.textContent === "Next...") {
         if (doneQuestions === necessaryQuestions) {
@@ -69,13 +67,6 @@ snailPicture.addEventListener("click", function () {
     window.location.href = "stickinsects.html";
 });
 
-function checkIfCorrect() {
-    if (currentLessonJson[currentQuestionNo].Answers.includes(questionElements[2].value)) {
-        return true;
-    }
-    return false;
-}
-
 const synth = window.speechSynthesis;
 voices = synth.getVoices();
 
@@ -83,6 +74,11 @@ const contentSpeaker = document.getElementById("contentSpeaker");
 
 contentSpeaker.addEventListener("click", function () {
     let soundToMake = new SpeechSynthesisUtterance(questionElements[0].textContent);
+
+    soundToMake.addEventListener("end", (event) => {
+        canSkip = true;
+    });
+
     if (currentLanguage === "fr") {
         soundToMake.lang = "fr-FR";
     } else if (currentLanguage === "pt") {
@@ -91,6 +87,6 @@ contentSpeaker.addEventListener("click", function () {
         soundToMake.lang = "nl-NL";
     } else if (currentLanguage === "rz") {
         soundToMake.lang = "en-UK";
-    }    
+    }
     synth.speak(soundToMake);
 });
