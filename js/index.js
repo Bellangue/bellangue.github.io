@@ -55,9 +55,16 @@ if (localStorage.getItem("nlreading") === null) {
     localStorage.setItem("nlreading", 0);
 }
 
+if (localStorage.getItem("nlspeaking") === null) {
+    localStorage.setItem("nlspeaking", 0);
+}
+
 //fr
 if (localStorage.getItem("frreading") === null) {
     localStorage.setItem("frreading", 0);
+}
+if (localStorage.getItem("frspeaking") === null) {
+    localStorage.setItem("frspeaking", 0);
 }
 
 // //de
@@ -69,10 +76,16 @@ if (localStorage.getItem("frreading") === null) {
 if (localStorage.getItem("ptreading") === null) {
     localStorage.setItem("ptreading", 0);
 }
+if (localStorage.getItem("ptspeaking") === null) {
+    localStorage.setItem("ptspeaking", 0);
+}
 
 //rz
 if (localStorage.getItem("rzreading") === null) {
     localStorage.setItem("rzreading", 0);
+}
+if (localStorage.getItem("rzspeaking") === null) {
+    localStorage.setItem("rzspeaking", 0);
 }
 
 const caterpillarul = document.getElementById("caterpillarul")
