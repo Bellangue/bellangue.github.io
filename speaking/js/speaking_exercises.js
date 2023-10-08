@@ -46,10 +46,10 @@ confirmButton.addEventListener("click", function () {
             ++doneQuestions;
         }
     } else if (confirmButton.textContent === "Next...") {
+        contentSpeaker.style.display = "none"
+        endText.style.display = "none"
+
         if (doneQuestions === necessaryQuestions) {
-            for (let i = 2; i < 5; ++i) {
-                questionElements[i].style.display = 'none';
-            }
             questionElements[0].textContent = `You got ${doneQuestions}/${totalQuestions} correct!`
             let dosEarnt = 20 - (5 * (totalQuestions - necessaryQuestions));
             if (dosEarnt < 5) dosEarnt = 5;
@@ -57,6 +57,14 @@ confirmButton.addEventListener("click", function () {
             const currentDos = +localStorage.getItem(`${currentLanguage}dos`);
             localStorage.setItem(`${currentLanguage}dos`, currentDos + dosEarnt);
             snailPicture.style.display = '';
+
+            sessionStorage.setItem("combo", +sessionStorage.getItem("combo")+1);
+            localStorage.setItem("caterpillar", +sessionStorage.getItem("combo")+(+localStorage.getItem("caterpillar")));
+
+
+            if(+counter < (selected + 1)*repetitions){
+                localStorage.setItem(`${localStorage.getItem("currentLanguage")}speaking`, +counter + 1)
+            }
         } else {
             setQuestion();
         }

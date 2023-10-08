@@ -56,6 +56,9 @@ confirmButton.addEventListener("click", function () {
             for (let i = 2; i < 5; ++i) {
                 questionElements[i].style.display = 'none';
             }
+            soundSpeaker.style.display = 'none';
+            contentSpeaker.style.display = 'none';
+
             questionElements[0].textContent = `You got ${doneQuestions}/${totalQuestions} correct!`
             let dosEarnt = 20 - (5 * (totalQuestions - necessaryQuestions));
             if (dosEarnt < 5) dosEarnt = 5;
@@ -63,6 +66,10 @@ confirmButton.addEventListener("click", function () {
             const currentDos = +localStorage.getItem(`${currentLanguage}dos`);
             localStorage.setItem(`${currentLanguage}dos`, currentDos + dosEarnt);
             siPicture.style.display = '';
+
+            sessionStorage.setItem("combo", +sessionStorage.getItem("combo")+1);
+            localStorage.setItem("caterpillar", +sessionStorage.getItem("combo")+(+localStorage.getItem("caterpillar")));
+
         } else {
             setQuestion();
         }
@@ -106,11 +113,14 @@ contentSpeaker.addEventListener("click", function () {
     let soundToMake = new SpeechSynthesisUtterance(questionElements[0].textContent);
     if (currentLanguage === "fr") {
         soundToMake.lang = "fr-FR";
-    } else if (currentLanguage === "pt") {
+    }
+     else if (currentLanguage === "pt") {
         soundToMake.lang = "pt-BR";
-    } else if (currentLanguage === "nl") {
+    } 
+    else if (currentLanguage === "nl") {
         soundToMake.lang = "nl-NL";
-    } else if (currentLanguage === "rz") {
+    } 
+    else if (currentLanguage === "rz") {
         soundToMake.lang = "en-UK";
     }    synth.speak(soundToMake);
 });
