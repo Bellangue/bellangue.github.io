@@ -46,10 +46,9 @@ confirmButton.addEventListener("click", function () {
             ++doneQuestions;
         }
     } else if (confirmButton.textContent === "Next...") {
-        contentSpeaker.style.display = "none"
-        endText.style.display = "none"
-
         if (doneQuestions === necessaryQuestions) {
+            contentSpeaker.style.display = "none"
+            endText.style.display = "none"
             questionElements[0].textContent = `You got ${doneQuestions}/${totalQuestions} correct!`
             let dosEarnt = 20 - (5 * (totalQuestions - necessaryQuestions));
             if (dosEarnt < 5) dosEarnt = 5;
