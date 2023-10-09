@@ -59,12 +59,19 @@ if (localStorage.getItem("nlspeaking") === null) {
     localStorage.setItem("nlspeaking", 0);
 }
 
+if (localStorage.getItem("nllistening") === null) {
+    localStorage.setItem("nllistening", 0);
+}
+
 //fr
 if (localStorage.getItem("frreading") === null) {
     localStorage.setItem("frreading", 0);
 }
 if (localStorage.getItem("frspeaking") === null) {
     localStorage.setItem("frspeaking", 0);
+}
+if (localStorage.getItem("frlistening") === null) {
+    localStorage.setItem("frlistening", 0);
 }
 
 // //de
@@ -79,6 +86,9 @@ if (localStorage.getItem("ptreading") === null) {
 if (localStorage.getItem("ptspeaking") === null) {
     localStorage.setItem("ptspeaking", 0);
 }
+if (localStorage.getItem("ptlistening") === null) {
+    localStorage.setItem("ptlistening", 0);
+}
 
 //rz
 if (localStorage.getItem("rzreading") === null) {
@@ -87,19 +97,21 @@ if (localStorage.getItem("rzreading") === null) {
 if (localStorage.getItem("rzspeaking") === null) {
     localStorage.setItem("rzspeaking", 0);
 }
+if (localStorage.getItem("rzspeaking") === null) {
+    localStorage.setItem("rzspeaking", 0);
+}
 
 const caterpillarul = document.getElementById("caterpillarul")
 const KatieLengthHeader = document.getElementById("KatieLengthHeader")
 
-KatieLengthHeader.textContent = `Katie is ${+localStorage.getItem("caterpillar")+1} segments tall!`
+KatieLengthHeader.textContent = `Katie is ${+localStorage.getItem("caterpillar") + 1} segments tall!`
 
-for(let i=0;i<localStorage.getItem("caterpillar");++i)
-{
+for (let i = 0; i < localStorage.getItem("caterpillar"); ++i) {
     var li = document.createElement('li');
     li.innerHTML = `<img src="images/katieseg.png"/>`
     li.classList.add("caterpillar");
     caterpillarul.appendChild(li);
-    var randomColor = Math.floor(Math.random()*16777215).toString(16);
+    var randomColor = Math.floor(Math.random() * 16777215).toString(16);
     li.style.backgroundColor = `#${randomColor}`
     li.style.borderRadius = "50%"
     li.style.border = "5px solid #000"
@@ -121,22 +133,22 @@ dosValueElements[0].textContent = dosValues.reduce((a, b) => a + b, 0);
 
 
 for (let i = 0; i < dosResetElements.length; ++i) {
-    dosResetElements[i].addEventListener("click", function(){
+    dosResetElements[i].addEventListener("click", function () {
         dosResetElements[i].textContent = "Reload the Page"
         dosValues[i] = 0;
-        if(i === 0){
+        if (i === 0) {
             localStorage.clear();
         }
-        if(dosNames[sortedIndices.sortIndices[i-1]] === "Dutch"){
+        if (dosNames[sortedIndices.sortIndices[i - 1]] === "Dutch") {
             localStorage.setItem("nldos", 0);
         }
-        else if(dosNames[sortedIndices.sortIndices[i-1]] === "French"){
+        else if (dosNames[sortedIndices.sortIndices[i - 1]] === "French") {
             localStorage.setItem("frdos", 0);
         }
-        else if(dosNames[sortedIndices.sortIndices[i-1]] === "Portuguese"){
+        else if (dosNames[sortedIndices.sortIndices[i - 1]] === "Portuguese") {
             localStorage.setItem("ptdos", 0);
         }
-        else if(dosNames[sortedIndices.sortIndices[i-1]] === "ruz"){
+        else if (dosNames[sortedIndices.sortIndices[i - 1]] === "ruz") {
             localStorage.setItem("rzdos", 0);
         }
     });
