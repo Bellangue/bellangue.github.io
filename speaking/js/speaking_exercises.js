@@ -71,7 +71,7 @@ confirmButton.addEventListener("click", function () {
 });
 
 snailPicture.addEventListener("click", function () {
-    window.location.href = "stickinsects.html";
+    window.location.href = "speaking.html";
 });
 
 const synth = window.speechSynthesis;
