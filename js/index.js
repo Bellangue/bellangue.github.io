@@ -63,6 +63,10 @@ if (localStorage.getItem("nllistening") === null) {
     localStorage.setItem("nllistening", 0);
 }
 
+if (localStorage.getItem("nlvocabulary") === null) {
+    localStorage.setItem("nlvocabulary", 0);
+}
+
 //fr
 if (localStorage.getItem("frreading") === null) {
     localStorage.setItem("frreading", 0);
@@ -72,6 +76,10 @@ if (localStorage.getItem("frspeaking") === null) {
 }
 if (localStorage.getItem("frlistening") === null) {
     localStorage.setItem("frlistening", 0);
+}
+
+if (localStorage.getItem("frvocabulary") === null) {
+    localStorage.setItem("frvocabulary", 0);
 }
 
 // //de
@@ -90,6 +98,10 @@ if (localStorage.getItem("ptlistening") === null) {
     localStorage.setItem("ptlistening", 0);
 }
 
+if (localStorage.getItem("ptvocabulary") === null) {
+    localStorage.setItem("ptvocabulary", 0);
+}
+
 //rz
 if (localStorage.getItem("rzreading") === null) {
     localStorage.setItem("rzreading", 0);
@@ -99,6 +111,10 @@ if (localStorage.getItem("rzspeaking") === null) {
 }
 if (localStorage.getItem("rzspeaking") === null) {
     localStorage.setItem("rzspeaking", 0);
+}
+
+if (localStorage.getItem("rzvocabulary") === null) {
+    localStorage.setItem("rzvocabulary", 0);
 }
 
 const caterpillarul = document.getElementById("caterpillarul")

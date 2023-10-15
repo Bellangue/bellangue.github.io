@@ -1,5 +1,3 @@
-console.log("Hello There");
-
 currentLanguage = localStorage.getItem("currentLanguage");
 
 const questionElements = document.getElementsByClassName("questionElements");
