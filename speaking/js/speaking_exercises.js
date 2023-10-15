@@ -7,8 +7,12 @@ const snailPicture = document.getElementById("snailPicture");
 snailPicture.style.display = 'none';
 
 var selected = sessionStorage.getItem("selected");
+const counter = localStorage.getItem(`${localStorage.getItem("currentLanguage")}speaking`);
+
 let currentLessonJson = lessonJSONData[selected];
 let currentQuestionNo;
+const repetitions = 3;
+
 var selectedAnswer;
 
 const necessaryQuestions = 5;
