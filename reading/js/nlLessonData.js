@@ -1287,14 +1287,14 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "She has very short hair."
         },
         {
-            "Content": "Il a les cheveux ondulés.",
+            "Content": "Hij heeft golvend haar.",
             "Question": "What is his hair style?",
             "Answers": ["Wavy"],
             "Options": ["Wavy", "Straight", "Short and curly", "Balding"],
             "Translation": "He has wavy hair."
         },
         {
-            "Content": "Elle a les cheveux bouclés.",
+            "Content": "Zij heeft krullend haar.",
             "Question": "What is her hair style?",
             "Answers": ["Curly"],
             "Options": ["Curly", "Straight", "Short and wavy", "Balding"],
@@ -1304,49 +1304,49 @@ if (localStorage.getItem("currentLanguage") === "nl") {
 
     lesson18Json = [
         {
-            "Content": "Il a trente ans.",
+            "Content": "Hij is dertig jaar oud.",
             "Question": "How old is he?",
             "Answers": ["Thirty"],
             "Options": ["Thirty", "Twenty", "Fifty", "Seventy"],
             "Translation": "He is thirty years old."
         },
         {
-            "Content": "Elle a quarante-cinq dollars.",
+            "Content": "Zij heeft vijfenveertig euro.",
             "Question": "How much money does she have?",
             "Answers": ["Forty-five"],
             "Options": ["Forty-five", "Sixty", "Ninety", "Seventy-five"],
-            "Translation": "She has forty-five dollars."
+            "Translation": "She has forty-five euros."
         },
         {
-            "Content": "Il y a soixante secondes dans une minute.",
+            "Content": "Een minuut is zestig seconden.",
             "Question": "How many seconds are there in a minute?",
             "Answers": ["Sixty"],
             "Options": ["Sixty", "Fifty", "Seventy", "Eighty"],
             "Translation": "There are sixty seconds in a minute."
         },
         {
-            "Content": "Il a quatre-vingts livres.",
+            "Content": "Hij weegt 80 kilo.",
             "Question": "How much does he weigh?",
             "Answers": ["Eighty"],
             "Options": ["Eighty", "Sixty", "Ninety", "Seventy-five"],
-            "Translation": "He weighs eighty pounds."
+            "Translation": "He weighs eighty kilos."
         },
         {
-            "Content": "Elle a cinquante-cinq pommes.",
+            "Content": "Zij heeft vijenvijftig appels.",
             "Question": "How many apples does she have?",
             "Answers": ["Fifty-five"],
             "Options": ["Fifty-five", "Sixty", "Ninety", "Seventy-five"],
             "Translation": "She has fifty-five apples."
         },
         {
-            "Content": "Il y a trois cent soixante-cinq jours dans une année.",
+            "Content": "Er zitten driehondervijfenzestig dagen in een jaar.",
             "Question": "How many days are there in a year?",
             "Answers": ["Three hundred sixty-five"],
             "Options": ["Three hundred sixty-five", "Sixty", "Eighty", "Seventy-five"],
             "Translation": "There are three hundred sixty-five days in a year."
         },
         {
-            "Content": "Il a soixante-dix employés.",
+            "Content": "Er werken zeventig mensen.",
             "Question": "How many employees does he have?",
             "Answers": ["Seventy"],
             "Options": ["Seventy", "Sixty", "Eighty", "Ninety"],
@@ -1356,49 +1356,49 @@ if (localStorage.getItem("currentLanguage") === "nl") {
 
     lesson19Json = [
         {
-            "Content": "Elle a vingt-deux ans.",
+            "Content": "Ze is tweeëntwintig jaar oud.",
             "Question": "How old is she?",
             "Answers": ["Twenty-two"],
             "Options": ["Twenty-two", "Fifteen", "Thirty", "Forty-five"],
             "Translation": "She is twenty-two years old."
         },
         {
-            "Content": "Il a trente-sept ans.",
+            "Content": "Hij is zevenendertig jaar oud.",
             "Question": "How old is he?",
             "Answers": ["Thirty-seven"],
             "Options": ["Thirty-seven", "Twenty", "Fifty", "Sixty"],
             "Translation": "He is thirty-seven years old."
         },
         {
-            "Content": "Elle a dix-neuf ans.",
+            "Content": "Ze is negentien jaar oud.",
             "Question": "How old is she?",
             "Answers": ["Nineteen"],
             "Options": ["Nineteen", "Twenty-five", "Thirty", "Forty-five"],
             "Translation": "She is nineteen years old."
         },
         {
-            "Content": "Il a cinquante-et-un ans.",
+            "Content": "Hij is eenenvijftig jaar oud.",
             "Question": "How old is he?",
             "Answers": ["Fifty-one"],
             "Options": ["Fifty-one", "Thirty-five", "Sixty", "Seventy-five"],
             "Translation": "He is fifty-one years old."
         },
         {
-            "Content": "Elle a vingt-six ans.",
+            "Content": "Ze is zesentwintig jaar oud.",
             "Question": "How old is she?",
             "Answers": ["Twenty-six"],
             "Options": ["Twenty-six", "Eighteen", "Thirty", "Forty-five"],
             "Translation": "She is twenty-six years old."
         },
         {
-            "Content": "Il a soixante-trois ans.",
+            "Content": "Hij is drieënzestig jaar oud.",
             "Question": "How old is he?",
             "Answers": ["Sixty-three"],
             "Options": ["Sixty-three", "Thirty-five", "Fifty", "Seventy-five"],
             "Translation": "He is sixty-three years old."
         },
         {
-            "Content": "Elle a quarante-sept ans.",
+            "Content": "Hoe oud is zij?",
             "Question": "How old is she?",
             "Answers": ["Forty-seven"],
             "Options": ["Forty-seven", "Eighteen", "Thirty", "Twenty-six"],
@@ -1408,49 +1408,49 @@ if (localStorage.getItem("currentLanguage") === "nl") {
 
     lesson20Json = [
         {
-            "Content": "Elle est très gentille.",
+            "Content": "Ze is erg aardig.",
             "Question": "What is her personality like?",
             "Answers": ["Very kind"],
             "Options": ["Very kind", "Funny", "Serious", "Shy"],
             "Translation": "She is very kind."
         },
         {
-            "Content": "Il est très drôle.",
+            "Content": "Hij is erg grappig.",
             "Question": "What is his personality like?",
             "Answers": ["Very funny"],
             "Options": ["Very funny", "Kind", "Serious", "Shy"],
             "Translation": "He is very funny."
         },
         {
-            "Content": "Elle est très sérieuse.",
+            "Content": "Zij is erg serieus.",
             "Question": "What is her personality like?",
             "Answers": ["Very serious"],
             "Options": ["Very serious", "Kind", "Funny", "Shy"],
             "Translation": "She is very serious."
         },
         {
-            "Content": "Il est très timide.",
+            "Content": "Hij is erg verlegen.",
             "Question": "What is his personality like?",
             "Answers": ["Very shy"],
             "Options": ["Very shy", "Kind", "Funny", "Serious"],
             "Translation": "He is very shy."
         },
         {
-            "Content": "Elle est très sociable.",
+            "Content": "Zij is erg sociaal.",
             "Question": "What is her personality like?",
             "Answers": ["Very sociable"],
             "Options": ["Very sociable", "Kind", "Funny", "Serious"],
             "Translation": "She is very sociable."
         },
         {
-            "Content": "Il est très calme.",
+            "Content": "Hij is erg rustig.",
             "Question": "What is his personality like?",
             "Answers": ["Very calm"],
             "Options": ["Very calm", "Kind", "Funny", "Serious"],
             "Translation": "He is very calm."
         },
         {
-            "Content": "Elle est très énergique.",
+            "Content": "Zij is erg energiek.",
             "Question": "What is her personality like?",
             "Answers": ["Very energetic"],
             "Options": ["Very energetic", "Kind", "Funny", "Serious"],
