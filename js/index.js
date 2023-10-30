@@ -67,6 +67,10 @@ if (localStorage.getItem("nlvocabulary") === null) {
     localStorage.setItem("nlvocabulary", 0);
 }
 
+if (localStorage.getItem("nlwriting") === null) {
+    localStorage.setItem("nlwriting", 0);
+}
+
 //fr
 if (localStorage.getItem("frreading") === null) {
     localStorage.setItem("frreading", 0);
@@ -80,6 +84,10 @@ if (localStorage.getItem("frlistening") === null) {
 
 if (localStorage.getItem("frvocabulary") === null) {
     localStorage.setItem("frvocabulary", 0);
+}
+
+if (localStorage.getItem("frwriting") === null) {
+    localStorage.setItem("frwriting", 0);
 }
 
 // //de
@@ -102,6 +110,10 @@ if (localStorage.getItem("ptvocabulary") === null) {
     localStorage.setItem("ptvocabulary", 0);
 }
 
+if (localStorage.getItem("ptwriting") === null) {
+    localStorage.setItem("ptwriting", 0);
+}
+
 //rz
 if (localStorage.getItem("rzreading") === null) {
     localStorage.setItem("rzreading", 0);
@@ -109,14 +121,17 @@ if (localStorage.getItem("rzreading") === null) {
 if (localStorage.getItem("rzspeaking") === null) {
     localStorage.setItem("rzspeaking", 0);
 }
-if (localStorage.getItem("rzspeaking") === null) {
-    localStorage.setItem("rzspeaking", 0);
+if (localStorage.getItem("rzlistening") === null) {
+    localStorage.setItem("rzlistening", 0);
 }
 
 if (localStorage.getItem("rzvocabulary") === null) {
     localStorage.setItem("rzvocabulary", 0);
 }
 
+if (localStorage.getItem("rzwriting") === null) {
+    localStorage.setItem("rzwriting", 0);
+}
 const caterpillarul = document.getElementById("caterpillarul")
 const KatieLengthHeader = document.getElementById("KatieLengthHeader")
 

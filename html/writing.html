@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bellangue: Writing</title>
+    <title>Bellangue: Reading</title>
     <link rel="stylesheet" href="../css/main.css" type="text/css" />
     <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
 </head>
 
 <body>
-    <a id="currentFlag" href="languageSelection.html"><img class="centrePositionW stickyTop" src="../images/Flags/fr.png"/></a>
+    <a id="currentFlag" href="languageSelection.html"><img class="centrePositionW stickyTop"
+            src="../images/Flags/fr.png" /></a>
     <p class="bodyTitle">Bellangue: Writing</p>
     <ul class="centreText">
         <li><a href="../index.html">Home</a></li>
@@ -25,13 +26,18 @@
         <li><a href="hintsReading.html">Reading Hint Helper</a></li>
         <li><a href="stickinsects.html">Stick Insect Farm</a></li>
     </ul>
-    
-    <p id="engText" class="centreText centrePosition questionElements">EngText!</p>
-    <h3 id="questionText" class="centreText centrePosition questionElements">Question?</h3>
-    <p id="langText" class="centreText centrePosition questionElements">LangText!</p>
-    <input id="inputAnswer" class="centreText centrePosition questionElements" type="text" />
 
+
+
+    <h4 class="centreText">Select a snail lesson and click the blue bar.</h4>
+    <div id="lessonBar" class="centreText">Select a Lesson to Begin!</div>
+    <div>
+        <img src="../images/shelly.png" class="lessonIcon lessonCentre" />
+    </div>
+
+    <script src="../writing/js/lessonData.js"></script>
     <script src="../writing/js/frLessonData.js"></script>
-    <script src="../writing/js/writing_exercises.js"></script>
+    <script src="../js/writing.js"></script>
 </body>
+
 </html>
