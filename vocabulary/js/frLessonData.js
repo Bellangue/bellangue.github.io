@@ -17,7 +17,7 @@ if (localStorage.getItem("currentLanguage") === "fr") {
             "Hint": "🥖"
         },
         {
-            "Content": "The Baguette 🥖",
+            "Content": "The Baguette",
             "Question": "Translate into French.",
             "Answers": ["La Baguette 🥖"],
             "Options": [
