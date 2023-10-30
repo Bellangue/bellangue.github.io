@@ -115,11 +115,7 @@ hintButton.addEventListener("click", function () {
 });
 
 function showHint() {
-    hintButton.textContent = localStorage.getItem(`${localStorage.getItem("currentLanguage")}:Vocabulary:${selected},${currentQuestionNo}`);
-    if(localStorage.getItem(`${localStorage.getItem("currentLanguage")}:Vocabulary:${selected},${currentQuestionNo}`) === null || localStorage.getItem(`${localStorage.getItem("currentLanguage")}:Vocabulary:${selected},${currentQuestionNo}`) === "")
-    {
-        hintButton.textContent = "You have not given yourself a hint.";
-    }
+    hintButton.textContent = currentLessonJson[currentQuestionNo].Hint;
 }
 
 function shuffle(a) {

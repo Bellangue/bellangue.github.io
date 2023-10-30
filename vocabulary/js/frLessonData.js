@@ -4,7 +4,7 @@ if (localStorage.getItem("currentLanguage") === "fr") {
 
     lesson1Json = [
         {
-            "Content": "La Baguette 🥖",
+            "Content": "La Baguette",
             "Question": "Translate into English.",
             "Answers": ["The Baguette 🥖"],
             "Options": [
@@ -13,7 +13,8 @@ if (localStorage.getItem("currentLanguage") === "fr") {
                 "The Louvre Museum 🏛️",
                 "The Baguette 🥖"
             ],
-            "Translation": "The Baguette 🥖"
+            "Translation": "The Baguette 🥖",
+            "Hint": "🥖"
         },
         {
             "Content": "The Baguette 🥖",
@@ -25,22 +26,11 @@ if (localStorage.getItem("currentLanguage") === "fr") {
                 "La Tour Eiffel 🗼",
                 "Le Musée du Louvre 🏛️"
             ],
-            "Translation": "La Baguette 🥖"
+            "Translation": "La Baguette 🥖",
+            "Hint": "🥖"
         },
         {
-            "Content": "The Cat 🐱",
-            "Question": "Translate into French.",
-            "Answers": ["Le Chat 🐱"],
-            "Options": [
-                "Le Chien 🐶",
-                "La Souris 🐭",
-                "Le Chat 🐱",
-                "L'Oiseau 🐦"
-            ],
-            "Translation": "Le Chat 🐱"
-        },
-        {
-            "Content": "Le Chat 🐱",
+            "Content": "Le Chat",
             "Question": "Translate into English.",
             "Answers": ["The Cat 🐱"],
             "Options": [
@@ -49,22 +39,24 @@ if (localStorage.getItem("currentLanguage") === "fr") {
                 "The Cat 🐱",
                 "The Bird 🐦"
             ],
-            "Translation": "The Cat 🐱"
+            "Translation": "The Cat 🐱",
+            "Hint": "🐱"
         },
         {
-            "Content": "The Dog 🐶",
+            "Content": "The Cat",
             "Question": "Translate into French.",
-            "Answers": ["Le Chien 🐶"],
+            "Answers": ["Le Chat 🐱"],
             "Options": [
-                "Le Chat 🐱",
-                "La Souris 🐭",
                 "Le Chien 🐶",
+                "La Souris 🐭",
+                "Le Chat 🐱",
                 "L'Oiseau 🐦"
             ],
-            "Translation": "Le Chien 🐶"
+            "Translation": "Le Chat 🐱",
+            "Hint": "🐱"
         },
         {
-            "Content": "Le Chien 🐶",
+            "Content": "Le Chien",
             "Question": "Translate into English.",
             "Answers": ["The Dog 🐶"],
             "Options": [
@@ -73,22 +65,24 @@ if (localStorage.getItem("currentLanguage") === "fr") {
                 "The Dog 🐶",
                 "The Bird 🐦"
             ],
-            "Translation": "The Dog 🐶"
+            "Translation": "The Dog 🐶",
+            "Hint": "🐶"
         },
         {
-            "Content": "The Apple 🍎",
+            "Content": "The Dog",
             "Question": "Translate into French.",
-            "Answers": ["La Pomme 🍎"],
+            "Answers": ["Le Chien 🐶"],
             "Options": [
-                "La Pomme 🍎",
-                "La Banane 🍌",
-                "L'Orange 🍊",
-                "Le Poire 🍐"
+                "Le Chat 🐱",
+                "La Souris 🐭",
+                "Le Chien 🐶",
+                "L'Oiseau 🐦"
             ],
-            "Translation": "La Pomme 🍎"
+            "Translation": "Le Chien 🐶",
+            "Hint": "🐶"
         },
         {
-            "Content": "La Pomme 🍎",
+            "Content": "La Pomme",
             "Question": "Translate into English.",
             "Answers": ["The Apple 🍎"],
             "Options": [
@@ -97,10 +91,24 @@ if (localStorage.getItem("currentLanguage") === "fr") {
                 "The Orange 🍊",
                 "The Pear 🍐"
             ],
-            "Translation": "The Apple 🍎"
+            "Translation": "The Apple 🍎",
+            "Hint": "🍎"
         },
         {
-            "Content": "The Tree 🌳",
+            "Content": "The Apple",
+            "Question": "Translate into French.",
+            "Answers": ["La Pomme 🍎"],
+            "Options": [
+                "La Pomme 🍎",
+                "La Banane 🍌",
+                "L'Orange 🍊",
+                "Le Poire 🍐"
+            ],
+            "Translation": "La Pomme 🍎",
+            "Hint": "🍎"
+        },
+        {
+            "Content": "The Tree",
             "Question": "Translate into French.",
             "Answers": ["L'Arbre 🌳"],
             "Options": [
@@ -109,10 +117,11 @@ if (localStorage.getItem("currentLanguage") === "fr") {
                 "Le Rocher 🪨",
                 "Le Nuage ☁️"
             ],
-            "Translation": "L'Arbre 🌳"
+            "Translation": "L'Arbre 🌳",
+            "Hint": "🌳"
         },
         {
-            "Content": "L'Arbre 🌳",
+            "Content": "L'Arbre",
             "Question": "Translate into English.",
             "Answers": ["The Tree 🌳"],
             "Options": [
@@ -121,10 +130,11 @@ if (localStorage.getItem("currentLanguage") === "fr") {
                 "The Rock 🪨",
                 "The Cloud ☁️"
             ],
-            "Translation": "The Tree 🌳"
+            "Translation": "The Tree 🌳",
+            "Hint": "🌳"
         },
         {
-            "Content": "The Hat 🎩",
+            "Content": "The Hat",
             "Question": "Translate into French.",
             "Answers": ["Le Chapeau 🎩"],
             "Options": [
@@ -133,10 +143,11 @@ if (localStorage.getItem("currentLanguage") === "fr") {
                 "La Jupe 🩲",
                 "Les Chaussures 👞"
             ],
-            "Translation": "Le Chapeau 🎩"
+            "Translation": "Le Chapeau 🎩",
+            "Hint": "🎩"
         },
         {
-            "Content": "Le Chapeau 🎩",
+            "Content": "Le Chapeau",
             "Question": "Translate into English.",
             "Answers": ["The Hat 🎩"],
             "Options": [
@@ -145,10 +156,11 @@ if (localStorage.getItem("currentLanguage") === "fr") {
                 "The Skirt 🩲",
                 "The Shoes 👞"
             ],
-            "Translation": "The Hat 🎩"
+            "Translation": "The Hat 🎩",
+            "Hint": "🎩"
         },
         {
-            "Content": "The Ball 🏀",
+            "Content": "The Ball",
             "Question": "Translate into French.",
             "Answers": ["Le Ballon 🏀"],
             "Options": [
@@ -157,10 +169,11 @@ if (localStorage.getItem("currentLanguage") === "fr") {
                 "Le Chat 🐱",
                 "L'Étoile 🌟"
             ],
-            "Translation": "Le Ballon 🏀"
+            "Translation": "Le Ballon 🏀",
+            "Hint": "🏀"
         },
         {
-            "Content": "Le Ballon 🏀",
+            "Content": "Le Ballon ",
             "Question": "Translate into English.",
             "Answers": ["The Ball 🏀"],
             "Options": [
@@ -169,15 +182,14 @@ if (localStorage.getItem("currentLanguage") === "fr") {
                 "The Cat 🐱",
                 "The Star 🌟"
             ],
-            "Translation": "The Ball 🏀"
-        },
-        
-        
+            "Translation": "The Ball 🏀",
+            "Hint": "🏀"
+        }
     ];
 
     lesson2Json = [
         {
-            "Content": "The Red 🟥",
+            "Content": "The Red",
             "Question": "Translate into French.",
             "Answers": ["Le Rouge 🟥"],
             "Options": [
@@ -186,10 +198,11 @@ if (localStorage.getItem("currentLanguage") === "fr") {
                 "Le Jaune 🟨",
                 "Le Vert 🟩"
             ],
-            "Translation": "Le Rouge 🟥"
+            "Translation": "Le Rouge 🟥",
+            "Hint": "🟥"
         },
         {
-            "Content": "Le Rouge 🟥",
+            "Content": "Le Rouge",
             "Question": "Translate into English.",
             "Answers": ["The Red 🟥"],
             "Options": [
@@ -198,10 +211,11 @@ if (localStorage.getItem("currentLanguage") === "fr") {
                 "The Yellow 🟨",
                 "The Green 🟩"
             ],
-            "Translation": "The Red 🟥"
+            "Translation": "The Red 🟥",
+            "Hint": "🟥"
         },
         {
-            "Content": "The Blue 🟦",
+            "Content": "The Blue",
             "Question": "Translate into French.",
             "Answers": ["Le Bleu 🟦"],
             "Options": [
@@ -210,10 +224,11 @@ if (localStorage.getItem("currentLanguage") === "fr") {
                 "Le Jaune 🟨",
                 "Le Vert 🟩"
             ],
-            "Translation": "Le Bleu 🟦"
+            "Translation": "Le Bleu 🟦",
+            "Hint": "🟦"
         },
         {
-            "Content": "Le Bleu 🟦",
+            "Content": "Le Bleu",
             "Question": "Translate into English.",
             "Answers": ["The Blue 🟦"],
             "Options": [
@@ -222,10 +237,11 @@ if (localStorage.getItem("currentLanguage") === "fr") {
                 "The Yellow 🟨",
                 "The Green 🟩"
             ],
-            "Translation": "The Blue 🟦"
+            "Translation": "The Blue 🟦",
+            "Hint": "🟦"
         },
         {
-            "Content": "The Yellow 🟨",
+            "Content": "The Yellow",
             "Question": "Translate into French.",
             "Answers": ["Le Jaune 🟨"],
             "Options": [
@@ -234,10 +250,11 @@ if (localStorage.getItem("currentLanguage") === "fr") {
                 "Le Jaune 🟨",
                 "Le Vert 🟩"
             ],
-            "Translation": "Le Jaune 🟨"
+            "Translation": "Le Jaune 🟨",
+            "Hint": "🟨"
         },
         {
-            "Content": "Le Jaune 🟨",
+            "Content": "Le Jaune",
             "Question": "Translate into English.",
             "Answers": ["The Yellow 🟨"],
             "Options": [
@@ -246,10 +263,11 @@ if (localStorage.getItem("currentLanguage") === "fr") {
                 "The Yellow 🟨",
                 "The Green 🟩"
             ],
-            "Translation": "The Yellow 🟨"
+            "Translation": "The Yellow 🟨",
+            "Hint": "🟨"
         },
         {
-            "Content": "The Green 🟩",
+            "Content": "The Green",
             "Question": "Translate into French.",
             "Answers": ["Le Vert 🟩"],
             "Options": [
@@ -258,11 +276,12 @@ if (localStorage.getItem("currentLanguage") === "fr") {
                 "Le Jaune 🟨",
                 "Le Vert 🟩"
             ],
-            "Translation": "Le Vert 🟩"
+            "Translation": "Le Vert 🟩",
+            "Hint": "🟩"
         },
         {
-            "Content": "Le Vert 🟩",
-            "Question": "Translate into English.",
+            "Content": "Le Vert",
+            "Question": "Translate into French.",
             "Answers": ["The Green 🟩"],
             "Options": [
                 "The Red 🟥",
@@ -270,10 +289,11 @@ if (localStorage.getItem("currentLanguage") === "fr") {
                 "The Yellow 🟨",
                 "The Green 🟩"
             ],
-            "Translation": "The Green 🟩"
+            "Translation": "The Green 🟩",
+            "Hint": "🟩"
         },
         {
-            "Content": "The Orange 🟧",
+            "Content": "The Orange",
             "Question": "Translate into French.",
             "Answers": ["L'Orange 🟧"],
             "Options": [
@@ -282,10 +302,11 @@ if (localStorage.getItem("currentLanguage") === "fr") {
                 "Le Marron 🟨",
                 "Le Rose 🟫"
             ],
-            "Translation": "L'Orange 🟧"
+            "Translation": "L'Orange 🟧",
+            "Hint": "🟧"
         },
         {
-            "Content": "L'Orange 🟧",
+            "Content": "L'Orange",
             "Question": "Translate into English.",
             "Answers": ["The Orange 🟧"],
             "Options": [
@@ -294,10 +315,11 @@ if (localStorage.getItem("currentLanguage") === "fr") {
                 "The Brown 🟨",
                 "The Pink 🟫"
             ],
-            "Translation": "The Orange 🟧"
+            "Translation": "The Orange 🟧",
+            "Hint": "🟧"
         },
         {
-            "Content": "The Purple 🟪",
+            "Content": "The Purple",
             "Question": "Translate into French.",
             "Answers": ["Le Violet 🟪"],
             "Options": [
@@ -306,10 +328,11 @@ if (localStorage.getItem("currentLanguage") === "fr") {
                 "Le Marron 🟨",
                 "Le Rose 🟫"
             ],
-            "Translation": "Le Violet 🟪"
+            "Translation": "Le Violet 🟪",
+            "Hint": "🟪"
         },
         {
-            "Content": "Le Violet 🟪",
+            "Content": "Le Violet",
             "Question": "Translate into English.",
             "Answers": ["The Purple 🟪"],
             "Options": [
@@ -318,15 +341,14 @@ if (localStorage.getItem("currentLanguage") === "fr") {
                 "The Brown 🟨",
                 "The Pink 🟫"
             ],
-            "Translation": "The Purple 🟪"
-        },
-
-
+            "Translation": "The Purple 🟪",
+            "Hint": "🟪"
+        }
     ];
 
     lesson3Json = [
         {
-            "Content": "The Piano 🎹",
+            "Content": "The Piano",
             "Question": "Translate into French.",
             "Answers": ["Le Piano 🎹"],
             "Options": [
@@ -335,10 +357,11 @@ if (localStorage.getItem("currentLanguage") === "fr") {
                 "Le Violon 🎻",
                 "La Batterie 🥁"
             ],
-            "Translation": "Le Piano 🎹"
+            "Translation": "Le Piano 🎹",
+            "Hint": "🎹"
         },
         {
-            "Content": "Le Piano 🎹",
+            "Content": "Le Piano",
             "Question": "Translate into English.",
             "Answers": ["The Piano 🎹"],
             "Options": [
@@ -347,10 +370,11 @@ if (localStorage.getItem("currentLanguage") === "fr") {
                 "The Violin 🎻",
                 "The Drums 🥁"
             ],
-            "Translation": "The Piano 🎹"
+            "Translation": "The Piano 🎹",
+            "Hint": "🎹"
         },
         {
-            "Content": "The Guitar 🎸",
+            "Content": "The Guitar",
             "Question": "Translate into French.",
             "Answers": ["La Guitare 🎸"],
             "Options": [
@@ -359,10 +383,11 @@ if (localStorage.getItem("currentLanguage") === "fr") {
                 "Le Violon 🎻",
                 "La Batterie 🥁"
             ],
-            "Translation": "La Guitare 🎸"
+            "Translation": "La Guitare 🎸",
+            "Hint": "🎸"
         },
         {
-            "Content": "La Guitare 🎸",
+            "Content": "La Guitare",
             "Question": "Translate into English.",
             "Answers": ["The Guitar 🎸"],
             "Options": [
@@ -371,10 +396,11 @@ if (localStorage.getItem("currentLanguage") === "fr") {
                 "The Violin 🎻",
                 "The Drums 🥁"
             ],
-            "Translation": "The Guitar 🎸"
+            "Translation": "The Guitar 🎸",
+            "Hint": "🎸"
         },
         {
-            "Content": "The Violin 🎻",
+            "Content": "The Violin",
             "Question": "Translate into French.",
             "Answers": ["Le Violon 🎻"],
             "Options": [
@@ -383,10 +409,11 @@ if (localStorage.getItem("currentLanguage") === "fr") {
                 "Le Piano 🎹",
                 "La Batterie 🥁"
             ],
-            "Translation": "Le Violon 🎻"
+            "Translation": "Le Violon 🎻",
+            "Hint": "🎻"
         },
         {
-            "Content": "Le Violon 🎻",
+            "Content": "Le Violon",
             "Question": "Translate into English.",
             "Answers": ["The Violin 🎻"],
             "Options": [
@@ -395,10 +422,11 @@ if (localStorage.getItem("currentLanguage") === "fr") {
                 "The Piano 🎹",
                 "The Drums 🥁"
             ],
-            "Translation": "The Violin 🎻"
+            "Translation": "The Violin 🎻",
+            "Hint": "🎻"
         },
         {
-            "Content": "The Drums 🥁",
+            "Content": "The Drums",
             "Question": "Translate into French.",
             "Answers": ["La Batterie 🥁"],
             "Options": [
@@ -407,10 +435,11 @@ if (localStorage.getItem("currentLanguage") === "fr") {
                 "La Guitare 🎸",
                 "Le Violon 🎻"
             ],
-            "Translation": "La Batterie 🥁"
+            "Translation": "La Batterie 🥁",
+            "Hint": "🥁"
         },
         {
-            "Content": "La Batterie 🥁",
+            "Content": "La Batterie",
             "Question": "Translate into English.",
             "Answers": ["The Drums 🥁"],
             "Options": [
@@ -419,10 +448,11 @@ if (localStorage.getItem("currentLanguage") === "fr") {
                 "The Guitar 🎸",
                 "The Violin 🎻"
             ],
-            "Translation": "The Drums 🥁"
+            "Translation": "The Drums 🥁",
+            "Hint": "🥁"
         },
         {
-            "Content": "The Saxophone 🎷",
+            "Content": "The Saxophone",
             "Question": "Translate into French.",
             "Answers": ["Le Saxophone 🎷"],
             "Options": [
@@ -431,10 +461,11 @@ if (localStorage.getItem("currentLanguage") === "fr") {
                 "Le Clarinette 🎶",
                 "La Harpe 🎵"
             ],
-            "Translation": "Le Saxophone 🎷"
+            "Translation": "Le Saxophone 🎷",
+            "Hint": "🎷"
         },
         {
-            "Content": "Le Saxophone 🎷",
+            "Content": "Le Saxophone",
             "Question": "Translate into English.",
             "Answers": ["The Saxophone 🎷"],
             "Options": [
@@ -443,10 +474,11 @@ if (localStorage.getItem("currentLanguage") === "fr") {
                 "The Clarinet 🎶",
                 "The Harp 🎵"
             ],
-            "Translation": "The Saxophone 🎷"
+            "Translation": "The Saxophone 🎷",
+            "Hint": "🎷"
         },
         {
-            "Content": "The Trumpet 🎺",
+            "Content": "The Trumpet",
             "Question": "Translate into French.",
             "Answers": ["La Trompette 🎺"],
             "Options": [
@@ -455,10 +487,11 @@ if (localStorage.getItem("currentLanguage") === "fr") {
                 "La Clarinette 🎶",
                 "La Harpe 🎵"
             ],
-            "Translation": "La Trompette 🎺"
+            "Translation": "La Trompette 🎺",
+            "Hint": "🎺"
         },
         {
-            "Content": "La Trompette 🎺",
+            "Content": "La Trompette",
             "Question": "Translate into English.",
             "Answers": ["The Trumpet 🎺"],
             "Options": [
@@ -467,9 +500,12 @@ if (localStorage.getItem("currentLanguage") === "fr") {
                 "The Clarinet 🎶",
                 "The Harp 🎵"
             ],
-            "Translation": "The Trumpet 🎺"
+            "Translation": "The Trumpet 🎺",
+            "Hint": "🎺"
         }
     ];
+
+    
 
     lessonJSONData = [lesson1Json, lesson2Json, lesson3Json];
 }
