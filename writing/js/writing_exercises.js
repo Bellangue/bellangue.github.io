@@ -8,7 +8,7 @@ const snailPicture = document.getElementById("snailPicture");
 snailPicture.style.display = 'none';
 
 var selected = sessionStorage.getItem("selected");
-const counter = localStorage.getItem(`${localStorage.getItem("currentLanguage")}reading`);
+const counter = localStorage.getItem(`${localStorage.getItem("currentLanguage")}writing`);
 
 let currentLessonJson = lessonJSONData[selected];
 let currentQuestionNo;
@@ -20,56 +20,56 @@ const necessaryQuestions = 5;
 let doneQuestions = 0;
 let totalQuestions = 0;
 
+const langText = document.getElementById("langText");
+const inputAnswer = document.getElementById("inputAnswer");
+
 setQuestion();
+
 
 const currentFlag = document.getElementById("currentFlag");
 currentFlag.innerHTML = `<img class="centrePositionW stickyTop" src="../images/Flags/${currentLanguage}.png"/>`;
+
 
 function setQuestion() {
     currentQuestionNo = Math.round(Math.random() * (currentLessonJson.length - 1));
     selectedAnswer = undefined;
     endText.textContent = "";
+    inputAnswer.value = "";
     hintButton.textContent = `Give your Hint`;
     confirmButton.textContent = "Confirm Answer";
     confirmButton.style.backgroundColor = "#c2f4c2";
     questionElements[0].textContent = currentLessonJson[currentQuestionNo].Content;
-    questionElements[1].textContent = currentLessonJson[currentQuestionNo].Question;
-    let shuffledOptions = currentLessonJson[currentQuestionNo].Options;
-    shuffledOptions = shuffle(shuffledOptions);
-    for (let i = 0; i < 4; ++i) {
-        questionElements[i + 2].textContent = shuffledOptions[i];
+    questionElements[1].textContent = "Translate this sentence into French using the given words.";
+    let shuffledTranslation = "";
+    let split = currentLessonJson[currentQuestionNo].Translation;
+    split = split.split(' ');
+    console.log(split);
+    shuffledSplit = shuffle(split);
+    for (let i = 0; i < shuffledSplit.length - 1; ++i) {
+        shuffledTranslation += shuffledSplit[i] + " / ";
     }
-    for (let i = 2; i < 6; ++i) {
-        questionElements[i].style.backgroundColor = "#c2c2f4"
-    }
-}
-
-for (let i = 2; i < 6; ++i) {
-    questionElements[i].addEventListener("click", function () {
-        selectedAnswer = questionElements[i].textContent;
-        for (let j = 2; j < 6; ++j) {
-            questionElements[j].style.backgroundColor = "#c2c2f4"
-        }
-        questionElements[i].style.backgroundColor = "#c2f4c2"
-    });
+    shuffledTranslation += shuffledSplit[shuffledSplit.length - 1]
+    langText.textContent = shuffledTranslation;
 }
 
 confirmButton.addEventListener("click", function () {
     if (confirmButton.textContent === "Confirm Answer") {
-        if (selectedAnswer === undefined) {
-            alert("You did not input an answer. Try again.");
-        } else {
-            ++totalQuestions;
-            if (checkIfCorrect()) {
-                endText.textContent = "Correct! " + currentLessonJson[currentQuestionNo].Translation;
-                endText.style.color = "green";
-                confirmButton.textContent = "Next...";
-                ++doneQuestions;
+        {
+            if (inputAnswer.value === "") {
+                alert("You did not input an answer. Try again.");
             } else {
-                endText.textContent = "Incorrect! " + currentLessonJson[currentQuestionNo].Answers + ": " + currentLessonJson[currentQuestionNo].Translation;
-                endText.style.color = "red";
-                confirmButton.textContent = "Next...";
-                confirmButton.style.backgroundColor = "#ee7070";
+                ++totalQuestions;
+                if (checkIfCorrect()) {
+                    endText.textContent = "Correct! " + currentLessonJson[currentQuestionNo].Translation;
+                    endText.style.color = "green";
+                    confirmButton.textContent = "Next...";
+                    ++doneQuestions;
+                } else {
+                    endText.textContent = "Incorrect! " + currentLessonJson[currentQuestionNo].Translation;
+                    endText.style.color = "red";
+                    confirmButton.textContent = "Next...";
+                    confirmButton.style.backgroundColor = "#ee7070";
+                }
             }
         }
     } else if (confirmButton.textContent === "Next...") {
@@ -85,12 +85,12 @@ confirmButton.addEventListener("click", function () {
             localStorage.setItem(`${currentLanguage}dos`, currentDos + dosEarnt);
             snailPicture.style.display = '';
 
-            sessionStorage.setItem("combo", +sessionStorage.getItem("combo")+1);
-            localStorage.setItem("caterpillar", +sessionStorage.getItem("combo")+(+localStorage.getItem("caterpillar")));
+            sessionStorage.setItem("combo", +sessionStorage.getItem("combo") + 1);
+            localStorage.setItem("caterpillar", +sessionStorage.getItem("combo") + (+localStorage.getItem("caterpillar")));
 
 
-            if(+counter < (selected + 1)*repetitions){
-                localStorage.setItem(`${localStorage.getItem("currentLanguage")}reading`, +counter + 1)
+            if (+counter < (selected + 1) * repetitions) {
+                localStorage.setItem(`${localStorage.getItem("currentLanguage")}writing`, +counter + 1)
             }
         } else {
             setQuestion();
@@ -99,11 +99,11 @@ confirmButton.addEventListener("click", function () {
 });
 
 snailPicture.addEventListener("click", function () {
-    window.location.href = "reading.html";
+    window.location.href = "writing.html";
 });
 
 function checkIfCorrect() {
-    if (currentLessonJson[currentQuestionNo].Answers.includes(selectedAnswer)) {
+    if (inputAnswer.value === currentLessonJson[currentQuestionNo].Translation) {
         return true;
     }
     return false;
@@ -115,9 +115,8 @@ hintButton.addEventListener("click", function () {
 });
 
 function showHint() {
-    hintButton.textContent = localStorage.getItem(`${localStorage.getItem("currentLanguage")}:Reading:${selected},${currentQuestionNo}`);
-    if(localStorage.getItem(`${localStorage.getItem("currentLanguage")}:Reading:${selected},${currentQuestionNo}`) === null || localStorage.getItem(`${localStorage.getItem("currentLanguage")}:Reading:${selected},${currentQuestionNo}`) === "")
-    {
+    hintButton.textContent = localStorage.getItem(`${localStorage.getItem("currentLanguage")}:Writing:${selected},${currentQuestionNo}`);
+    if (localStorage.getItem(`${localStorage.getItem("currentLanguage")}:Writing:${selected},${currentQuestionNo}`) === null || localStorage.getItem(`${localStorage.getItem("currentLanguage")}:Reading:${selected},${currentQuestionNo}`) === "") {
         hintButton.textContent = "You have not given yourself a hint.";
     }
 }
