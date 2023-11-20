@@ -38,7 +38,7 @@ What is the error in this sentence?
 
 if (localStorage.getItem("currentLanguage") === "nl") {
 
-    lessonNameData = ["Welcome to the Course!", "Greetings 1", "People 1", "People 2", "Time 1", "Introductions 1", "People 3", "Numbers 1", "Numbers 1", "Numbers 2", "Numbers 3", "Numbers 4", "Days of the Week 1", "Days of the Week 2", "Appearance 1", "Appearance 2", "Appearance 3", "Numbers 5", "Age 1", "Personality 1", "Countries 1", "Countries 2", "Family 1", "Hobbies 1", "Weather 1", "Time 1", "Daily Routine 1", "Questions 1"];
+    lessonNameData = ["Welcome to the Course!", "Greetings 1", "People 1", "People 2", "Time 1", "Introductions 1", "People 3", "Numbers 1", "Numbers 1", "Numbers 2", "Numbers 3", "Numbers 4", "Days of the Week 1", "Days of the Week 2", "Appearance 1", "Appearance 2", "Appearance 3", "Numbers 5", "Age 1", "Personality 1", "Countries 1", "Countries 2", "Family 1", "Hobbies 1", "Weather 1", "Time 1", "Daily Routine 1", "Questions 1", "Food 1", "Questions 2"];
 
     lesson1Json = [
         {
@@ -1460,63 +1460,63 @@ if (localStorage.getItem("currentLanguage") === "nl") {
 
     lesson21Json = [
         {
-            "Content": "La Chine",
+            "Content": "China",
             "Question": "Translate into English.",
             "Answers": ["China"],
             "Options": ["China", "India", "Brazil", "Russia"],
             "Translation": "China"
         },
         {
-            "Content": "Les États-Unis",
+            "Content": "De Verenigde Staten",
             "Question": "Translate into English.",
             "Answers": ["The United States"],
             "Options": ["The United States", "United Kingdom", "Canada", "Australia"],
             "Translation": "The United States"
         },
         {
-            "Content": "Le Japon",
+            "Content": "Japan",
             "Question": "Translate into English.",
             "Answers": ["Japan"],
             "Options": ["Japan", "South Korea", "Germany", "France"],
             "Translation": "Japan"
         },
         {
-            "Content": "L'Inde",
+            "Content": "India",
             "Question": "Translate into English.",
             "Answers": ["India"],
             "Options": ["India", "Pakistan", "Bangladesh", "Nepal"],
             "Translation": "India"
         },
         {
-            "Content": "Le Brésil",
+            "Content": "Brazilië",
             "Question": "Translate into English.",
             "Answers": ["Brazil"],
             "Options": ["Brazil", "Argentina", "Mexico", "Colombia"],
             "Translation": "Brazil"
         },
         {
-            "Content": "La Russie",
+            "Content": "Rusland",
             "Question": "Translate into English.",
             "Answers": ["Russia"],
             "Options": ["Russia", "Germany", "Canada", "China"],
             "Translation": "Russia"
         },
         {
-            "Content": "L'Allemagne",
+            "Content": "Duitsland",
             "Question": "Translate into English.",
             "Answers": ["Germany"],
             "Options": ["Germany", "France", "Italy", "Spain"],
             "Translation": "Germany"
         },
         {
-            "Content": "La France",
+            "Content": "Frankrijk",
             "Question": "Translate into English.",
             "Answers": ["France"],
             "Options": ["France", "Spain", "Italy", "Germany"],
             "Translation": "France"
         },
         {
-            "Content": "L'Angleterre",
+            "Content": "Engeland",
             "Question": "Translate into English.",
             "Answers": ["England"],
             "Options": ["England", "Scotland", "Ireland", "Wales"],
@@ -1526,63 +1526,63 @@ if (localStorage.getItem("currentLanguage") === "nl") {
 
     lesson22Json = [
         {
-            "Content": "Je suis chinois.",
+            "Content": "Ik ben Chinees.",
             "Question": "Which nationality is 'Je'?",
             "Answers": ["Chinese"],
             "Options": ["Chinese", "Indian", "Brazilian", "Russian"],
             "Translation": "I am Chinese."
         },
         {
-            "Content": "Tu es américain.",
+            "Content": "Jij bent Amerikaans.",
             "Question": "Which nationality is 'Tu'?",
             "Answers": ["American"],
             "Options": ["American", "British", "Canadian", "Australian"],
             "Translation": "You are American."
         },
         {
-            "Content": "Il est japonais.",
+            "Content": "Hij is Japans.",
             "Question": "Which nationality is 'Il'?",
             "Answers": ["Japanese"],
             "Options": ["Japanese", "South Korean", "German", "French"],
             "Translation": "He is Japanese."
         },
         {
-            "Content": "Elle est indienne.",
+            "Content": "Hij is Indiaas.",
             "Question": "Which nationality is 'Elle'?",
             "Answers": ["Indian"],
             "Options": ["Indian", "Pakistani", "Bangladeshi", "Nepali"],
             "Translation": "She is Indian."
         },
         {
-            "Content": "Nous sommes brésiliens.",
+            "Content": "Wij zijn Braziliaans.",
             "Question": "Which nationality is 'Nous'?",
             "Answers": ["Brazilian"],
             "Options": ["Brazilian", "Argentinian", "Mexican", "Colombian"],
             "Translation": "We are Brazilian."
         },
         {
-            "Content": "Vous êtes russes.",
+            "Content": "Jij bent Russisch.",
             "Question": "Which nationality is 'Vous'?",
             "Answers": ["Russian"],
             "Options": ["Russian", "German", "Canadian", "Chinese"],
             "Translation": "You are Russian."
         },
         {
-            "Content": "Ils sont allemands.",
+            "Content": "Zij zijn Duits.",
             "Question": "Which nationality is 'Ils'?",
             "Answers": ["German"],
             "Options": ["German", "French", "Italian", "Spanish"],
             "Translation": "They are German."
         },
         {
-            "Content": "Elles sont françaises.",
+            "Content": "Zij zijn Frans.",
             "Question": "Which nationality is 'Elles'?",
             "Answers": ["French"],
             "Options": ["French", "Spanish", "Italian", "German"],
             "Translation": "They are French."
         },
         {
-            "Content": "On est anglais.",
+            "Content": "Wij zijn Engels.",
             "Question": "Which nationality is 'On'?",
             "Answers": ["English"],
             "Options": ["English", "Scottish", "Irish", "Welsh"],
@@ -1592,21 +1592,21 @@ if (localStorage.getItem("currentLanguage") === "nl") {
 
     lesson23Json = [
         {
-            "Content": "Mon père s'appelle Pierre.",
+            "Content": "Mijn vader's naam is Pierre.",
             "Question": "Who is 'Pierre'?",
             "Answers": ["Father"],
             "Options": ["Father", "Mother", "Brother", "Sister"],
             "Translation": "My father's name is Pierre."
         },
         {
-            "Content": "J'ai deux frères et une sœur.",
+            "Content": "Ik heb twee broers en een zus.",
             "Question": "How many siblings do I have?",
             "Answers": ["Three"],
             "Options": ["Three", "One", "Four", "Two"],
             "Translation": "I have two brothers and one sister."
         },
         {
-            "Content": "Mon oncle est très gentil.",
+            "Content": "Mijn oom is erg aardig.",
             "Question": "Who is 'oncle'?",
             "Answers": ["My Uncle"],
             "Options": ["My Uncle", "My Aunt", "My Cousin", "My Brother"],
@@ -1851,8 +1851,266 @@ if (localStorage.getItem("currentLanguage") === "nl") {
     ];
 
     lesson28Json = [
+        {
+            "Content": "Est-ce que tu te brosses les dents après chaque repas?",
+            "Question": "Translate into English.",
+            "Answers": ["Do you brush your teeth after every meal?"],
+            "Options": [
+                "Do you brush your teeth after every meal?",
+                "Are you going to the park?",
+                "Do you eat breakfast every morning?",
+                "Are you reading a book?"
+            ],
+            "Translation": "Do you brush your teeth after every meal?"
+        },
+        {
+            "Content": "Est-ce qu'elle se lave les mains avant de manger?",
+            "Question": "Translate into English.",
+            "Answers": ["Does she wash her hands before eating?"],
+            "Options": [
+                "Does she wash her hands before eating?",
+                "Is she going to the store?",
+                "Does she like pizza?",
+                "Is she watching TV?"
+            ],
+            "Translation": "Does she wash her hands before eating?"
+        },
+        {
+            "Content": "Est-ce qu'ils se réveillent tôt le matin?",
+            "Question": "Translate into English.",
+            "Answers": ["Do they wake up early in the morning?"],
+            "Options": [
+                "Do they wake up early in the morning?",
+                "Are they playing soccer?",
+                "Do they like ice cream?",
+                "Are they going to the movies?"
+            ],
+            "Translation": "Do they wake up early in the morning?"
+        },
+        {
+            "Content": "Est-ce que vous vous habillez formellement au travail?",
+            "Question": "Translate into English.",
+            "Answers": ["Do you dress formally at work?"],
+            "Options": [
+                "Do you dress formally at work?",
+                "Are you going to the gym?",
+                "Do you speak French?",
+                "Is it raining outside?"
+            ],
+            "Translation": "Do you dress formally at work?"
+        },
+        {
+            "Content": "Est-ce que je me maquille pour la soirée ce soir?",
+            "Question": "Translate into English.",
+            "Answers": ["Am I applying makeup for the party tonight?"],
+            "Options": [
+                "Am I applying makeup for the party tonight?",
+                "Am I going to the beach?",
+                "Am I hungry?",
+                "Am I watching a movie?"
+            ],
+            "Translation": "Am I applying makeup for the party tonight?"
+        },
+        {
+            "Content": "Est-ce qu'ils se préparent pour le voyage demain?",
+            "Question": "Translate into English.",
+            "Answers": ["Are they getting ready for the trip tomorrow?"],
+            "Options": [
+                "Are they getting ready for the trip tomorrow?",
+                "Are they going shopping?",
+                "Do they like pizza?",
+                "Are they reading a book?"
+            ],
+            "Translation": "Are they getting ready for the trip tomorrow?"
+        },
+        {
+            "Content": "Est-ce que nous nous levons tôt les jours de semaine?",
+            "Question": "Translate into English.",
+            "Answers": ["Do we get up early on weekdays?"],
+            "Options": [
+                "Do we get up early on weekdays?",
+                "Do we have a dog?",
+                "Do we like chocolate?",
+                "Do we watch TV?"
+            ],
+            "Translation": "Do we get up early on weekdays?"
+        }
+    ];
+
+    lesson29Json = [
+        {
+            "Content": "Il mange une pizza au dîner.",
+            "Question": "Translate into English.",
+            "Answers": ["He eats pizza for dinner"],
+            "Options": [
+                "He eats pizza for dinner",
+                "She cooks breakfast in the morning",
+                "They drink tea in the evening",
+                "I have a sandwich for lunch"
+            ],
+            "Translation": "He eats pizza for dinner."
+        },
+        {
+            "Content": "Elle prépare une salade pour le déjeuner.",
+            "Question": "Translate into English.",
+            "Answers": ["She prepares a salad for lunch"],
+            "Options": [
+                "She prepares a salad for lunch",
+                "He orders a burger for breakfast",
+                "They make pasta for dinner",
+                "I drink coffee for lunch"
+            ],
+            "Translation": "She prepares a salad for lunch."
+        },
+        {
+            "Content": "Ils boivent du jus d'orange au petit déjeuner.",
+            "Question": "Translate into English.",
+            "Answers": ["They drink orange juice for breakfast"],
+            "Options": [
+                "They drink orange juice for breakfast",
+                "She eats cereal for dinner",
+                "We cook spaghetti for lunch",
+                "He has a sandwich for breakfast"
+            ],
+            "Translation": "They drink orange juice for breakfast."
+        },
+        {
+            "Content": "Est-ce que vous aimez manger des fruits?",
+            "Question": "Translate into English.",
+            "Answers": ["Do you like to eat fruits?"],
+            "Options": [
+                "Do you like to eat fruits?",
+                "Are you going to the bakery?",
+                "Is he eating dinner?",
+                "Am I drinking milk?"
+            ],
+            "Translation": "Do you like to eat fruits?"
+        },
+        {
+            "Content": "Nous commandons des sushis pour le dîner ce soir.",
+            "Question": "Translate into English.",
+            "Answers": ["We are ordering sushi for dinner tonight"],
+            "Options": [
+                "We are ordering sushi for dinner tonight",
+                "She makes pancakes for breakfast every morning",
+                "I drink tea in the afternoon",
+                "They have pizza for lunch"
+            ],
+            "Translation": "We are ordering sushi for dinner tonight."
+        },
+        {
+            "Content": "Elle cuisine du poulet rôti pour le déjeuner.",
+            "Question": "Translate into English.",
+            "Answers": ["She cooks roasted chicken for lunch"],
+            "Options": [
+                "She cooks roasted chicken for lunch",
+                "He eats ice cream for dinner",
+                "They drink water for breakfast",
+                "I have coffee for lunch"
+            ],
+            "Translation": "She cooks roasted chicken for lunch."
+        },
+        {
+            "Content": "Ils mangent des légumes avec leur dîner.",
+            "Question": "Translate into English.",
+            "Answers": ["They eat vegetables with their dinner"],
+            "Options": [
+                "They eat vegetables with their dinner",
+                "She has a sandwich for breakfast",
+                "We make pasta for lunch",
+                "He drinks juice in the morning"
+            ],
+            "Translation": "They eat vegetables with their dinner."
+        }
 
     ];
 
-    lessonJSONData = [lesson1Json, lesson2Json, lesson3Json, lesson4Json, lesson5Json, lesson6Json, lesson7Json, lesson8Json, lesson9Json, lesson10Json, lesson11Json, lesson12Json, lesson13Json, lesson14Json, lesson15Json, lesson16Json, lesson17Json, lesson18Json, lesson19Json, lesson20Json, lesson21Json, lesson22Json, lesson23Json, lesson24Json, lesson25Json, lesson26Json, lesson27Json, lesson28Json];
+    lesson30Json = [
+        {
+            "Content": "Quand est-ce que tu te lèves le matin?",
+            "Question": "Translate into English.",
+            "Answers": ["When do you get up in the morning?"],
+            "Options": [
+                "When do you get up in the morning?",
+                "Are you going to the park?",
+                "Do you like to read books?",
+                "Is she watching TV?"
+            ],
+            "Translation": "When do you get up in the morning?"
+        },
+        {
+            "Content": "Qui est-ce que vous rencontrez à la bibliothèque?",
+            "Question": "Translate into English.",
+            "Answers": ["Whom do you meet at the library?"],
+            "Options": [
+                "Whom do you meet at the library?",
+                "Are you going to the store?",
+                "Do you like to swim?",
+                "Is he coming to the party?"
+            ],
+            "Translation": "Whom do you meet at the library?"
+        },
+        {
+            "Content": "Comment est-ce qu'elle se prépare pour le mariage?",
+            "Question": "Translate into English.",
+            "Answers": ["How does she prepare for the wedding?"],
+            "Options": [
+                "How does she prepare for the wedding?",
+                "Is she going to school?",
+                "Does she play soccer?",
+                "Are you reading a book?"
+            ],
+            "Translation": "How does she prepare for the wedding?"
+        },
+        {
+            "Content": "Combien de temps est-ce qu'ils se reposent l'après-midi?",
+            "Question": "Translate into English.",
+            "Answers": ["How long do they rest in the afternoon?"],
+            "Options": [
+                "How long do they rest in the afternoon?",
+                "Are they going to the movies?",
+                "Do they like pizza?",
+                "Is she going to the beach?"
+            ],
+            "Translation": "How long do they rest in the afternoon?"
+        },
+        {
+            "Content": "Quoi est-ce que je me prépare pour le dîner?",
+            "Question": "Translate into English.",
+            "Answers": ["What am I getting ready for dinner?"],
+            "Options": [
+                "What am I getting ready for dinner?",
+                "Am I going to the gym?",
+                "Do I speak French?",
+                "Is it raining outside?"
+            ],
+            "Translation": "What am I getting ready for dinner?"
+        },
+        {
+            "Content": "Où est-ce que vous vous amusez le samedi soir?",
+            "Question": "Translate into English.",
+            "Answers": ["Where do you have fun on Saturday night?"],
+            "Options": [
+                "Where do you have fun on Saturday night?",
+                "Are you going shopping?",
+                "Do you like to dance?",
+                "Is she playing guitar?"
+            ],
+            "Translation": "Where do you have fun on Saturday night?"
+        },
+        {
+            "Content": "Pourquoi est-ce que nous nous habillons formellement?",
+            "Question": "Translate into English.",
+            "Answers": ["Why do we dress formally?"],
+            "Options": [
+                "Why do we dress formally?",
+                "Are we going to the park?",
+                "Do we like to travel?",
+                "Is she reading a book?"
+            ],
+            "Translation": "Why do we dress formally?"
+        }
+    ];
+
+    lessonJSONData = [lesson1Json, lesson2Json, lesson3Json, lesson4Json, lesson5Json, lesson6Json, lesson7Json, lesson8Json, lesson9Json, lesson10Json, lesson11Json, lesson12Json, lesson13Json, lesson14Json, lesson15Json, lesson16Json, lesson17Json, lesson18Json, lesson19Json, lesson20Json, lesson21Json, lesson22Json, lesson23Json, lesson24Json, lesson25Json, lesson26Json, lesson27Json, lesson28Json, lesson29Json, lesson30Json];
 }
