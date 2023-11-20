@@ -187,7 +187,7 @@ for (let i = 0; i < dosResetElements.length; ++i) {
 
 //counters
 if (localStorage.getItem("frreadingcounter") === null) {
-    localStorage.setItem("frreadingcounter", 0);
+    localStorage.setItem("frreadingcounter", 0);z
 }
 
 const nameInput = document.getElementById("nameInput");
