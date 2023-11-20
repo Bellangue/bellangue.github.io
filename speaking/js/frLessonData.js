@@ -160,11 +160,11 @@ if (localStorage.getItem("currentLanguage") === "fr") {
 
     lesson15Json = [
         [
-            { "Content": "Elle a les yeux marron.", "Question": "What color are her eyes?", "Answers": ["Brown"], "Options": ["Brown", "Blue", "Green", "Hazel"], "Translation": "She has brown eyes." },
-            { "Content": "Il a les yeux bleus.", "Question": "What color are his eyes?", "Answers": ["Blue"], "Options": ["Blue", "Brown", "Green", "Gray"], "Translation": "He has blue eyes." },
-            { "Content": "J'ai les yeux verts.", "Question": "What color are my eyes?", "Answers": ["Green"], "Options": ["Green", "Brown", "Blue", "Hazel"], "Translation": "I have green eyes." },
-            { "Content": "Ils ont les yeux noisette.", "Question": "What color are their eyes?", "Answers": ["Hazel"], "Options": ["Hazel", "Brown", "Blue", "Green"], "Translation": "They have hazel eyes." },
-            { "Content": "Elle a les yeux gris.", "Question": "What color are her eyes?", "Answers": ["Gray"], "Options": ["Gray", "Brown", "Blue", "Green"], "Translation": "She has gray eyes." }
+            { "Content": "Elle a les yeux marron.", "Question": "What color are her eyes?", "Translation": "She has brown eyes." },
+            { "Content": "Il a les yeux bleus.", "Question": "What color are his eyes?", "Translation": "He has blue eyes." },
+            { "Content": "J'ai les yeux verts.", "Question": "What color are my eyes?", "Translation": "I have green eyes." },
+            { "Content": "Ils ont les yeux noisette.", "Question": "What color are their eyes?", "Translation": "They have hazel eyes." },
+            { "Content": "Elle a les yeux gris.", "Question": "What color are her eyes?", "Translation": "She has grey eyes." }
         ]
     ];
 
