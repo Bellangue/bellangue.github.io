@@ -1644,49 +1644,49 @@ if (localStorage.getItem("currentLanguage") === "nl") {
 
     lesson24Json = [
         {
-            "Content": "J'adore jouer de la guitare.",
+            "Content": "Ik hou van gitaar spelen.",
             "Question": "What do I love to do?",
             "Answers": ["Play the guitar"],
             "Options": ["Play the guitar", "Paint", "Cook", "Read books"],
             "Translation": "I love to play the guitar."
         },
         {
-            "Content": "Elle aime faire de la randonnée en montagne.",
+            "Content": "Ik hou van wandelen in de bergen.",
             "Question": "What does she like to do in the mountains?",
             "Answers": ["Hike"],
             "Options": ["Hike", "Ski", "Swim", "Picnic"],
             "Translation": "She likes to hike in the mountains."
         },
         {
-            "Content": "Mon frère collectionne des timbres rares.",
+            "Content": "Mijn broer verzamelt zeldzame postzegels.",
             "Question": "What does my brother collect?",
             "Answers": ["Rare stamps"],
             "Options": ["Rare stamps", "Coins", "Action figures", "Books"],
             "Translation": "My brother collects rare stamps."
         },
         {
-            "Content": "Nous aimons regarder des films le week-end.",
+            "Content": "Wij houden van films kijken.",
             "Question": "What do we like to do on weekends?",
             "Answers": ["Watch movies"],
             "Options": ["Watch movies", "Play sports", "Go shopping", "Read newspapers"],
             "Translation": "We like to watch movies on weekends."
         },
         {
-            "Content": "Il est passionné par la photographie.",
+            "Content": "Hij heeft een passie voor fotografie.",
             "Question": "What is he passionate about?",
             "Answers": ["Photography"],
             "Options": ["Photography", "Cooking", "Gardening", "Playing chess"],
             "Translation": "He is passionate about photography."
         },
         {
-            "Content": "Elle adore la danse contemporaine.",
+            "Content": "Zij houdt van hedendaagse dans.",
             "Question": "What does she adore?",
             "Answers": ["Contemporary dance"],
             "Options": ["Contemporary dance", "Classical music", "Rock climbing", "Reading novels"],
             "Translation": "She adores contemporary dance."
         },
         {
-            "Content": "Ils aiment faire du vélo dans le parc.",
+            "Content": "Zij houden van fietsen in het park.",
             "Question": "What do they like to do in the park?",
             "Answers": ["Ride bicycles"],
             "Options": ["Ride bicycles", "Play soccer", "Picnic", "Paint"],
@@ -1696,49 +1696,49 @@ if (localStorage.getItem("currentLanguage") === "nl") {
 
     lesson25Json = [
         {
-            "Content": "Il fait beau aujourd'hui.",
+            "Content": "Hoe wordt het weer vandaag?",
             "Question": "What is the weather like today?",
             "Answers": ["It's sunny"],
             "Options": ["It's sunny", "It's rainy", "It's snowy", "It's windy"],
             "Translation": "It's sunny today."
         },
         {
-            "Content": "Le temps est très froid en hiver.",
+            "Content": "Het weer is koud in de winter.",
             "Question": "What is the weather like in winter?",
             "Answers": ["It's very cold"],
             "Options": ["It's very cold", "It's hot", "It's mild", "It's rainy"],
             "Translation": "The weather is very cold in winter."
         },
         {
-            "Content": "Il y a des nuages dans le ciel.",
+            "Content": "Er zijn wolken in de lucht.",
             "Question": "What is in the sky?",
             "Answers": ["Clouds"],
             "Options": ["Clouds", "Stars", "Sun", "Moon"],
             "Translation": "There are clouds in the sky."
         },
         {
-            "Content": "Le vent souffle très fort.",
+            "Content": "De wind blaast heel hard.",
             "Question": "What is happening with the wind?",
             "Answers": ["It's blowing very hard"],
             "Options": ["It's blowing very hard", "It's calm", "It's drizzling", "It's snowing"],
             "Translation": "The wind is blowing very hard."
         },
         {
-            "Content": "Il y a de la neige partout.",
+            "Content": "Er ligt overal sneeuw.",
             "Question": "What is everywhere?",
             "Answers": ["Snow"],
             "Options": ["Snow", "Rain", "Sunshine", "Fog"],
             "Translation": "There is snow everywhere."
         },
         {
-            "Content": "Le soleil brille dans le ciel bleu.",
+            "Content": "De zon schijnt in de blauwe lucht.",
             "Question": "What is shining in the blue sky?",
             "Answers": ["The sun"],
             "Options": ["The sun", "The moon", "Stars", "Clouds"],
             "Translation": "The sun is shining in the blue sky."
         },
         {
-            "Content": "Le temps est orageux ce soir.",
+            "Content": "Het weer is stormachtig deze avond.",
             "Question": "What is the weather like this evening?",
             "Answers": ["It's stormy"],
             "Options": ["It's stormy", "It's clear", "It's foggy", "It's chilly"],
@@ -1748,49 +1748,49 @@ if (localStorage.getItem("currentLanguage") === "nl") {
 
     lesson26Json = [
         {
-            "Content": "Il est huit heures du matin.",
+            "Content": "Het is acht uur 's ochtends.",
             "Question": "What time is it in the morning?",
             "Answers": ["It's eight o'clock in the morning"],
             "Options": ["It's eight o'clock in the morning", "It's eight o'clock at night", "It's eight o'clock AM", "It's noon"],
             "Translation": "It's eight o'clock in the morning."
         },
         {
-            "Content": "Elle doit arriver à quatorze heures trente.",
+            "Content": "Ze moet om twee uur dertig aankomen.",
             "Question": "What time does she need to arrive?",
             "Answers": ["She needs to arrive at two thirty PM", "She needs to arrive at two-thirty PM"],
             "Options": ["She needs to arrive at two thirty PM", "She needs to arrive at three thirty AM", "She needs to arrive at two thirty AM", "She needs to arrive at one thirty PM"],
             "Translation": "She needs to arrive at two thirty PM."
         },
         {
-            "Content": "Nous avons rendez-vous à dix-sept heures pile.",
+            "Content": "Onze afspraak is precies om vijf uur.",
             "Question": "When is our appointment?",
             "Answers": ["Our appointment is at exactly five o'clock"],
             "Options": ["Our appointment is at exactly five o'clock", "Our appointment is at six o'clock", "Our appointment is at five thirty", "Our appointment is at four o'clock"],
             "Translation": "Our appointment is at exactly five o'clock."
         },
         {
-            "Content": "Le film commence à dix-neuf heures quarante-cinq.",
+            "Content": "De film begint om zeven uur vijfenveertig.",
             "Question": "When does the movie start?",
             "Answers": ["The movie starts at seven forty-five PM"],
             "Options": ["The movie starts at seven forty-five PM", "The movie starts at eight forty-five AM", "The movie starts at seven thirty PM", "The movie starts at six forty-five PM"],
             "Translation": "The movie starts at seven forty-five PM."
         },
         {
-            "Content": "Il est midi et demi.",
+            "Content": "Het is twaalf uur en een half.",
             "Question": "What time is it?",
             "Answers": ["It's noon and a half"],
             "Options": ["It's noon and a half", "It's midnight and a half", "It's one thirty AM", "It's three thirty PM"],
             "Translation": "It's noon and a half."
         },
         {
-            "Content": "Je me lève à six heures tous les jours.",
+            "Content": "Ik sta elke dag om zes uur op.",
             "Question": "When do I wake up every day?",
             "Answers": ["I wake up at six o'clock every day"],
             "Options": ["I wake up at six o'clock every day", "I wake up at seven o'clock every day", "I wake up at eight o'clock every day", "I wake up at nine o'clock every day"],
             "Translation": "I wake up at six o'clock every day."
         },
         {
-            "Content": "Il est onze heures moins le quart du soir.",
+            "Content": "Het is kwart voor elf 's avonds.",
             "Question": "What time is it in the evening?",
             "Answers": ["It's a quarter to eleven in the evening"],
             "Options": ["It's a quarter to eleven in the evening", "It's eleven o'clock in the morning", "It's half past ten at night", "It's noon"],
@@ -1852,94 +1852,60 @@ if (localStorage.getItem("currentLanguage") === "nl") {
 
     lesson28Json = [
         {
-            "Content": "Est-ce que tu te brosses les dents après chaque repas?",
-            "Question": "Translate into English.",
-            "Answers": ["Do you brush your teeth after every meal?"],
-            "Options": [
-                "Do you brush your teeth after every meal?",
-                "Are you going to the park?",
-                "Do you eat breakfast every morning?",
-                "Are you reading a book?"
-            ],
-            "Translation": "Do you brush your teeth after every meal?"
+            "Content": "Ik was mijn handen.",
+            "Question": "What am I doing?",
+            "Answers": ["I am washing my hands"],
+            "Options": ["I am washing my hands", "I am cooking dinner", "I am reading a book", "I am driving a car"],
+            "Translation": "I am washing my hands."
         },
         {
-            "Content": "Est-ce qu'elle se lave les mains avant de manger?",
-            "Question": "Translate into English.",
-            "Answers": ["Does she wash her hands before eating?"],
-            "Options": [
-                "Does she wash her hands before eating?",
-                "Is she going to the store?",
-                "Does she like pizza?",
-                "Is she watching TV?"
-            ],
-            "Translation": "Does she wash her hands before eating?"
+            "Content": "Ze borstelt elke ochtend haar haar.",
+            "Question": "What does she do every morning?",
+            "Answers": ["She brushes her hair"],
+            "Options": ["She brushes her hair", "She brushes her teeth", "She takes a shower", "She eats breakfast"],
+            "Translation": "She brushes her hair every morning."
         },
         {
-            "Content": "Est-ce qu'ils se réveillent tôt le matin?",
-            "Question": "Translate into English.",
-            "Answers": ["Do they wake up early in the morning?"],
-            "Options": [
-                "Do they wake up early in the morning?",
-                "Are they playing soccer?",
-                "Do they like ice cream?",
-                "Are they going to the movies?"
-            ],
-            "Translation": "Do they wake up early in the morning?"
+            "Content": "Ze staan vroeg op in het weekend.",
+            "Question": "When do they wake up on weekends?",
+            "Answers": ["They wake up early on weekends"],
+            "Options": ["They wake up early on weekends", "They wake up late on weekends", "They go to bed early on weekends", "They sleep all day on weekends"],
+            "Translation": "They wake up early on weekends."
         },
         {
-            "Content": "Est-ce que vous vous habillez formellement au travail?",
-            "Question": "Translate into English.",
-            "Answers": ["Do you dress formally at work?"],
-            "Options": [
-                "Do you dress formally at work?",
-                "Are you going to the gym?",
-                "Do you speak French?",
-                "Is it raining outside?"
-            ],
-            "Translation": "Do you dress formally at work?"
+            "Content": "We kleden ons snel aan.",
+            "Question": "How do we get dressed?",
+            "Answers": ["We dress quickly"],
+            "Options": ["We dress quickly", "We dress slowly", "We dress formally", "We dress up for a party"],
+            "Translation": "We dress quickly."
         },
         {
-            "Content": "Est-ce que je me maquille pour la soirée ce soir?",
-            "Question": "Translate into English.",
-            "Answers": ["Am I applying makeup for the party tonight?"],
-            "Options": [
-                "Am I applying makeup for the party tonight?",
-                "Am I going to the beach?",
-                "Am I hungry?",
-                "Am I watching a movie?"
-            ],
-            "Translation": "Am I applying makeup for the party tonight?"
+            "Content": "Waarom breng je make-up aan?",
+            "Question": "Why are you applying makeup?",
+            "Answers": ["You are applying makeup for the evening"],
+            "Options": ["You are applying makeup for the evening", "You are applying makeup for work", "You are applying makeup for a photo shoot", "You are applying makeup for a vacation"],
+            "Translation": "You are applying makeup for the evening."
         },
         {
-            "Content": "Est-ce qu'ils se préparent pour le voyage demain?",
-            "Question": "Translate into English.",
-            "Answers": ["Are they getting ready for the trip tomorrow?"],
-            "Options": [
-                "Are they getting ready for the trip tomorrow?",
-                "Are they going shopping?",
-                "Do they like pizza?",
-                "Are they reading a book?"
-            ],
-            "Translation": "Are they getting ready for the trip tomorrow?"
+            "Content": "Hij scheert zich elke dag.",
+            "Question": "How often does he shave?",
+            "Answers": ["He shaves every day"],
+            "Options": ["He shaves every day", "He shaves once a week", "He shaves in the evening", "He shaves in the morning"],
+            "Translation": "He shaves every day."
         },
         {
-            "Content": "Est-ce que nous nous levons tôt les jours de semaine?",
-            "Question": "Translate into English.",
-            "Answers": ["Do we get up early on weekdays?"],
-            "Options": [
-                "Do we get up early on weekdays?",
-                "Do we have a dog?",
-                "Do we like chocolate?",
-                "Do we watch TV?"
-            ],
-            "Translation": "Do we get up early on weekdays?"
+            "Content": "Ze maken zich klaar voor het feest vanavond.",
+            "Question": "What are they doing for the party tonight?",
+            "Answers": ["They are getting ready"],
+            "Options": ["They are getting ready", "They are cleaning the house", "They are cooking dinner", "They are watching a movie"],
+            "Translation": "They are getting ready for the party tonight."
         }
     ];
+    
 
     lesson29Json = [
         {
-            "Content": "Il mange une pizza au dîner.",
+            "Content": "Hij eet pizza voor het avondeten.",
             "Question": "Translate into English.",
             "Answers": ["He eats pizza for dinner"],
             "Options": [
@@ -1951,7 +1917,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "He eats pizza for dinner."
         },
         {
-            "Content": "Elle prépare une salade pour le déjeuner.",
+            "Content": "Zij maakt een salade voor de lunch.",
             "Question": "Translate into English.",
             "Answers": ["She prepares a salad for lunch"],
             "Options": [
@@ -1963,7 +1929,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "She prepares a salad for lunch."
         },
         {
-            "Content": "Ils boivent du jus d'orange au petit déjeuner.",
+            "Content": "Ze drinken sinaasappelsap bij het ontbijt.",
             "Question": "Translate into English.",
             "Answers": ["They drink orange juice for breakfast"],
             "Options": [
@@ -1975,7 +1941,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "They drink orange juice for breakfast."
         },
         {
-            "Content": "Est-ce que vous aimez manger des fruits?",
+            "Content": "Houdt u van fruit eten?",
             "Question": "Translate into English.",
             "Answers": ["Do you like to eat fruits?"],
             "Options": [
@@ -1987,7 +1953,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "Do you like to eat fruits?"
         },
         {
-            "Content": "Nous commandons des sushis pour le dîner ce soir.",
+            "Content": "We bestellen sushi voor het avondeten vanavond.",
             "Question": "Translate into English.",
             "Answers": ["We are ordering sushi for dinner tonight"],
             "Options": [
@@ -1999,7 +1965,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "We are ordering sushi for dinner tonight."
         },
         {
-            "Content": "Elle cuisine du poulet rôti pour le déjeuner.",
+            "Content": "Ze kookt geroosterde kip voor de lunch.",
             "Question": "Translate into English.",
             "Answers": ["She cooks roasted chicken for lunch"],
             "Options": [
@@ -2011,7 +1977,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "She cooks roasted chicken for lunch."
         },
         {
-            "Content": "Ils mangent des légumes avec leur dîner.",
+            "Content": "Ze eten groenten bij hun avondeten.",
             "Question": "Translate into English.",
             "Answers": ["They eat vegetables with their dinner"],
             "Options": [
@@ -2022,12 +1988,12 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             ],
             "Translation": "They eat vegetables with their dinner."
         }
-
     ];
+    
 
     lesson30Json = [
         {
-            "Content": "Quand est-ce que tu te lèves le matin?",
+            "Content": "Wanneer sta je 's ochtends op?",
             "Question": "Translate into English.",
             "Answers": ["When do you get up in the morning?"],
             "Options": [
@@ -2039,7 +2005,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "When do you get up in the morning?"
         },
         {
-            "Content": "Qui est-ce que vous rencontrez à la bibliothèque?",
+            "Content": "Met wie ontmoet je in de bibliotheek?",
             "Question": "Translate into English.",
             "Answers": ["Whom do you meet at the library?"],
             "Options": [
@@ -2051,7 +2017,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "Whom do you meet at the library?"
         },
         {
-            "Content": "Comment est-ce qu'elle se prépare pour le mariage?",
+            "Content": "Hoe bereidt ze zich voor op de bruiloft?",
             "Question": "Translate into English.",
             "Answers": ["How does she prepare for the wedding?"],
             "Options": [
@@ -2063,7 +2029,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "How does she prepare for the wedding?"
         },
         {
-            "Content": "Combien de temps est-ce qu'ils se reposent l'après-midi?",
+            "Content": "Hoe lang rusten ze 's middags?",
             "Question": "Translate into English.",
             "Answers": ["How long do they rest in the afternoon?"],
             "Options": [
@@ -2075,7 +2041,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "How long do they rest in the afternoon?"
         },
         {
-            "Content": "Quoi est-ce que je me prépare pour le dîner?",
+            "Content": "Waar maak ik me klaar voor het diner?",
             "Question": "Translate into English.",
             "Answers": ["What am I getting ready for dinner?"],
             "Options": [
@@ -2087,7 +2053,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "What am I getting ready for dinner?"
         },
         {
-            "Content": "Où est-ce que vous vous amusez le samedi soir?",
+            "Content": "Waar heb je plezier op zaterdagavond?",
             "Question": "Translate into English.",
             "Answers": ["Where do you have fun on Saturday night?"],
             "Options": [
@@ -2099,7 +2065,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Translation": "Where do you have fun on Saturday night?"
         },
         {
-            "Content": "Pourquoi est-ce que nous nous habillons formellement?",
+            "Content": "Waarom kleden we ons formeel?",
             "Question": "Translate into English.",
             "Answers": ["Why do we dress formally?"],
             "Options": [
@@ -2110,7 +2076,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             ],
             "Translation": "Why do we dress formally?"
         }
-    ];
+    ]    
 
     lessonJSONData = [lesson1Json, lesson2Json, lesson3Json, lesson4Json, lesson5Json, lesson6Json, lesson7Json, lesson8Json, lesson9Json, lesson10Json, lesson11Json, lesson12Json, lesson13Json, lesson14Json, lesson15Json, lesson16Json, lesson17Json, lesson18Json, lesson19Json, lesson20Json, lesson21Json, lesson22Json, lesson23Json, lesson24Json, lesson25Json, lesson26Json, lesson27Json, lesson28Json, lesson29Json, lesson30Json];
 }
