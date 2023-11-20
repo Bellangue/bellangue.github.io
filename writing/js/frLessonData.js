@@ -320,6 +320,6 @@ if (localStorage.getItem("currentLanguage") === "fr") {
         {"Content": "Where do you have fun on Saturday night?", "Translation": "Où est-ce que vous vous amusez le samedi soir?"},
         {"Content": "Why do we dress formally?", "Translation": "Pourquoi est-ce que nous nous habillons formellement?"}
     ]
-    
-    lessonJSONData = [lesson1Json, lesson2Json, lesson3Json, lesson4Json, lesson5Json, lesson6Json, lesson7Json];
+
+    lessonJSONData = [lesson1Json, lesson2Json, lesson3Json, lesson4Json, lesson5Json, lesson6Json, lesson7Json, lesson8Json, lesson9Json, lesson10Json, lesson11Json, lesson12Json, lesson13Json, lesson14Json, lesson15Json, lesson16Json, lesson17Json, lesson18Json, lesson19Json, lesson20Json, lesson21Json, lesson22Json, lesson23Json, lesson24Json, lesson25Json, lesson26Json, lesson27Json, lesson28Json, lesson29Json, lesson30Json];
 }
