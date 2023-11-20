@@ -100,9 +100,10 @@ soundSpeaker.addEventListener("click", function () {
         soundToMake.lang = "pt-BR";
     } else if (currentLanguage === "nl") {
         soundToMake.lang = "nl-NL";
-    } else if (currentLanguage === "rz") {
-        soundToMake.lang = "en-UK";
     }
+    // } else if (currentLanguage === "rz") {
+    //     soundToMake.lang = "en-UK";
+    // }
     soundToMake.voice = voices[0];
     synth.speak(soundToMake);
 });
@@ -120,7 +121,7 @@ contentSpeaker.addEventListener("click", function () {
     else if (currentLanguage === "nl") {
         soundToMake.lang = "nl-NL";
     } 
-    else if (currentLanguage === "rz") {
-        soundToMake.lang = "en-UK";
-    }    synth.speak(soundToMake);
+    // else if (currentLanguage === "rz") {
+    //     soundToMake.lang = "en-UK";
+    // }    synth.speak(soundToMake);
 });

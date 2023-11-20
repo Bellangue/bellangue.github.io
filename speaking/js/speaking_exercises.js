@@ -96,8 +96,9 @@ contentSpeaker.addEventListener("click", function () {
         soundToMake.lang = "pt-PT";
     } else if (currentLanguage === "nl") {
         soundToMake.lang = "nl-NL";
-    } else if (currentLanguage === "rz") {
-        soundToMake.lang = "en-UK";
     }
+    // } else if (currentLanguage === "rz") {
+    //     soundToMake.lang = "en-UK";
+    // }
     synth.speak(soundToMake);
 });

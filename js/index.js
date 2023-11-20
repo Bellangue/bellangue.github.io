@@ -44,10 +44,10 @@ if (localStorage.getItem("ptdos") === null) {
 }
 let ptdos = +localStorage.getItem("ptdos")
 
-if (localStorage.getItem("rzdos") === null) {
-    localStorage.setItem("rzdos", 0);
-}
-let rzdos = +localStorage.getItem("rzdos")
+// if (localStorage.getItem("rzdos") === null) {
+//     localStorage.setItem("rzdos", 0);
+// }
+// let rzdos = +localStorage.getItem("rzdos")
 
 //tree
 //nl
@@ -115,23 +115,23 @@ if (localStorage.getItem("ptwriting") === null) {
 }
 
 //rz
-if (localStorage.getItem("rzreading") === null) {
-    localStorage.setItem("rzreading", 0);
-}
-if (localStorage.getItem("rzspeaking") === null) {
-    localStorage.setItem("rzspeaking", 0);
-}
-if (localStorage.getItem("rzlistening") === null) {
-    localStorage.setItem("rzlistening", 0);
-}
+// if (localStorage.getItem("rzreading") === null) {
+//     localStorage.setItem("rzreading", 0);
+// }
+// if (localStorage.getItem("rzspeaking") === null) {
+//     localStorage.setItem("rzspeaking", 0);
+// }
+// if (localStorage.getItem("rzlistening") === null) {
+//     localStorage.setItem("rzlistening", 0);
+// }
 
-if (localStorage.getItem("rzvocabulary") === null) {
-    localStorage.setItem("rzvocabulary", 0);
-}
+// if (localStorage.getItem("rzvocabulary") === null) {
+//     localStorage.setItem("rzvocabulary", 0);
+// }
 
-if (localStorage.getItem("rzwriting") === null) {
-    localStorage.setItem("rzwriting", 0);
-}
+// if (localStorage.getItem("rzwriting") === null) {
+//     localStorage.setItem("rzwriting", 0);
+// }
 const caterpillarul = document.getElementById("caterpillarul")
 const KatieLengthHeader = document.getElementById("KatieLengthHeader")
 
@@ -151,7 +151,8 @@ for (let i = 0; i < localStorage.getItem("caterpillar"); ++i) {
 currentFlag.innerHTML = `<img class="centrePositionW stickyTop" src="images/Flags/${localStorage.getItem("currentLanguage")}.png"/>`;
 
 const dosNames = ["Dutch", "French", "Portuguese", "ruz"]
-const dosValues = [nldos, frdos, ptdos, rzdos]
+// const dosValues = [nldos, frdos, ptdos, rzdos]
+const dosValues = [nldos, frdos, ptdos]
 const sortedIndices = sortWithIndeces(dosValues);
 const dosValueElements = document.getElementsByClassName("dosValue");
 const dosNameElements = document.getElementsByClassName("dosName");
@@ -179,9 +180,9 @@ for (let i = 0; i < dosResetElements.length; ++i) {
         else if (dosNames[sortedIndices.sortIndices[i - 1]] === "Portuguese") {
             localStorage.setItem("ptdos", 0);
         }
-        else if (dosNames[sortedIndices.sortIndices[i - 1]] === "ruz") {
-            localStorage.setItem("rzdos", 0);
-        }
+        // else if (dosNames[sortedIndices.sortIndices[i - 1]] === "ruz") {
+        //     localStorage.setItem("rzdos", 0);
+        // }
     });
 }
 
