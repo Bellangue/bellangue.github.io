@@ -1,7 +1,7 @@
 if (localStorage.getItem("currentLanguage") === "fr") {
 
-    lessonNameData = ["[b]", "[p]", "[m]", "[f]", "[v]", "[n]", "[t]", "[d]", "[s]", "[z]", "[l]", "[ʃ]", "[ʒ]", "[ɲ]", "[ŋ]", "[k]", "[g]", "[ʁ]", "w"];
-    lessonSoundData = ["b", "p", "m", "f", "v", "n", "t", "d", "s", "z", "l", "ch", "j", "gn", "ui", "ng", "k", "g", "r", "w"];
+    lessonNameData = ["[b]", "[p]", "[m]", "[f]", "[v]", "[n]", "[t]", "[d]", "[s]", "[z]", "[l]", "[ʃ]", "[ʒ]", "[ɲ]", "[j]", "[ɥ]", "[ŋ]", "[k]", "[g]", "[ʁ]", "[w]", "[i]", "[e]", "[ɛ]", "[a]", "[y]", "[œ]", "[u]", "[o]"];
+    lessonSoundData = ["b", "p", "m", "f", "v", "n", "t", "d", "s", "z", "l", "ch", "j", "gn", "y", "ui", "ng", "k", "g", "r", "w", "i", "e", "a", "ue", "œ", "u", "o"];
 
     lesson1Json = [
         {
@@ -767,7 +767,7 @@ if (localStorage.getItem("currentLanguage") === "fr") {
             "Translation": "Niel Armstrong"
         },
     ]
-    
+
     lesson18Json = [
         {
             "Content": "couteau",
@@ -811,7 +811,7 @@ if (localStorage.getItem("currentLanguage") === "fr") {
             "Answers": ["k"],
             "Translation": "kiwi"
         }
-    ]  
+    ]
 
     lesson19Json = [
         {
@@ -857,7 +857,7 @@ if (localStorage.getItem("currentLanguage") === "fr") {
             "Translation": "group"
         }
     ]
-    
+
     lesson20Json = [
         {
             "Content": "radiateur",
@@ -947,7 +947,361 @@ if (localStorage.getItem("currentLanguage") === "fr") {
             "Translation": "fish"
         },
     ]
+
+    lesson22Json = [
+        {
+            "Content": "livre",
+            "Question": "Which letter(s) make the sound [i]?",
+            "Answers": ["i"],
+            "Translation": "book"
+        },
+        {
+            "Content": "lit",
+            "Question": "Which letter(s) make the sound [i]?",
+            "Answers": ["i"],
+            "Translation": "bed"
+        },
+        {
+            "Content": "fille",
+            "Question": "Which letter(s) make the sound [i]?",
+            "Answers": ["i"],
+            "Translation": "girl"
+        },
+        {
+            "Content": "hibou",
+            "Question": "Which letter(s) make the sound [i]?",
+            "Answers": ["i"],
+            "Translation": "owl"
+        },
+        {
+            "Content": "sirène",
+            "Question": "Which letter(s) make the sound [i]?",
+            "Answers": ["i"],
+            "Translation": "mermaid"
+        },
+        {
+            "Content": "ouvir",
+            "Question": "Which letter(s) make the sound [i]?",
+            "Answers": ["i"],
+            "Translation": "to listen"
+        },
+        {
+            "Content": "lit",
+            "Question": "Which letter(s) make the sound [i]?",
+            "Answers": ["i"],
+            "Translation": "bed"
+        }
+    ]
+
+    lesson23Json = [
+        {
+            "Content": "belle",
+            "Question": "Which letter(s) make the sound [e]?",
+            "Answers": ["e"],
+            "Translation": "beautiful"
+        },
+        {
+            "Content": "fête",
+            "Question": "Which letter(s) make the sound [e]?",
+            "Answers": ["ête"],
+            "Translation": "party"
+        },
+        {
+            "Content": "fenêtre",
+            "Question": "Which letter(s) make the sound [e]?",
+            "Answers": ["e"],
+            "Translation": "window"
+        },
+        {
+            "Content": "été",
+            "Question": "Which letter(s) make the sound [e]?",
+            "Answers": ["é"],
+            "Translation": "summer"
+        },
+        {
+            "Content": "légume",
+            "Question": "Which letter(s) make the sound [e]?",
+            "Answers": ["é"],
+            "Translation": "vegetable"
+        },
+        {
+            "Content": "mer",
+            "Question": "Which letter(s) make the sound [e]?",
+            "Answers": ["e"],
+            "Translation": "sea"
+        },
+        {
+            "Content": "fête",
+            "Question": "Which letter(s) make the sound [e]?",
+            "Answers": ["ê"],
+            "Translation": "party"
+        }
+    ]
+
+    lesson24Json = [
+        {
+            "Content": "mère",
+            "Question": "Which letter(s) make the sound [ɛ]?",
+            "Answers": ["è"],
+            "Translation": "mother"
+        },
+        {
+            "Content": "père",
+            "Question": "Which letter(s) make the sound [ɛ]?",
+            "Answers": ["è"],
+            "Translation": "father"
+        },
+        {
+            "Content": "frère",
+            "Question": "Which letter(s) make the sound [ɛ]?",
+            "Answers": ["ère"],
+            "Translation": "brother"
+        },
+        {
+            "Content": "légume",
+            "Question": "Which letter(s) make the sound [ɛ]?",
+            "Answers": ["é"],
+            "Translation": "vegetable"
+        },
+        {
+            "Content": "bête",
+            "Question": "Which letter(s) make the sound [ɛ]?",
+            "Answers": ["ê"],
+            "Translation": "beast"
+        },
+        {
+            "Content": "lait",
+            "Question": "Which letter(s) make the sound [ɛ]?",
+            "Answers": ["ai"],
+            "Translation": "milk"
+        },
+        {
+            "Content": "pêche",
+            "Question": "Which letter(s) make the sound [ɛ]?",
+            "Answers": ["ê"],
+            "Translation": "peach"
+        },
+    ]
+
+    lesson25Json = [
+        {
+            "Content": "chat",
+            "Question": "Which letter(s) make the sound [a]?",
+            "Answers": ["a"],
+            "Translation": "cat"
+        },
+        {
+            "Content": "pâte",
+            "Question": "Which letter(s) make the sound [a]?",
+            "Answers": ["âte"],
+            "Translation": "paste"
+        },
+        {
+            "Content": "vache",
+            "Question": "Which letter(s) make the sound [a]?",
+            "Answers": ["a"],
+            "Translation": "cow"
+        },
+        {
+            "Content": "papa",
+            "Question": "Which letter(s) make the sound [a]?",
+            "Answers": ["a"],
+            "Translation": "dad"
+        },
+        {
+            "Content": "patte",
+            "Question": "Which letter(s) make the sound [a]?",
+            "Answers": ["a"],
+            "Translation": "paw"
+        },
+        {
+            "Content": "chapeau",
+            "Question": "Which letter(s) make the sound [a]?",
+            "Answers": ["a"],
+            "Translation": "hat"
+        },
+        {
+            "Content": "parapluie",
+            "Question": "Which letter(s) make the sound [a]?",
+            "Answers": ["a"],
+            "Translation": "umbrella"
+        }
+    ]
+
+    lesson26Json = [
+        {
+            "Content": "fusée",
+            "Question": "Which letter(s) make the sound [y]?",
+            "Answers": ["u"],
+            "Translation": "rocket"
+        },
+        {
+            "Content": "lune",
+            "Question": "Which letter(s) make the sound [y]?",
+            "Answers": ["u"],
+            "Translation": "moon"
+        },
+        {
+            "Content": "fût",
+            "Question": "Which letter(s) make the sound [y]?",
+            "Answers": ["u"],
+            "Translation": "keg"
+        },
+        {
+            "Content": "mûr",
+            "Question": "Which letter(s) make the sound [y]?",
+            "Answers": ["û"],
+            "Translation": "ripe"
+        },
+        {
+            "Content": "sur",
+            "Question": "Which letter(s) make the sound [y]?",
+            "Answers": ["u"],
+            "Translation": "on"
+        },
+        {
+            "Content": "tu",
+            "Question": "Which letter(s) make the sound [y]?",
+            "Answers": ["u"],
+            "Translation": "you"
+        },
+        {
+            "Content": "une",
+            "Question": "Which letter(s) make the sound [y]?",
+            "Answers": ["u"],
+            "Translation": "one"
+        },
+    ]
+
+    lesson27Json = [
+        {
+            "Content": "fleur",
+            "Question": "Which letter(s) make the sound [œ]?",
+            "Answers": ["eu"],
+            "Translation": "flower"
+        },
+        {
+            "Content": "peur",
+            "Question": "Which letter(s) make the sound [œ]?",
+            "Answers": ["eu"],
+            "Translation": "fear"
+        },
+        {
+            "Content": "œufs",
+            "Question": "Which letter(s) make the sound [œ]?",
+            "Answers": ["œu"],
+            "Translation": "eggs"
+        },
+        {
+            "Content": "heure",
+            "Question": "Which letter(s) make the sound [œ]?",
+            "Answers": ["eu"],
+            "Translation": "hour"
+        },
+        {
+            "Content": "œil",
+            "Question": "Which letter(s) make the sound [œ]?",
+            "Answers": ["œi"],
+            "Translation": "eye"
+        },
+        {
+            "Content": "peu",
+            "Question": "Which letter(s) make the sound [œ]?",
+            "Answers": ["eu"],
+            "Translation": "few"
+        },
+        {
+            "Content": "neuf",
+            "Question": "Which letter(s) make the sound [œ]?",
+            "Answers": ["eu"],
+            "Translation": "nine"
+        }
+    ]
     
-    
-    lessonJSONData = [lesson1Json];
+    lesson28Json = [
+        {
+            "Content": "loup",
+            "Question": "Which letter(s) make the sound [u]?",
+            "Answers": ["ou"],
+            "Translation": "wolf"
+        },
+        {
+            "Content": "fou",
+            "Question": "Which letter(s) make the sound [u]?",
+            "Answers": ["ou"],
+            "Translation": "crazy"
+        },
+        {
+            "Content": "nous",
+            "Question": "Which letter(s) make the sound [u]?",
+            "Answers": ["ou"],
+            "Translation": "we"
+        },
+        {
+            "Content": "jouet",
+            "Question": "Which letter(s) make the sound [u]?",
+            "Answers": ["ou"],
+            "Translation": "toy"
+        },
+        {
+            "Content": "vous",
+            "Question": "Which letter(s) make the sound [u]?",
+            "Answers": ["ou"],
+            "Translation": "you"
+        },
+        {
+            "Content": "où",
+            "Question": "Which letter(s) make the sound [u]?",
+            "Answers": ["où"],
+            "Translation": "where"
+        },
+        
+    ]
+        
+    lesson29Json = [
+        {
+            "Content": "porte",
+            "Question": "Which letter(s) make the sound [o]?",
+            "Answers": ["o"],
+            "Translation": "door"
+        },
+        {
+            "Content": "soleil",
+            "Question": "Which letter(s) make the sound [o]?",
+            "Answers": ["o"],
+            "Translation": "sun"
+        },
+        {
+            "Content": "gros",
+            "Question": "Which letter(s) make the sound [o]?",
+            "Answers": ["o"],
+            "Translation": "big"
+        },
+        {
+            "Content": "froid",
+            "Question": "Which letter(s) make the sound [o]?",
+            "Answers": ["oi"],
+            "Translation": "cold"
+        },
+        {
+            "Content": "corps",
+            "Question": "Which letter(s) make the sound [o]?",
+            "Answers": ["o"],
+            "Translation": "body"
+        },
+        {
+            "Content": "portefeuille",
+            "Question": "Which letter(s) make the sound [o]?",
+            "Answers": ["o", "euil"],
+            "Translation": "wallet"
+        },
+        {
+            "Content": "morceau",
+            "Question": "Which letter(s) make the sound [o]?",
+            "Answers": ["o"],
+            "Translation": "piece"
+        }         
+    ]
+
+    lessonJSONData = [lesson1Json, lesson2Json, lesson3Json, lesson4Json, lesson5Json, lesson6Json, lesson7Json, lesson8Json, lesson9Json, lesson10Json, lesson11Json, lesson12Json, lesson13Json, lesson14Json, lesson15Json, lesson16Json, lesson17Json, lesson18Json, lesson19Json, lesson20Json, lesson21Json, lesson22Json, lesson23Json, lesson24Json, lesson25Json, lesson26Json, lesson27Json, lesson28Json, lesson29Json];
 }
