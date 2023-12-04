@@ -1,5 +1,4 @@
 let lessonNameData = [];
-let lessonSoundData = [];
 let lesson1Json = [];
 let lesson2Json = [];
 let lesson3Json = [];
@@ -24,4 +23,10 @@ let lesson21Json = [];
 let lesson22Json = [];
 let lesson23Json = [];
 let lesson24Json = [];
+let lesson25Json = [];
+let lesson26Json = [];
+let lesson27Json = [];
+let lesson28Json = [];
+let lesson29Json = [];
+let lesson30Json = [];
 let lessonJSONData = [];
