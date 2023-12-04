@@ -22,7 +22,17 @@ if (localStorage.getItem("currentLanguage") === "fr") {
                 "J 'habite",
                 "Je 'habite"],
             "Translation": "I live in Paris."
-        }
+        },
+        {
+            "Rule": "Before a vowel or 'h', certain words, like 'Je' get condensed. (Je + ai = J'ai)",
+            "Question": "Je ___ (aime) le chocolat.",
+            "Answers": ["J'aime"],
+            "Options": ["J'aime",
+                "Je aime",
+                "J 'aime",
+                "Je 'aime"],
+            "Translation": "I like chocolate."
+        },
     ]
 
     lessonJSONData = [lesson1Json];

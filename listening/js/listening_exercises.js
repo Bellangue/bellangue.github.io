@@ -84,11 +84,11 @@ confirmButton.addEventListener("click", function () {
             localStorage.setItem(`${currentLanguage}dos`, currentDos + dosEarnt);
             snailPicture.style.display = '';
 
-            sessionStorage.setItem("combo", +sessionStorage.getItem("combo")+1);
-            localStorage.setItem("caterpillar", +sessionStorage.getItem("combo")+(+localStorage.getItem("caterpillar")));
+            sessionStorage.setItem("combo", +sessionStorage.getItem("combo") + 1);
+            localStorage.setItem("caterpillar", +sessionStorage.getItem("combo") + (+localStorage.getItem("caterpillar")));
 
 
-            if(+counter < (selected + 1)*repetitions){
+            if (+counter < (selected + 1) * repetitions) {
                 localStorage.setItem(`${localStorage.getItem("currentLanguage")}listening`, +counter + 1)
             }
         } else {
@@ -115,8 +115,7 @@ hintButton.addEventListener("click", function () {
 
 function showHint() {
     hintButton.textContent = localStorage.getItem(`${localStorage.getItem("currentLanguage")}:Listening:${selected},${currentQuestionNo}`);
-    if(localStorage.getItem(`${localStorage.getItem("currentLanguage")}:Listening:${selected},${currentQuestionNo}`) === null || localStorage.getItem(`${localStorage.getItem("currentLanguage")}:Listening:${selected},${currentQuestionNo}`) === "")
-    {
+    if (localStorage.getItem(`${localStorage.getItem("currentLanguage")}:Listening:${selected},${currentQuestionNo}`) === null || localStorage.getItem(`${localStorage.getItem("currentLanguage")}:Listening:${selected},${currentQuestionNo}`) === "") {
         hintButton.textContent = "You have not given yourself a hint.";
     }
 }
@@ -137,17 +136,19 @@ const soundSpeaker = document.getElementById("soundSpeaker");
 const contentSpeaker = document.getElementById("contentText");
 
 contentSpeaker.addEventListener("click", function () {
-    let soundToMake = new SpeechSynthesisUtterance(currentLessonJson[currentQuestionNo].Content);
-    if (currentLanguage === "fr") {
-        soundToMake.lang = "fr-FR";
+    if (doneQuestions !== necessaryQuestions) {
+        let soundToMake = new SpeechSynthesisUtterance(currentLessonJson[currentQuestionNo].Content);
+        if (currentLanguage === "fr") {
+            soundToMake.lang = "fr-FR";
+        }
+        else if (currentLanguage === "pt") {
+            soundToMake.lang = "pt-BR";
+        }
+        else if (currentLanguage === "nl") {
+            soundToMake.lang = "nl-NL";
+        }
+        else if (currentLanguage === "rz") {
+            soundToMake.lang = "en-UK";
+        } synth.speak(soundToMake);
     }
-     else if (currentLanguage === "pt") {
-        soundToMake.lang = "pt-BR";
-    } 
-    else if (currentLanguage === "nl") {
-        soundToMake.lang = "nl-NL";
-    } 
-    else if (currentLanguage === "rz") {
-        soundToMake.lang = "en-UK";
-    }    synth.speak(soundToMake);
 });
