@@ -1,6 +1,6 @@
 if (localStorage.getItem("currentLanguage") === "nl") {
 
-    lessonNameData = ["Welcome to the Course!", "Colours 1", "Music 1", "Holidays 1", "Food 1", ""];
+    lessonNameData = ["Welcome to the Course!", "Colours 1", "Music 1", "Holidays 1", "Food 1", "Culture", "Colours 2", "Music 2", "Holidays 2", "Food 2"];
 
     lesson1Json = [
         {
@@ -407,10 +407,411 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Hint": "🍨"
         }
     ];
-    
-    
-    
 
+    lesson6Json = [
+        {
+            "Content": "Koning",
+            "Question": "Translate into English.",
+            "Answers": ["King 👑"],
+            "Options": [
+                "Windmill 🌬️",
+                "Tulip 🌷",
+                "Canal 🌊",
+                "King 👑"
+            ],
+            "Translation": "King 👑",
+            "Hint": "👑"
+        },
+        {
+            "Content": "Koning",
+            "Question": "Translate into Dutch.",
+            "Answers": ["Koning 👑"],
+            "Options": [
+                "Windmolen 🌬️",
+                "Tulp 🌷",
+                "Gracht 🌊",
+                "Koning 👑"
+            ],
+            "Translation": "Koning 👑",
+            "Hint": "👑"
+        },
+        {
+            "Content": "Kaas",
+            "Question": "Translate into English.",
+            "Answers": ["Cheese 🧀"],
+            "Options": [
+                "Clogs 👞",
+                "Bicycle 🚲",
+                "Windmill 🌬️",
+                "Cheese 🧀"
+            ],
+            "Translation": "Cheese 🧀",
+            "Hint": "🧀"
+        },
+        {
+            "Content": "Cheese",
+            "Question": "Translate into Dutch.",
+            "Answers": ["Kaas 🧀"],
+            "Options": [
+                "Klompen 👞",
+                "Koning 👑",
+                "Windmolen 🌬️",
+                "Kaas 🧀"
+            ],
+            "Translation": "Kaas 🧀",
+            "Hint": "🧀"
+        },
+        {
+            "Content": "Windmolen",
+            "Question": "Translate into English.",
+            "Answers": ["Windmill 🌬️"],
+            "Options": [
+                "Stroopwafel 🍪",
+                "Tulip 🌷",
+                "Canal 🌊",
+                "Windmill 🌬️"
+            ],
+            "Translation": "Windmill 🌬️",
+            "Hint": "🌬️"
+        },
+        {
+            "Content": "Windmill",
+            "Question": "Translate into Dutch.",
+            "Answers": ["Windmolen 🌬️"],
+            "Options": [
+                "Stroopwafel 🍪",
+                "Tulp 🌷",
+                "Gracht 🌊",
+                "Molen 🌬️"
+            ],
+            "Translation": "Windmolen 🌬️",
+            "Hint": "🌬️"
+        }
+    ];
+
+    lesson7Json = [
+        {
+            "Content": "Geel",
+            "Question": "Translate into English.",
+            "Answers": ["Yellow 🟨"],
+            "Options": [
+                "Red 🟥",
+                "Blue 🟦",
+                "Green 🟩",
+                "Yellow 🟨"
+            ],
+            "Translation": "Yellow 🟨",
+            "Hint": "🟨"
+        },
+        {
+            "Content": "Yellow",
+            "Question": "Translate into Dutch.",
+            "Answers": ["Geel 🟨"],
+            "Options": [
+                "Rood 🟥",
+                "Blauw 🟦",
+                "Groen 🟩",
+                "Geel 🟨"
+            ],
+            "Translation": "Geel 🟨",
+            "Hint": "🟨"
+        },
+        {
+            "Content": "Roze",
+            "Question": "Translate into English.",
+            "Answers": ["Pink 🌸"],
+            "Options": [
+                "Purple 🟪",
+                "White ⬜",
+                "Yellow 🟨",
+                "Pink 🌸"
+            ],
+            "Translation": "Pink 🌸",
+            "Hint": "🌸"
+        },
+        {
+            "Content": "Pink",
+            "Question": "Translate into Dutch.",
+            "Answers": ["Roze 🌸"],
+            "Options": [
+                "Paars 🟪",
+                "Wit ⬜",
+                "Geel 🟨",
+                "Roze 🌸"
+            ],
+            "Translation": "Roze 🌸",
+            "Hint": "🌸"
+        },
+        {
+            "Content": "Grijs",
+            "Question": "Translate into English.",
+            "Answers": ["Gray ⬜"],
+            "Options": [
+                "Black ⬛",
+                "White ⬜",
+                "Blue 🟦",
+                "Gray ⬜"
+            ],
+            "Translation": "Gray ⬜",
+            "Hint": "⬜"
+        },
+        {
+            "Content": "Gray",
+            "Question": "Translate into Dutch.",
+            "Answers": ["Grijs ⬜"],
+            "Options": [
+                "Zwart ⬛",
+                "Wit ⬜",
+                "Blauw 🟦",
+                "Grijs ⬜"
+            ],
+            "Translation": "Grijs ⬜",
+            "Hint": "⬜"
+        }
+    ];
+
+    lesson8Json = [
+        {
+            "Content": "Flute",
+            "Question": "Translate into English.",
+            "Answers": ["Flute 🎶"],
+            "Options": [
+                "Guitar 🎸",
+                "Saxophone 🎷",
+                "Accordion 🪗",
+                "Flute 🎶"
+            ],
+            "Translation": "Flute 🎶",
+            "Hint": "🎶"
+        },
+        {
+            "Content": "Fluit",
+            "Question": "Translate into Dutch.",
+            "Answers": ["Flute 🎶"],
+            "Options": [
+                "Gitaar 🎸",
+                "Saxofoon 🎷",
+                "Accordeon 🪗",
+                "Fluit 🎶"
+            ],
+            "Translation": "Fluit 🎶",
+            "Hint": "🎶"
+        },
+        {
+            "Content": "Saxophone",
+            "Question": "Translate into English.",
+            "Answers": ["Saxophone 🎷"],
+            "Options": [
+                "Piano 🎹",
+                "Flute 🎶",
+                "Trumpet 🎺",
+                "Saxophone 🎷"
+            ],
+            "Translation": "Saxophone 🎷",
+            "Hint": "🎷"
+        },
+        {
+            "Content": "Saxofoon",
+            "Question": "Translate into Dutch.",
+            "Answers": ["Saxophone 🎷"],
+            "Options": [
+                "Piano 🎹",
+                "Fluit 🎶",
+                "Trompet 🎺",
+                "Saxofoon 🎷"
+            ],
+            "Translation": "Saxofoon 🎷",
+            "Hint": "🎷"
+        },
+        {
+            "Content": "Accordion",
+            "Question": "Translate into English.",
+            "Answers": ["Accordion 🪗"],
+            "Options": [
+                "Guitar 🎸",
+                "Flute 🎶",
+                "Piano 🎹",
+                "Accordion 🪗"
+            ],
+            "Translation": "Accordion 🪗",
+            "Hint": "🪗"
+        },
+        {
+            "Content": "Accordeon",
+            "Question": "Translate into Dutch.",
+            "Answers": ["Accordion 🪗"],
+            "Options": [
+                "Gitaar 🎸",
+                "Fluit 🎶",
+                "Piano 🎹",
+                "Accordeon 🪗"
+            ],
+            "Translation": "Accordeon 🪗",
+            "Hint": "🪗"
+        }
+    ];
+
+    lesson9Json = [
+        {
+            "Content": "Oliebollen",
+            "Question": "Translate into English.",
+            "Answers": ["Dutch Doughnuts 🍩"],
+            "Options": [
+                "Chocolate 🍫",
+                "Waffles 🧇",
+                "Pancakes 🥞",
+                "Dutch Doughnuts 🍩"
+            ],
+            "Translation": "Dutch Doughnuts 🍩",
+            "Hint": "🍩"
+        },
+        {
+            "Content": "Dutch Doughnuts",
+            "Question": "Translate into Dutch.",
+            "Answers": ["Oliebollen 🍩"],
+            "Options": [
+                "Chocolade 🍫",
+                "Wafels 🧇",
+                "Pannenkoeken 🥞",
+                "Oliebollen 🍩"
+            ],
+            "Translation": "Oliebollen 🍩",
+            "Hint": "🍩"
+        },
+        {
+            "Content": "Cadeau",
+            "Question": "Translate into English.",
+            "Answers": ["Gift 🎁"],
+            "Options": [
+                "Card 💌",
+                "Decoration 🎀",
+                "Balloon 🎈",
+                "Gift 🎁"
+            ],
+            "Translation": "Gift 🎁",
+            "Hint": "🎁"
+        },
+        {
+            "Content": "Gift",
+            "Question": "Translate into Dutch.",
+            "Answers": ["Cadeau 🎁"],
+            "Options": [
+                "Kaart 💌",
+                "Decoratie 🎀",
+                "Ballon 🎈",
+                "Cadeau 🎁"
+            ],
+            "Translation": "Cadeau 🎁",
+            "Hint": "🎁"
+        },
+        {
+            "Content": "Oud en Nieuw 🎉",
+            "Question": "Translate into English.",
+            "Answers": ["New Year's Eve 🎉"],
+            "Options": [
+                "Halloween 👻",
+                "Christmas Tree 🎄",
+                "New Year's Eve 🎉",
+                "Valentine's Day 💘"
+            ],
+            "Translation": "New Year's Eve 🎉",
+            "Hint": "🎉"
+        },
+        {
+            "Content": "New Year's Eve",
+            "Question": "Translate into Dutch.",
+            "Answers": ["Oud en Nieuw 🎉"],
+            "Options": [
+                "Halloween 👻",
+                "Kerstboom 🎄",
+                "Oud en Nieuw 🎉",
+                "Valentijnsdag 💘"
+            ],
+            "Translation": "Oud en Nieuw 🎉",
+            "Hint": "🎉"
+        }
+    ];
+
+    lesson10Json = [
+        {
+            "Content": "Kaasfondue",
+            "Question": "Translate into English.",
+            "Answers": ["Cheese Fondue 🧀"],
+            "Options": [
+                "Pizza 🍕",
+                "Pasta 🍝",
+                "Sushi 🍣",
+                "Cheese Fondue 🧀"
+            ],
+            "Translation": "Cheese Fondue 🧀",
+            "Hint": "🧀"
+        },
+        {
+            "Content": "Kaasfondue",
+            "Question": "Translate into Dutch.",
+            "Answers": ["Cheese Fondue 🧀"],
+            "Options": [
+                "Pizza 🍕",
+                "Pasta 🍝",
+                "Sushi 🍣",
+                "Cheese Fondue 🧀"
+            ],
+            "Translation": "Cheese Fondue 🧀",
+            "Hint": "🧀"
+        },
+        {
+            "Content": "Salad",
+            "Question": "Translate into English.",
+            "Answers": ["Salad 🥗"],
+            "Options": [
+                "Pasta 🍝",
+                "Soup 🍲",
+                "Rice 🍚",
+                "Salad 🥗"
+            ],
+            "Translation": "Salad 🥗",
+            "Hint": "🥗"
+        },
+        {
+            "Content": "Salade",
+            "Question": "Translate into Dutch.",
+            "Answers": ["Salade 🥗"],
+            "Options": [
+                "Pasta 🍝",
+                "Soep 🍲",
+                "Rijst 🍚",
+                "Salade 🥗"
+            ],
+            "Translation": "Salade 🥗",
+            "Hint": "🥗"
+        },
+        {
+            "Content": "Chocolate Cake",
+            "Question": "Translate into English.",
+            "Answers": ["Chocolate Cake 🍰"],
+            "Options": [
+                "Cake 🍰",
+                "Ice Cream 🍨",
+                "Cupcake 🧁",
+                "Chocolate Cake 🍰"
+            ],
+            "Translation": "Chocolate Cake 🍰",
+            "Hint": "🍰"
+        },
+        {
+            "Content": "Chocoladetaart",
+            "Question": "Translate into Dutch.",
+            "Answers": ["Chocolate Cake 🍰"],
+            "Options": [
+                "Taart 🍰",
+                "Chocolade 🍫",
+                "Cupcake 🧁",
+                "Chocoladetaart 🍰"
+            ],
+            "Translation": "Chocoladetaart 🍰",
+            "Hint": "🍰"
+        }
+    ];
     
 
     lessonJSONData = [lesson1Json, lesson2Json, lesson3Json];
