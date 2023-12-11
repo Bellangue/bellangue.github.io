@@ -814,5 +814,5 @@ if (localStorage.getItem("currentLanguage") === "nl") {
     ];
     
 
-    lessonJSONData = [lesson1Json, lesson2Json, lesson3Json];
+    lessonJSONData = [lesson1Json, lesson2Json, lesson3Json, lesson4Json, lesson5Json, lesson6Json, lesson7Json, lesson8Json, lesson9Json, lesson10Json];
 }
