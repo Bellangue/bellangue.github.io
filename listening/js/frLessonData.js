@@ -424,7 +424,7 @@ if (localStorage.getItem("currentLanguage") === "fr") {
                 "nuts, peas",
                 "Neat! You pass!"],
             "Translation": "do not ..."
-        },
+        }, 
     ]
 
     lesson6Json = [
