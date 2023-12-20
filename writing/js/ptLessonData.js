@@ -257,7 +257,7 @@ if (localStorage.getItem("currentLanguage") === "pt") {
         {"Content": "She adores contemporary dance.", "Translation": "Ela adora dança contemporânea."},
         {"Content": "They like to ride bicycles in the park.", "Translation": "Eles gostam de andar de bicicleta no parque."}
     ]
-    
+
     lesson25Json = [
         {"Content": "It's sunny today.", "Translation": "Está ensolarado hoje."},
         {"Content": "The weather is very cold in winter.", "Translation": "O clima é muito frio no inverno."},
@@ -308,7 +308,7 @@ if (localStorage.getItem("currentLanguage") === "pt") {
         {"Content": "They eat vegetables with their dinner", "Translation": "Eles comem legumes com o jantar."}
     ]
     
-    lesson30ContentTranslation = [
+    lesson30Json = [
         {"Content": "When do you get up in the morning?", "Translation": "Quando você se levanta de manhã?"},
         {"Content": "Whom do you meet at the library?", "Translation": "Quem você encontra na biblioteca?"},
         {"Content": "How does she prepare for the wedding?", "Translation": "Como ela se prepara para o casamento?"},

@@ -1,4 +1,4 @@
-if (localStorage.getItem("currentLanguage") === "fr") {
+if (localStorage.getItem("currentLanguage") === "pt") {
 
     lessonNameData = ["Welcome to the Course! (Ser 1)", "Gender 1", "Adjectives 1", "Conjugations 1", "Conjugations 2", "Conjugations 3"];
 
