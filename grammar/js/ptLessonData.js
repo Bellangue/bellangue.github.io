@@ -500,5 +500,5 @@ if (localStorage.getItem("currentLanguage") === "pt") {
         },
     ]
 
-    lessonJSONData = [lesson1Json, lesson2Json, lesson3Json, lesson4Json, lesson5Json];
+    lessonJSONData = [lesson1Json, lesson2Json, lesson3Json, lesson4Json, lesson5Json, lesson6Json];
 }

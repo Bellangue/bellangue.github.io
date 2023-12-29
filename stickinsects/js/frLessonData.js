@@ -1,7 +1,7 @@
 if (localStorage.getItem("currentLanguage") === "fr") {
 
     lessonNameData = ["[b]", "[p]", "[m]", "[f]", "[v]", "[n]", "[t]", "[d]", "[s]", "[z]", "[l]", "[ʃ]", "[ʒ]", "[k]", "[g]", "[ʁ]", "[w]", "[i]", "[e]", "[a]", "[y]", "[œ]", "[u]", "[o]"];
-    lessonNameData = ["b", "p", "m", "f", "v", "n", "t", "d", "s", "z", "l", "ʃ", "ʒ", "k", "g", "ʁ", "w", "i", "e", "a", "y", "œ", "u", "o"];
+    lessonSoundData = ["b", "p", "m", "f", "v", "n", "t", "d", "s", "z", "l", "ʃ", "ʒ", "k", "g", "ʁ", "w", "i", "e", "a", "y", "œ", "u", "o"];
 
     lesson1Json = [
         {
@@ -1079,5 +1079,5 @@ if (localStorage.getItem("currentLanguage") === "fr") {
         }         
     ]
 
-    lessonJSONData = [lesson1Json, lesson2Json, lesson3Json, lesson4Json, lesson5Json, lesson6Json, lesson7Json, lesson8Json, lesson9Json, lesson10Json, lesson11Json, lesson12Json, lesson13Json, lesson14Json, lesson15Json, lesson16Json, lesson17Json, lesson18Json, lesson19Json, lesson20Json, lesson21Json, lesson22Json, lesson23Json, lesson24Json, lesson25Json, lesson26Json, lesson27Json, lesson28Json, lesson29Json];
+    lessonJSONData = [lesson1Json, lesson2Json, lesson3Json, lesson4Json, lesson5Json, lesson6Json, lesson7Json, lesson8Json, lesson9Json, lesson10Json, lesson11Json, lesson12Json, lesson13Json, lesson14Json, lesson15Json, lesson16Json, lesson17Json, lesson18Json, lesson19Json, lesson20Json, lesson21Json, lesson22Json, lesson23Json, lesson24Json];
 }
