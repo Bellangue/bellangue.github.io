@@ -1,4 +1,4 @@
-if (localStorage.getItem("currentLanguage") === "nl") {
+if (localStorage.getItem("currentLanguage") === "pt") {
 
     lessonNameData = ["Welcome to the Course!", "Colours 1", "Music 1", "Holidays 1", "Food 1", "Culture", "Colours 2", "Music 2", "Holidays 2", "Food 2"];
 
@@ -248,7 +248,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
 
     lesson4Json = [
         {
-            "Content": "A Árvore de Natal",
+            "Content": "Árvore de Natal",
             "Question": "Translate into English.",
             "Answers": ["Christmas Tree 🎄"],
             "Options": [
@@ -274,7 +274,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Hint": "🎄"
         },
         {
-            "Content": "O Coelho da Páscoa",
+            "Content": "Coelho da Páscoa",
             "Question": "Translate into English.",
             "Answers": ["Easter Bunny 🐰"],
             "Options": [
@@ -300,7 +300,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Hint": "🐰"
         },
         {
-            "Content": "Os Fogos de Artifício",
+            "Content": "Fogos de Artifício",
             "Question": "Translate into English.",
             "Answers": ["Fireworks 🎆"],
             "Options": [
@@ -410,7 +410,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
 
     lesson6Json = [
         {
-            "Content": "O Carvival",
+            "Content": "O Carnival",
             "Question": "Translate into English.",
             "Answers": ["The Carnival 🎭"],
             "Options": [
@@ -423,7 +423,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Hint": "🎭"
         },
         {
-            "Content": "The Carvival",
+            "Content": "The Carnival",
             "Question": "Translate into Portuguese.",
             "Answers": ["O Carnival 🎭"],
             "Options": [
@@ -436,7 +436,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Hint": "🎭"
         },
         {
-            "Content": "O Portugês",
+            "Content": "O Português",
             "Question": "Translate into English.",
             "Answers": ["Portuguese 🗣️"],
             "Options": [
@@ -613,12 +613,12 @@ if (localStorage.getItem("currentLanguage") === "nl") {
         {
             "Content": "The Saxophone",
             "Question": "Translate into Portuguese.",
-            "Answers": ["Saxophone 🎷"],
+            "Answers": ["Saxofone 🎷"],
             "Options": [
                 "Piano 🎹",
-                "Fluit 🪈",
-                "Trompet 🎺",
-                "Saxofoon 🎷"
+                "Flauta 🪈",
+                "Trombeta 🎺",
+                "Saxofone 🎷"
             ],
             "Translation": "Saxofoon 🎷",
             "Hint": "🎷"
