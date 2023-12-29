@@ -4,7 +4,7 @@ if (localStorage.getItem("currentLanguage") === "nl") {
 
     lesson1Json = [
         {
-            "Content": "De Fiets",
+            "Content": "A Bicicleta",
             "Question": "Translate into English.",
             "Answers": ["The Bicycle 🚲"],
             "Options": [
@@ -18,19 +18,19 @@ if (localStorage.getItem("currentLanguage") === "nl") {
         },
         {
             "Content": "The Bicycle",
-            "Question": "Translate into Dutch.",
-            "Answers": ["De Fiets 🚲"],
+            "Question": "Translate into Portuguese.",
+            "Answers": ["A Bicicleta 🚲"],
             "Options": [
-                "De Auto 🚗",
-                "De Trein 🚂",
-                "De Fiets 🚲",
-                "De Boot ⛵"
+                "O Carro 🚗",
+                "O Trêm 🚂",
+                "A Bicicleta 🚲",
+                "O Barco ⛵"
             ],
-            "Translation": "De Fiets 🚲",
+            "Translation": "A Bicicleta 🚲",
             "Hint": "🚲"
         },
         {
-            "Content": "De Zon",
+            "Content": "O Sol",
             "Question": "Translate into English.",
             "Answers": ["The Sun ☀️"],
             "Options": [
@@ -44,19 +44,19 @@ if (localStorage.getItem("currentLanguage") === "nl") {
         },
         {
             "Content": "The Sun",
-            "Question": "Translate into Dutch.",
-            "Answers": ["De Zon ☀️"],
+            "Question": "Translate into Portuguese.",
+            "Answers": ["O Sol ☀️"],
             "Options": [
-                "De Maan 🌙",
-                "De Sterren 🌟",
-                "De Wolk ☁️",
-                "De Zon ☀️"
+                "A Lua 🌙",
+                "A Estrelha 🌟",
+                "A Nuvem ☁️",
+                "O Sol ☀️"
             ],
-            "Translation": "De Zon ☀️",
+            "Translation": "O Sol ☀️",
             "Hint": "☀️"
         },
         {
-            "Content": "De Boek",
+            "Content": "O Livro",
             "Question": "Translate into English.",
             "Answers": ["The Book 📖"],
             "Options": [
@@ -70,22 +70,23 @@ if (localStorage.getItem("currentLanguage") === "nl") {
         },
         {
             "Content": "The Book",
-            "Question": "Translate into Dutch.",
-            "Answers": ["Het Boek 📖"],
+            "Question": "Translate into Portuguese.",
+            "Answers": ["O Livro 📖"],
             "Options": [
-                "De Pen ✒️",
-                "Het Papier 📄",
-                "Het Boek 📖",
-                "Het Potlood ✏️"
+                "A Caneta ✒️",
+                "O Papel 📄",
+                "O Livro 📖",
+                "O Lápis ✏️"
             ],
-            "Translation": "Het Boek 📖",
+            "Translation": ["O Livro 📖"],
             "Hint": "📖"
         }
+
     ];
 
     lesson2Json = [
         {
-            "Content": "Oranje",
+            "Content": "Orange",
             "Question": "Translate into English.",
             "Answers": ["Orange 🟧"],
             "Options": [
@@ -99,19 +100,19 @@ if (localStorage.getItem("currentLanguage") === "nl") {
         },
         {
             "Content": "Orange",
-            "Question": "Translate into Dutch.",
-            "Answers": ["Oranje 🟧"],
+            "Question": "Translate into Portuguese.",
+            "Answers": ["Laranja 🟧"],
             "Options": [
-                "Rood 🟥",
-                "Geel 🟨",
-                "Groen 🟩",
-                "Oranje 🟧"
+                "Vermelho 🟥",
+                "Amarelo 🟨",
+                "Verde 🟩",
+                "Laranja 🟧"
             ],
-            "Translation": "Oranje 🟧",
+            "Translation": "Laranja 🟧",
             "Hint": "🟧"
         },
         {
-            "Content": "Paars",
+            "Content": "Purple",
             "Question": "Translate into English.",
             "Answers": ["Purple 🟪"],
             "Options": [
@@ -125,19 +126,19 @@ if (localStorage.getItem("currentLanguage") === "nl") {
         },
         {
             "Content": "Purple",
-            "Question": "Translate into Dutch.",
-            "Answers": ["Paars 🟪"],
+            "Question": "Translate into Portuguese.",
+            "Answers": ["Roxo 🟪"],
             "Options": [
-                "Blauw 🟦",
-                "Rood 🟥",
-                "Geel 🟨",
-                "Paars 🟪"
+                "Azul 🟦",
+                "Vermelho 🟥",
+                "Amarelo 🟨",
+                "Roxo 🟪"
             ],
-            "Translation": "Paars 🟪",
+            "Translation": "Roxo 🟪",
             "Hint": "🟪"
         },
         {
-            "Content": "Bruin",
+            "Content": "Marrom",
             "Question": "Translate into English.",
             "Answers": ["Brown 🟫"],
             "Options": [
@@ -151,23 +152,22 @@ if (localStorage.getItem("currentLanguage") === "nl") {
         },
         {
             "Content": "Brown",
-            "Question": "Translate into Dutch.",
-            "Answers": ["Bruin 🟫"],
+            "Question": "Translate into Portuguese.",
+            "Answers": ["Marrom 🟫"],
             "Options": [
-                "Zwart ⬛",
-                "Wit ⬜",
-                "Blue 🟦",
-                "Bruin 🟫"
+                "Preto ⬛",
+                "Branco ⬜",
+                "Azul 🟦",
+                "Marrom 🟫"
             ],
-            "Translation": "Bruin 🟫",
+            "Translation": "Marrom 🟫",
             "Hint": "🟫"
         }
     ];
-    
 
     lesson3Json = [
         {
-            "Content": "Gitaar",
+            "Content": "Guitarra",
             "Question": "Translate into English.",
             "Answers": ["Guitar 🎸"],
             "Options": [
@@ -180,20 +180,20 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Hint": "🎸"
         },
         {
-            "Content": "Guitar",
-            "Question": "Translate into Dutch.",
-            "Answers": ["Gitaar 🎸"],
+            "Content": "The Guitar",
+            "Question": "Translate into Portuguese.",
+            "Answers": ["A Guitarra 🎸"],
             "Options": [
-                "Piano 🎹",
-                "Viool 🎻",
-                "Trompet 🎺",
-                "Gitaar 🎸"
+                "O Piano 🎹",
+                "O Violino 🎻",
+                "A Trombeta 🎺",
+                "A Guitarra 🎸"
             ],
-            "Translation": "Gitaar 🎸",
+            "Translation": "A Guitarra 🎸",
             "Hint": "🎸"
         },
         {
-            "Content": "Drums",
+            "Content": "Bateria",
             "Question": "Translate into English.",
             "Answers": ["Drums 🥁"],
             "Options": [
@@ -206,16 +206,16 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Hint": "🥁"
         },
         {
-            "Content": "Drums",
-            "Question": "Translate into Dutch.",
-            "Answers": ["Drums 🥁"],
+            "Content": "The Drums",
+            "Question": "Translate into Portuguese.",
+            "Answers": ["A Bateria 🥁"],
             "Options": [
-                "Fluit 🎶",
-                "Saxofoon 🎷",
-                "Accordeon 🪗",
-                "Drums 🥁"
+                "A Flauta 🎶",
+                "O Saxofone 🎷",
+                "O Acordeão 🪗",
+                "A Bateria 🥁"
             ],
-            "Translation": "Drums 🥁",
+            "Translation": "A Bateria 🥁",
             "Hint": "🥁"
         },
         {
@@ -232,23 +232,23 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Hint": "🎹"
         },
         {
-            "Content": "Piano",
-            "Question": "Translate into Dutch.",
-            "Answers": ["Piano 🎹"],
+            "Content": "The Piano",
+            "Question": "Translate into Portuguese.",
+            "Answers": ["O Piano 🎹"],
             "Options": [
-                "Gitaar 🎸",
-                "Viool 🎻",
-                "Trompet 🎺",
-                "Piano 🎹"
+                "A Guitarra 🎸",
+                "O Violino 🎻",
+                "A Trombeta 🎺",
+                "O Piano 🎹"
             ],
-            "Translation": "Piano 🎹",
+            "Translation": "O Piano 🎹",
             "Hint": "🎹"
         }
     ];
 
     lesson4Json = [
         {
-            "Content": "Kerstboom",
+            "Content": "A Árvore de Natal",
             "Question": "Translate into English.",
             "Answers": ["Christmas Tree 🎄"],
             "Options": [
@@ -262,19 +262,19 @@ if (localStorage.getItem("currentLanguage") === "nl") {
         },
         {
             "Content": "Christmas Tree",
-            "Question": "Translate into Dutch.",
-            "Answers": ["Kerstboom 🎄"],
+            "Question": "Translate into Portuguese.",
+            "Answers": ["A Árvore de Natal 🎄"],
             "Options": [
-                "Paashaas 🐰",
+                "O Coelho da Páscoa 🐰",
                 "Jack-o'-lantern 🎃",
-                "Verjaardagstaart 🎂",
-                "Kerstboom 🎄"
+                "O Bolo de Aniversário 🎂",
+                "A Árvore de Natal 🎄"
             ],
-            "Translation": "Kerstboom 🎄",
+            "Translation": "A Árvore de Natal 🎄",
             "Hint": "🎄"
         },
         {
-            "Content": "Paashaas",
+            "Content": "O Coelho da Páscoa",
             "Question": "Translate into English.",
             "Answers": ["Easter Bunny 🐰"],
             "Options": [
@@ -287,20 +287,20 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Hint": "🐰"
         },
         {
-            "Content": "Easter Bunny",
-            "Question": "Translate into Dutch.",
-            "Answers": ["Paashaas 🐰"],
+            "Content": "The Easter Bunny",
+            "Question": "Translate into Portuguese.",
+            "Answers": ["O Coelho da Páscoa 🐰"],
             "Options": [
-                "Kerstboom 🎄",
+                "A Árvore de Natal 🎄",
                 "Jack-o'-lantern 🎃",
-                "Verjaardagstaart 🎂",
-                "Paashaas 🐰"
+                "O Bolo de Aniversário 🎂",
+                "O Coelho da Páscoa 🐰"
             ],
-            "Translation": "Paashaas 🐰",
+            "Translation": "O Coelho da Páscoa 🐰",
             "Hint": "🐰"
         },
         {
-            "Content": "Vuurwerk",
+            "Content": "Os Fogos de Artifício",
             "Question": "Translate into English.",
             "Answers": ["Fireworks 🎆"],
             "Options": [
@@ -313,16 +313,16 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Hint": "🎆"
         },
         {
-            "Content": "Fireworks",
-            "Question": "Translate into Dutch.",
-            "Answers": ["Vuurwerk 🎆"],
+            "Content": "The Fireworks",
+            "Question": "Translate into Portuguese.",
+            "Answers": ["Os Fogos de Artifício 🎆"],
             "Options": [
-                "Ballonnen 🎈",
-                "Confetti 🎉",
-                "Kaarsen 🕯️",
-                "Vuurwerk 🎆"
+                "Os Balões 🎈",
+                "O Confete 🎉",
+                "As Velas 🕯️",
+                "Os Fogos de Artifício 🎆"
             ],
-            "Translation": "Vuurwerk 🎆",
+            "Translation": "Os Fogos de Artifício 🎆",
             "Hint": "🎆"
         }
     ];
@@ -342,20 +342,20 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Hint": "🍕"
         },
         {
-            "Content": "Pizza",
-            "Question": "Translate into Dutch.",
-            "Answers": ["Pizza 🍕"],
+            "Content": "The Pizza",
+            "Question": "Translate into Portuguese.",
+            "Answers": ["A Pizza 🍕"],
             "Options": [
-                "Burger 🍔",
-                "Pasta 🍝",
-                "Sushi 🍣",
-                "Pizza 🍕"
+                "O Hambúrguer 🍔",
+                "A Massa 🍝",
+                "O Sushi 🍣",
+                "A Pizza 🍕"
             ],
-            "Translation": "Pizza 🍕",
+            "Translation": "A Pizza 🍕",
             "Hint": "🍕"
         },
         {
-            "Content": "Pasta",
+            "Content": "Massa",
             "Question": "Translate into English.",
             "Answers": ["Pasta 🍝"],
             "Options": [
@@ -369,19 +369,19 @@ if (localStorage.getItem("currentLanguage") === "nl") {
         },
         {
             "Content": "Pasta",
-            "Question": "Translate into Dutch.",
-            "Answers": ["Pasta 🍝"],
+            "Question": "Translate into Portuguese.",
+            "Answers": ["A Massa 🍝"],
             "Options": [
-                "Salade 🥗",
-                "Soep 🍲",
-                "Rijst 🍚",
-                "Pasta 🍝"
+                "A Salada 🥗",
+                "A Sopa 🍲",
+                "O Arroz 🍚",
+                "A Massa 🍝"
             ],
-            "Translation": "Pasta 🍝",
+            "Translation": "A Massa 🍝",
             "Hint": "🍝"
         },
         {
-            "Content": "IJs",
+            "Content": "Sorvete",
             "Question": "Translate into English.",
             "Answers": ["Ice Cream 🍨"],
             "Options": [
@@ -394,104 +394,104 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Hint": "🍨"
         },
         {
-            "Content": "Ice Cream",
-            "Question": "Translate into Dutch.",
-            "Answers": ["IJs 🍨"],
+            "Content": "The Ice Cream",
+            "Question": "Translate into Portuguese.",
+            "Answers": ["O Gelado 🍨"],
             "Options": [
-                "Taart 🍰",
-                "Chocolade 🍫",
-                "Cupcake 🧁",
-                "IJs 🍨"
+                "O Bolo 🍰",
+                "O Chocolate 🍫",
+                "O Cupcake 🧁",
+                "O Sorvete 🍨"
             ],
-            "Translation": "IJs 🍨",
+            "Translation": "O Sorvete 🍨",
             "Hint": "🍨"
         }
     ];
 
     lesson6Json = [
         {
-            "Content": "Koning",
+            "Content": "O Carvival",
             "Question": "Translate into English.",
-            "Answers": ["King 👑"],
+            "Answers": ["The Carnival 🎭"],
             "Options": [
-                "Windmill 🌬️",
-                "Tulip 🌷",
-                "Canal 🌊",
-                "King 👑"
+                "The Carnival 🎭",
+                "Portuguese 🗣️",
+                "The Cheesecake 🍰",
+                "The Jaguar 🐆"
             ],
-            "Translation": "King 👑",
-            "Hint": "👑"
+            "Translation": "The Carnival 🎭",
+            "Hint": "🎭"
         },
         {
-            "Content": "Koning",
-            "Question": "Translate into Dutch.",
-            "Answers": ["Koning 👑"],
+            "Content": "The Carvival",
+            "Question": "Translate into Portuguese.",
+            "Answers": ["O Carnival 🎭"],
             "Options": [
-                "Windmolen 🌬️",
-                "Tulp 🌷",
-                "Gracht 🌊",
-                "Koning 👑"
+                "O Carnival 🎭",
+                "O Português 🗣️",
+                "O Cheesecake 🍰",
+                "A Onça 🐆"
             ],
-            "Translation": "Koning 👑",
-            "Hint": "👑"
+            "Translation": "O Carnival 🎭",
+            "Hint": "🎭"
         },
         {
-            "Content": "Kaas",
+            "Content": "O Portugês",
             "Question": "Translate into English.",
-            "Answers": ["Cheese 🧀"],
+            "Answers": ["Portuguese 🗣️"],
             "Options": [
-                "Clogs 👞",
-                "Bicycle 🚲",
-                "Windmill 🌬️",
-                "Cheese 🧀"
+                "The Carnival 🎭",
+                "Portuguese 🗣️",
+                "The Cheesecake 🍰",
+                "The Jaguar 🐆"
             ],
-            "Translation": "Cheese 🧀",
-            "Hint": "🧀"
+            "Translation": "Portuguese 🗣️",
+            "Hint": "🗣️"
         },
         {
-            "Content": "Cheese",
-            "Question": "Translate into Dutch.",
-            "Answers": ["Kaas 🧀"],
+            "Content": "Portuguese",
+            "Question": "Translate into Portuguese.",
+            "Answers": ["O Português 🗣️"],
             "Options": [
-                "Klompen 👞",
-                "Koning 👑",
-                "Windmolen 🌬️",
-                "Kaas 🧀"
+                "O Carnival 🎭",
+                "O Português 🗣️",
+                "O Cheesecake 🍰",
+                "A Onça 🐆"
             ],
-            "Translation": "Kaas 🧀",
-            "Hint": "🧀"
+            "Translation": "O Português 🗣️",
+            "Hint": "🗣️"
         },
         {
-            "Content": "Windmolen",
+            "Content": "A Onça",
             "Question": "Translate into English.",
-            "Answers": ["Windmill 🌬️"],
+            "Answers": ["The Jaguar 🐆"],
             "Options": [
-                "Stroopwafel 🍪",
-                "Tulip 🌷",
-                "Canal 🌊",
-                "Windmill 🌬️"
+                "The Carnival 🎭",
+                "Portuguese 🗣️",
+                "The Cheesecake 🍰",
+                "The Jaguar 🐆"
             ],
-            "Translation": "Windmill 🌬️",
-            "Hint": "🌬️"
+            "Translation": "The Jaguar 🐆",
+            "Hint": "🐆"
         },
         {
-            "Content": "Windmill",
-            "Question": "Translate into Dutch.",
-            "Answers": ["Windmolen 🌬️"],
+            "Content": "The Jaguar",
+            "Question": "Translate into Portuguese.",
+            "Answers": ["A Onça 🐆"],
             "Options": [
-                "Stroopwafel 🍪",
-                "Tulp 🌷",
-                "Gracht 🌊",
-                "Molen 🌬️"
+                "O Carnival 🎭",
+                "O Português 🗣️",
+                "O Cheesecake 🍰",
+                "A Onça 🐆"
             ],
-            "Translation": "Windmolen 🌬️",
-            "Hint": "🌬️"
-        }
+            "Translation": "A Onça 🐆",
+            "Hint": "🐆"
+        },
     ];
 
     lesson7Json = [
         {
-            "Content": "Geel",
+            "Content": "Amarelo",
             "Question": "Translate into English.",
             "Answers": ["Yellow 🟨"],
             "Options": [
@@ -505,19 +505,19 @@ if (localStorage.getItem("currentLanguage") === "nl") {
         },
         {
             "Content": "Yellow",
-            "Question": "Translate into Dutch.",
-            "Answers": ["Geel 🟨"],
+            "Question": "Translate into Portuguese.",
+            "Answers": ["Amarelo 🟨"],
             "Options": [
-                "Rood 🟥",
-                "Blauw 🟦",
-                "Groen 🟩",
-                "Geel 🟨"
+                "Vermelho 🟥",
+                "Azul 🟦",
+                "Verde 🟩",
+                "Amarelo 🟨"
             ],
-            "Translation": "Geel 🟨",
+            "Translation": "Amarelo 🟨",
             "Hint": "🟨"
         },
         {
-            "Content": "Roze",
+            "Content": "Rosa",
             "Question": "Translate into English.",
             "Answers": ["Pink 🌸"],
             "Options": [
@@ -531,79 +531,79 @@ if (localStorage.getItem("currentLanguage") === "nl") {
         },
         {
             "Content": "Pink",
-            "Question": "Translate into Dutch.",
-            "Answers": ["Roze 🌸"],
+            "Question": "Translate into Portuguese.",
+            "Answers": ["Rosa 🌸"],
             "Options": [
-                "Paars 🟪",
-                "Wit ⬜",
-                "Geel 🟨",
-                "Roze 🌸"
+                "Roxo 🟪",
+                "Branco ⬜",
+                "Amarelo 🟨",
+                "Rosa 🌸"
             ],
-            "Translation": "Roze 🌸",
+            "Translation": "Rosa 🌸",
             "Hint": "🌸"
         },
         {
-            "Content": "Grijs",
+            "Content": "Cinza",
             "Question": "Translate into English.",
-            "Answers": ["Gray ⬜"],
+            "Answers": ["Grey ⬜"],
             "Options": [
                 "Black ⬛",
                 "White ⬜",
                 "Blue 🟦",
                 "Gray ⬜"
             ],
-            "Translation": "Gray ⬜",
+            "Translation": "Grey ⬜",
             "Hint": "⬜"
         },
         {
-            "Content": "Gray",
-            "Question": "Translate into Dutch.",
-            "Answers": ["Grijs ⬜"],
+            "Content": "Grey",
+            "Question": "Translate into Portuguese.",
+            "Answers": ["Cinza ⬜"],
             "Options": [
-                "Zwart ⬛",
-                "Wit ⬜",
-                "Blauw 🟦",
-                "Grijs ⬜"
+                "Preto ⬛",
+                "Branco ⬜",
+                "Azul 🟦",
+                "Cinza ⬜"
             ],
-            "Translation": "Grijs ⬜",
+            "Translation": "Cinza ⬜",
             "Hint": "⬜"
         }
     ];
 
     lesson8Json = [
         {
-            "Content": "Flute",
+            "Content": "Flauta",
             "Question": "Translate into English.",
-            "Answers": ["Flute 🎶"],
+            "Answers": ["Flute 🪈"],
             "Options": [
                 "Guitar 🎸",
                 "Saxophone 🎷",
                 "Accordion 🪗",
-                "Flute 🎶"
+                "Flute 🪈"
             ],
-            "Translation": "Flute 🎶",
-            "Hint": "🎶"
+            "Translation": "Flute 🪈",
+            "Hint": "🪈"
         },
         {
-            "Content": "Fluit",
-            "Question": "Translate into Dutch.",
-            "Answers": ["Flute 🎶"],
+            "Content": "The Flute",
+            "Question": "Translate into Portuguese.",
+            "Answers": ["A Flauta 🪈"],
             "Options": [
-                "Gitaar 🎸",
-                "Saxofoon 🎷",
-                "Accordeon 🪗",
-                "Fluit 🎶"
+                "A Guitarra 🎸",
+                "O Saxofone 🎷",
+                "O Acordeão 🪗",
+                "A Flauta 🪈"
             ],
-            "Translation": "Fluit 🎶",
-            "Hint": "🎶"
+            "Translation": "A Flauta 🪈",
+            "Hint": "🪈"
         },
         {
-            "Content": "Saxofoon",
+            "Content": "Saxofone",
             "Question": "Translate into English.",
             "Answers": ["Saxophone 🎷"],
             "Options": [
                 "Piano 🎹",
-                "Flute 🎶",
+                "Flute 🪈",
                 "Trumpet 🎺",
                 "Saxophone 🎷"
             ],
@@ -611,12 +611,12 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Hint": "🎷"
         },
         {
-            "Content": "Saxophone",
-            "Question": "Translate into Dutch.",
-            "Answers": ["Saxofoon 🎷"],
+            "Content": "The Saxophone",
+            "Question": "Translate into Portuguese.",
+            "Answers": ["Saxophone 🎷"],
             "Options": [
                 "Piano 🎹",
-                "Fluit 🎶",
+                "Fluit 🪈",
                 "Trompet 🎺",
                 "Saxofoon 🎷"
             ],
@@ -624,12 +624,12 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Hint": "🎷"
         },
         {
-            "Content": "Accordeon",
+            "Content": "Acordeão",
             "Question": "Translate into English.",
             "Answers": ["Accordion 🪗"],
             "Options": [
                 "Guitar 🎸",
-                "Flute 🎶",
+                "Flute 🪈",
                 "Piano 🎹",
                 "Accordion 🪗"
             ],
@@ -637,49 +637,24 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Hint": "🪗"
         },
         {
-            "Content": "Accordion",
-            "Question": "Translate into Dutch.",
-            "Answers": ["Accordeon 🪗"],
+            "Content": "The Accordian",
+            "Question": "Translate into Portuguese.",
+            "Answers": ["O Acordeão 🪗"],
             "Options": [
-                "Gitaar 🎸",
-                "Fluit 🎶",
-                "Piano 🎹",
-                "Accordeon 🪗"
+                "A Guitarra 🎸",
+                "A Flauta 🪈",
+                "O Piano 🎹",
+                "O Acordeão 🪗"
             ],
-            "Translation": "Accordeon 🪗",
+            "Translation": "O Acordeão 🪗",
             "Hint": "🪗"
         }
+
     ];
 
     lesson9Json = [
         {
-            "Content": "Oliebollen",
-            "Question": "Translate into English.",
-            "Answers": ["Dutch Doughnuts 🍩"],
-            "Options": [
-                "Chocolate 🍫",
-                "Waffles 🧇",
-                "Pancakes 🥞",
-                "Dutch Doughnuts 🍩"
-            ],
-            "Translation": "Dutch Doughnuts 🍩",
-            "Hint": "🍩"
-        },
-        {
-            "Content": "Dutch Doughnuts",
-            "Question": "Translate into Dutch.",
-            "Answers": ["Oliebollen 🍩"],
-            "Options": [
-                "Chocolade 🍫",
-                "Wafels 🧇",
-                "Pannenkoeken 🥞",
-                "Oliebollen 🍩"
-            ],
-            "Translation": "Oliebollen 🍩",
-            "Hint": "🍩"
-        },
-        {
-            "Content": "Cadeau",
+            "Content": "Presente",
             "Question": "Translate into English.",
             "Answers": ["Gift 🎁"],
             "Options": [
@@ -692,49 +667,50 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Hint": "🎁"
         },
         {
-            "Content": "Gift",
-            "Question": "Translate into Dutch.",
-            "Answers": ["Cadeau 🎁"],
+            "Content": "The Gift",
+            "Question": "Translate into Portuguese.",
+            "Answers": ["O Presente 🎁"],
             "Options": [
-                "Kaart 💌",
-                "Decoratie 🎀",
-                "Ballon 🎈",
-                "Cadeau 🎁"
+                "O Cartão 💌",
+                "A Decoração 🎀",
+                "O Balão 🎈",
+                "O Presente 🎁"
             ],
-            "Translation": "Cadeau 🎁",
+            "Translation": "O Presente 🎁",
             "Hint": "🎁"
         },
         {
-            "Content": "Oud en Nieuw 🎉",
+            "Content": "Ano Novo 🎉",
             "Question": "Translate into English.",
-            "Answers": ["New Year's Eve 🎉"],
+            "Answers": ["New Year 🎉"],
             "Options": [
                 "Halloween 👻",
                 "Christmas Tree 🎄",
                 "New Year's Eve 🎉",
                 "Valentine's Day 💘"
             ],
-            "Translation": "New Year's Eve 🎉",
+            "Translation": "New Year 🎉",
             "Hint": "🎉"
         },
         {
-            "Content": "New Year's Eve",
-            "Question": "Translate into Dutch.",
-            "Answers": ["Oud en Nieuw 🎉"],
+            "Content": "The New Year's Eve",
+            "Question": "Translate into Portuguese.",
+            "Answers": ["A Passagem de Ano 🎉"],
             "Options": [
                 "Halloween 👻",
-                "Kerstboom 🎄",
-                "Oud en Nieuw 🎉",
-                "Valentijnsdag 💘"
+                "A Árvore de Natal 🎄",
+                "A Passagem de Ano 🎉",
+                "Dia dos Namorados 💘"
             ],
-            "Translation": "Oud en Nieuw 🎉",
+            "Translation": "A Passagem de Ano 🎉",
             "Hint": "🎉"
         }
+
     ];
 
     lesson10Json = [
         {
-            "Content": "Kaasfondue",
+            "Content": "Fondue de Queijo",
             "Question": "Translate into English.",
             "Answers": ["Cheese Fondue 🧀"],
             "Options": [
@@ -747,20 +723,20 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Hint": "🧀"
         },
         {
-            "Content": "Cheese Fondue",
-            "Question": "Translate into Dutch.",
-            "Answers": ["Kaasfondue 🧀"],
+            "Content": "The Cheese Fondue",
+            "Question": "Translate into Portuguese.",
+            "Answers": ["O Fondue de Queijo 🧀"],
             "Options": [
-                "Pizza 🍕",
-                "Pasta 🍝",
-                "Sushi 🍣",
-                "Kaasfondue 🧀"
+                "A Pizza 🍕",
+                "A Massa 🍝",
+                "O Sushi 🍣",
+                "O Fondue de Queijo 🧀"
             ],
-            "Translation": "Kaasfondue 🧀",
+            "Translation": "OFondue de Queijo 🧀",
             "Hint": "🧀"
-        },
+        },        
         {
-            "Content": "Salade",
+            "Content": "Salada",
             "Question": "Translate into English.",
             "Answers": ["Salad 🥗"],
             "Options": [
@@ -774,19 +750,19 @@ if (localStorage.getItem("currentLanguage") === "nl") {
         },
         {
             "Content": "Salad",
-            "Question": "Translate into Dutch.",
-            "Answers": ["Salade 🥗"],
+            "Question": "Translate into Portuguese.",
+            "Answers": ["Salada 🥗"],
             "Options": [
                 "Pasta 🍝",
-                "Soep 🍲",
-                "Rijst 🍚",
-                "Salade 🥗"
+                "Sopa 🍲",
+                "Arroz 🍚",
+                "Salada 🥗"
             ],
-            "Translation": "Salade 🥗",
+            "Translation": "Salada 🥗",
             "Hint": "🥗"
         },
         {
-            "Content": "Chocoladetaart",
+            "Content": "Bolo de Chocolate",
             "Question": "Translate into English.",
             "Answers": ["Chocolate Cake 🍰"],
             "Options": [
@@ -799,20 +775,20 @@ if (localStorage.getItem("currentLanguage") === "nl") {
             "Hint": "🍰"
         },
         {
-            "Content": "Chocolate Cake",
-            "Question": "Translate into Dutch.",
-            "Answers": ["Chocolate Cake 🍰"],
+            "Content": "The Chocolate Cake",
+            "Question": "Translate into Portuguese.",
+            "Answers": ["O Bolo de Chocolate 🍰"],
             "Options": [
-                "Taart 🍰",
-                "Chocolade 🍫",
-                "Cupcake 🧁",
-                "Chocoladetaart 🍰"
+                "O Bolo 🍰",
+                "O Chocolate 🍫",
+                "O Cupcake 🧁",
+                "O Bolo de Chocolate 🍰"
             ],
-            "Translation": "Chocoladetaart 🍰",
+            "Translation": "O Bolo de Chocolate 🍰",
             "Hint": "🍰"
         }
     ];
-    
+
 
     lessonJSONData = [lesson1Json, lesson2Json, lesson3Json, lesson4Json, lesson5Json, lesson6Json, lesson7Json, lesson8Json, lesson9Json, lesson10Json];
 }
